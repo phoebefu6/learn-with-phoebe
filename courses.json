@@ -1,10 +1,10 @@
 {
   "buckets": [
+    { "id": "data", "name": "Data & Analytics",            "tier": 4, "blurb": "From reading a metric to shipping analysis on a real warehouse - a core domain." },
+    { "id": "ai",   "name": "AI & LLMs",                    "tier": 2, "blurb": "Build with large language models, agents, and the tools around them - a core domain." },
     { "id": "lead", "name": "Leadership & Decision-making", "tier": 1, "blurb": "Think in frameworks, decide well, and ship projects that land. Decision science parks here." },
-    { "id": "docs", "name": "Markup, Docs & Diagrams",      "tier": 1, "blurb": "Write, format, and diagram so your work reads well." },
-    { "id": "ai",   "name": "AI & LLMs",                    "tier": 2, "blurb": "Build with large language models, agents, and the tools around them." },
     { "id": "prog", "name": "Programming & Dev Tools",      "tier": 3, "blurb": "The languages and tooling every practitioner leans on." },
-    { "id": "data", "name": "Data & Analytics",            "tier": 4, "blurb": "From reading a metric to shipping analysis on a real warehouse - the deepest lane." }
+    { "id": "docs", "name": "Markup, Docs & Diagrams",      "tier": 1, "blurb": "Write, format, and diagram so your work reads well." }
   ],
   "levels": [
     { "d": 1, "name": "Foundational", "color": "#34D399" },
