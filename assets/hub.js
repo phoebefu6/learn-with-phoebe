@@ -44,6 +44,7 @@
     setCount("stat-courses", live.length);
     setCount("stat-tracks", buckets.length);
     setCount("stat-sessions", totalSessions);
+    renderProgress(live.length, courses.length);
 
     // ---- filter bar ----
     var bar = document.getElementById("filters");
@@ -126,6 +127,22 @@
   }
   function sep() { return el("span", "fsep"); }
   function dim(t) { return el("span", "fdim", esc(t)); }
+
+  function renderProgress(built, total) {
+    var box = document.getElementById("progress");
+    if (!box || !total) return;
+    var pct = Math.round((built / total) * 100);
+    var todo = total - built;
+    box.innerHTML =
+      '<div class="pg-row"><span class="pg-label">Built <b>' + built + '</b> of <b>' + total + '</b></span>' +
+      '<span class="pg-pct">' + pct + '%</span></div>' +
+      '<div class="pg-track"><div class="pg-fill" style="width:0%"></div></div>' +
+      '<p class="pg-note">' + todo + ' to go - the whole map is visible on purpose. The gaps are the deadline.</p>';
+    // animate the fill after paint
+    var fill = box.querySelector(".pg-fill");
+    requestAnimationFrame(function () { requestAnimationFrame(function () { fill.style.width = pct + "%"; }); });
+    setTimeout(function () { fill.style.width = pct + "%"; }, 200);
+  }
 
   function renderLegend(levels) {
     var box = document.getElementById("legend");
