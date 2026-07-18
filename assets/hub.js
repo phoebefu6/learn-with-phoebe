@@ -1,0 +1,157 @@
+/* learn-with-phoebe hub - render the shelf from courses.json, filter it, count up.
+   courses.json is the single source of truth; adding a course = one entry there. */
+(function () {
+  var OWNER = "phoebefu6";
+  var AUD = { leader: "🤝 Leader", builder: "🛠️ Builder", both: "⚡ Both" };
+  var FMT = { project: "🎯 Running project", concept: "📖 Concept", interactive: "▶️ Interactive" };
+
+  function el(tag, cls, html) {
+    var e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html != null) e.innerHTML = html;
+    return e;
+  }
+  function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+
+  fetch("courses.json").then(function (r) { return r.json(); }).then(function (data) {
+    build(data);
+  }).catch(function (err) {
+    document.getElementById("shelf").innerHTML =
+      '<p class="empty show">Could not load the course list (' + esc(err.message) + ').</p>';
+  });
+
+  function build(data) {
+    var buckets = data.buckets, courses = data.courses;
+    var byBucket = {};
+    buckets.forEach(function (b) { byBucket[b.id] = []; });
+    courses.forEach(function (c) { (byBucket[c.bucket] || (byBucket[c.bucket] = [])).push(c); });
+
+    // ---- stats ----
+    var totalSessions = courses.reduce(function (s, c) { return s + (c.sessions || 0); }, 0);
+    setCount("stat-courses", courses.length);
+    setCount("stat-tracks", buckets.length);
+    setCount("stat-sessions", totalSessions);
+    setCount("stat-aud", 2);
+
+    // ---- filter bar ----
+    var bar = document.getElementById("filters");
+    var chips = [];
+    chips.push(chip("all", "All", courses.length));
+    buckets.forEach(function (b) { chips.push(chip("bucket:" + b.id, b.name, byBucket[b.id].length)); });
+    bar.appendChild(sep());
+    bar.appendChild(dim("For"));
+    chips.push(chip("aud:leader", "Leaders", null));
+    chips.push(chip("aud:builder", "Builders", null));
+    chips.push(chip("fmt:interactive", "Interactive", null));
+
+    // reorder: All + buckets first (before sep), then aud/fmt after
+    var frag = document.createDocumentFragment();
+    frag.appendChild(chips[0]);                                  // All
+    for (var i = 1; i <= buckets.length; i++) frag.appendChild(chips[i]);
+    bar.insertBefore(frag, bar.firstChild);
+    for (var j = buckets.length + 1; j < chips.length; j++) bar.appendChild(chips[j]);
+
+    // ---- shelf ----
+    var shelf = document.getElementById("shelf");
+    buckets.forEach(function (b) {
+      var sec = el("section", "bucket");
+      sec.setAttribute("data-bucket", b.id);
+      var head = el("div", "bucket-head");
+      head.appendChild(el("h2", null, esc(b.name)));
+      head.appendChild(el("span", "count", byBucket[b.id].length + (byBucket[b.id].length === 1 ? " course" : " courses")));
+      sec.appendChild(head);
+      sec.appendChild(el("p", "bucket-blurb", esc(b.blurb)));
+      var grid = el("div", "grid");
+      byBucket[b.id].forEach(function (c, idx) { grid.appendChild(card(c, b, idx)); });
+      sec.appendChild(grid);
+      shelf.appendChild(sec);
+    });
+    shelf.appendChild(el("p", "empty", "No courses match that filter yet."));
+
+    wireFilters();
+  }
+
+  function card(c, bucket, idx) {
+    var url = "https://" + OWNER + ".github.io/" + c.slug + "/";
+    var a = el("a", "card");
+    a.href = url;
+    a.setAttribute("data-bucket", c.bucket);
+    a.setAttribute("data-aud", c.audience);
+    a.setAttribute("data-fmt", c.format);
+    a.style.animationDelay = (idx * 0.04) + "s";
+    a.innerHTML =
+      '<span class="icon">' + c.icon + '</span>' +
+      '<span class="bkt">' + esc(bucket.name) + '</span>' +
+      '<h3>' + esc(c.title) + '</h3>' +
+      '<p class="blurb">' + esc(c.blurb) + '</p>' +
+      '<span class="tags">' +
+        '<span class="tag">' + AUD[c.audience] + '</span>' +
+        '<span class="tag' + (c.format === "interactive" ? " lime" : "") + '">' + FMT[c.format] + '</span>' +
+      '</span>' +
+      '<span class="go">Open course <span class="ar">→</span></span>';
+    return a;
+  }
+
+  function chip(key, label, n) {
+    var b = el("button", "fchip" + (key === "all" ? " on" : ""));
+    b.type = "button";
+    b.setAttribute("data-filter", key);
+    b.innerHTML = esc(label) + (n != null ? ' <span class="n">' + n + "</span>" : "");
+    return b;
+  }
+  function sep() { return el("span", "fsep"); }
+  function dim(t) { return el("span", "fdim", esc(t)); }
+
+  function wireFilters() {
+    var chips = document.querySelectorAll(".fchip");
+    var empty = document.querySelector(".empty");
+    chips.forEach(function (c) {
+      c.addEventListener("click", function () {
+        chips.forEach(function (x) { x.classList.remove("on"); });
+        c.classList.add("on");
+        apply(c.getAttribute("data-filter"), empty);
+      });
+    });
+  }
+
+  function apply(filter, empty) {
+    var parts = filter.split(":");
+    var kind = parts[0], val = parts[1];
+    var anyVisible = false;
+    document.querySelectorAll(".bucket").forEach(function (sec) {
+      var shown = 0;
+      sec.querySelectorAll(".card").forEach(function (card) {
+        var ok =
+          kind === "all" ? true :
+          kind === "bucket" ? card.getAttribute("data-bucket") === val :
+          kind === "aud" ? (card.getAttribute("data-aud") === val || card.getAttribute("data-aud") === "both") :
+          kind === "fmt" ? card.getAttribute("data-fmt") === val : true;
+        // "both" courses should also surface under a specific-audience filter (handled above);
+        // when filtering builders, a "both" course counts; same for leaders.
+        card.classList.toggle("hidden", !ok);
+        if (ok) shown++;
+      });
+      sec.classList.toggle("hidden", shown === 0);
+      if (shown > 0) anyVisible = true;
+    });
+    empty.classList.toggle("show", !anyVisible);
+  }
+
+  function setCount(id, target) {
+    var e = document.getElementById(id);
+    if (!e) return;
+    var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if (reduce || target <= 0) { e.textContent = target; return; }
+    var start = null, dur = 900;
+    function step(ts) {
+      if (start === null) start = ts;
+      var p = Math.min((ts - start) / dur, 1);
+      var eased = 1 - Math.pow(1 - p, 3);
+      e.textContent = Math.round(eased * target);
+      if (p < 1) requestAnimationFrame(step);
+    }
+    requestAnimationFrame(step);
+    // guarantee the final value even if rAF is throttled (background/offscreen tab)
+    setTimeout(function () { e.textContent = target; }, dur + 120);
+  }
+})();

@@ -1,0 +1,35 @@
+{
+  "buckets": [
+    { "id": "ai",   "name": "AI & LLMs",              "blurb": "Build with large language models, agents, and the tools around them." },
+    { "id": "data", "name": "Data & Analytics",       "blurb": "From reading a metric to shipping analysis on a real warehouse." },
+    { "id": "prog", "name": "Programming & Dev Tools", "blurb": "The languages and tooling every practitioner leans on." },
+    { "id": "docs", "name": "Markup, Docs & Diagrams", "blurb": "Write, format, and diagram so your work reads well." },
+    { "id": "lead", "name": "Leadership & Delivery",   "blurb": "Think in frameworks and ship projects that land." }
+  ],
+  "courses": [
+    { "slug": "learn-langchain-with-phoebe",           "title": "Learn LangChain",        "icon": "🔗", "bucket": "ai",   "audience": "both",    "format": "project",     "sessions": 16, "blurb": "From a 40-line agent loop to a governed multi-agent system. Leader track to decide, builder track to ship - one running assistant, DataDesk." },
+    { "slug": "learn-prompt-engineering-with-phoebe",  "title": "Prompt Engineering",     "icon": "🎯", "bucket": "ai",   "audience": "both",    "format": "project",     "sessions": 16, "blurb": "Two tracks on prompting that holds up in production - the Meridian and TriageBot cases, 2026-era techniques." },
+    { "slug": "learn-claude-with-phoebe",              "title": "Learn Claude",           "icon": "🤖", "bucket": "ai",   "audience": "builder", "format": "concept",     "sessions": 14, "blurb": "Get fluent with Claude and Claude Code - the onboarding course, with a self-paced deep-dive track." },
+    { "slug": "learn-codex-with-phoebe",               "title": "Learn Codex",            "icon": "🧑‍💻", "bucket": "ai", "audience": "builder", "format": "project", "sessions": 6, "blurb": "Learn OpenAI Codex by building one real personal website end to end." },
+    { "slug": "learn-hermes-ai-with-phoebe",           "title": "Learn Hermes AI",        "icon": "🌀", "bucket": "ai",   "audience": "builder", "format": "project",     "sessions": 13, "blurb": "Run and build on local open models - eight sessions plus five deep dives on a running project." },
+    { "slug": "learn-ai-literacy-with-phoebe",         "title": "AI Literacy",            "icon": "🧠", "bucket": "ai",   "audience": "leader",  "format": "interactive", "sessions": 6,  "blurb": "For leaders: what AI can and cannot do, how it fails, and how to decide - interactive, no code." },
+
+    { "slug": "learn-sql-with-phoebe",                 "title": "Learn SQL",              "icon": "🗄️", "bucket": "data", "audience": "both", "format": "interactive", "sessions": 16, "blurb": "Read and judge SQL as a leader, or write it hands-on - every example runs live in your browser on the Daybreak database." },
+    { "slug": "learn-python-data-analysis-with-phoebe","title": "Python Data Analysis",  "icon": "📈", "bucket": "data", "audience": "builder", "format": "project",     "sessions": 8,  "blurb": "One running project - load 124k job postings, clean them, and ship a report - the analyst workflow start to finish." },
+    { "slug": "learn-data-literacy-with-phoebe",       "title": "Data Literacy",          "icon": "📊", "bucket": "data", "audience": "leader",  "format": "interactive", "sessions": 6,  "blurb": "For executives: read data with confidence, question a metric, and brief an analyst - interactive concept course." },
+    { "slug": "learn-data-governance-with-phoebe",     "title": "Data Governance",        "icon": "🛡️", "bucket": "data", "audience": "both", "format": "concept",     "sessions": 12, "blurb": "PDPA-first governance - an 8-session DPO track and a 4-session exec track, built on the Himalaya case." },
+    { "slug": "learn-dataops-with-phoebe",             "title": "Learn DataOps",          "icon": "⚙️", "bucket": "data", "audience": "both",    "format": "project",     "sessions": 14, "blurb": "DevOps, data CI/CD, MLOps and DBOps for data teams - leader and builder tracks on the RetailPulse project." },
+
+    { "slug": "learn-python-with-phoebe",              "title": "Learn Python",           "icon": "🐍", "bucket": "prog", "audience": "builder", "format": "concept",     "sessions": 10, "blurb": "Python from zero for data and AI work - hands-on in a real Anaconda + Jupyter setup." },
+    { "slug": "learn-html-with-phoebe",                "title": "Learn HTML",             "icon": "🌐", "bucket": "prog", "audience": "builder", "format": "interactive", "sessions": 8,  "blurb": "The web's building blocks - every example is an editable, sandboxed playground you type into and see render." },
+    { "slug": "learn-github-for-builders-with-phoebe", "title": "GitHub for Builders",    "icon": "🔧", "bucket": "prog", "audience": "builder", "format": "concept",     "sessions": 8,  "blurb": "Git and GitHub for people who ship code - branches, pull requests, and collaboration that scales." },
+    { "slug": "learn-github-with-phoebe",              "title": "Learn GitHub",           "icon": "🐙", "bucket": "prog", "audience": "leader",  "format": "concept",     "sessions": 6,  "blurb": "GitHub for non-coders - what repos, issues, and pull requests are, and why your team lives there." },
+
+    { "slug": "learn-markdown-with-phoebe",            "title": "Learn Markdown",         "icon": "📝", "bucket": "docs", "audience": "builder", "format": "interactive", "sessions": 8,  "blurb": "Write clean formatted text anywhere - a live editor pairs your Markdown with its rendered output as you type." },
+    { "slug": "learn-mermaid-with-phoebe",             "title": "Learn Mermaid",          "icon": "🧜", "bucket": "docs", "audience": "builder", "format": "interactive", "sessions": 8,  "blurb": "Diagrams from text - every example renders a real Mermaid diagram you can flip to code and edit live." },
+    { "slug": "learn-tech-writing-with-phoebe",        "title": "Tech Writing",           "icon": "📄", "bucket": "docs", "audience": "builder", "format": "project",     "sessions": 8,  "blurb": "Document real software well - you write up the Pulse data pipeline end to end as you learn." },
+
+    { "slug": "learn-strategic-thinking-with-phoebe",  "title": "Strategic Thinking",     "icon": "🧭", "bucket": "lead", "audience": "leader",  "format": "project",     "sessions": 8,  "blurb": "Eight frameworks for sharper decisions, run on one B2B2C case, Himalaya, all the way through." },
+    { "slug": "learn-tech-project-pmo-with-phoebe",    "title": "Tech Project PMO",       "icon": "📋", "bucket": "lead", "audience": "builder", "format": "project",     "sessions": 6,  "blurb": "Run a technical project - charter, milestones, dependencies, risk, RACI and tracking on the Northwind case." }
+  ]
+}
