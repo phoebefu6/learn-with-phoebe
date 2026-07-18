@@ -42,7 +42,6 @@
     setCount("stat-courses", courses.length);
     setCount("stat-tracks", buckets.length);
     setCount("stat-sessions", totalSessions);
-    setCount("stat-aud", 2);
 
     // ---- filter bar ----
     var bar = document.getElementById("filters");
