@@ -70,6 +70,11 @@
       var head = el("div", "bucket-head");
       head.appendChild(el("h2", null, esc(b.name)));
       head.appendChild(el("span", "count", byBucket[b.id].length + (byBucket[b.id].length === 1 ? " course" : " courses")));
+      if (b.tier) {
+        var lv = levelOf(b.tier);
+        var pill = el("span", "bkt-tier", '<span class="bt-dot" style="background:' + lv.color + '"></span>' + esc(lv.name) + " lane");
+        head.appendChild(pill);
+      }
       sec.appendChild(head);
       sec.appendChild(el("p", "bucket-blurb", esc(b.blurb)));
       var grid = el("div", "grid");

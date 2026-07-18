@@ -81,6 +81,14 @@ main { padding:26px 0 90px; }
 .bucket-head { display:flex; align-items:baseline; gap:12px; margin-bottom:4px; }
 .bucket-head h2 { font-size:20px; font-weight:800; letter-spacing:-.01em; }
 .bucket-head .count { font-size:13px; color:var(--lime); font-weight:700; font-variant-numeric:tabular-nums; }
+.bucket-head .bkt-tier {
+  display:inline-flex; align-items:center; gap:6px; margin-left:auto;
+  font-size:11px; font-weight:700; color:var(--muted);
+  text-transform:uppercase; letter-spacing:.06em;
+  border:1px solid var(--line); border-radius:999px; padding:4px 11px;
+}
+.bucket-head .bt-dot { width:7px; height:7px; border-radius:999px; flex:none; }
+.bucket-head { align-items:center; }
 .bucket-blurb { color:var(--faint); font-size:13.5px; margin-bottom:18px; }
 
 .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(16.5rem,1fr)); gap:14px; }
