@@ -126,6 +126,12 @@ main { padding:26px 0 90px; }
 .card .go .ar { transition:transform .15s ease; display:inline-block; }
 .card:hover .go .ar { transform:translateX(3px); }
 
+/* planned (not-yet-built) courses - visible on the shelf, clearly not live */
+.card.planned { cursor:default; border-style:dashed; opacity:.72; }
+.card.planned:hover { transform:none; background:var(--card); border-color:var(--line); }
+.card.planned::before { display:none; }
+.card .go.planned-go { color:var(--faint); font-weight:700; text-transform:uppercase; letter-spacing:.06em; font-size:11px; }
+
 .empty { color:var(--faint); font-size:14px; padding:30px 0; display:none; }
 .empty.show { display:block; }
 

@@ -4,7 +4,8 @@
     { "id": "ai",   "name": "AI & LLMs",                    "tier": 2, "blurb": "Build with large language models, agents, and the tools around them - a core domain." },
     { "id": "lead", "name": "Leadership & Decision-making", "tier": 1, "blurb": "Think in frameworks, decide well, and ship projects that land. Decision science parks here." },
     { "id": "prog", "name": "Programming & Dev Tools",      "tier": 3, "blurb": "The languages and tooling every practitioner leans on." },
-    { "id": "docs", "name": "Markup, Docs & Diagrams",      "tier": 1, "blurb": "Write, format, and diagram so your work reads well." }
+    { "id": "docs", "name": "Markup, Docs & Diagrams",      "tier": 1, "blurb": "Write, format, and diagram so your work reads well." },
+    { "id": "move", "name": "Mind & Movement",              "tier": 1, "blurb": "Yoga, tai chi, dance, and meditation - theory-first courses enriched with curated and AI-generated video. In progress." }
   ],
   "levels": [
     { "d": 1, "name": "Foundational", "color": "#34D399" },
@@ -36,6 +37,12 @@
     { "slug": "learn-tech-writing-with-phoebe",        "title": "Tech Writing",           "icon": "📄", "bucket": "docs", "diff": 3, "audience": "builder", "format": "project",     "sessions": 8,  "blurb": "Document real software well - you write up the Pulse data pipeline end to end as you learn." },
 
     { "slug": "learn-strategic-thinking-with-phoebe",  "title": "Strategic Thinking",     "icon": "🧭", "bucket": "lead", "diff": 1, "audience": "leader",  "format": "project",     "sessions": 8,  "blurb": "Eight frameworks for sharper decisions, run on one B2B2C case, Himalaya, all the way through." },
-    { "slug": "learn-tech-project-pmo-with-phoebe",    "title": "Tech Project PMO",       "icon": "📋", "bucket": "lead", "diff": 2, "audience": "builder", "format": "project",     "sessions": 6,  "blurb": "Run a technical project - charter, milestones, dependencies, risk, RACI and tracking on the Northwind case." }
+    { "slug": "learn-tech-project-pmo-with-phoebe",    "title": "Tech Project PMO",       "icon": "📋", "bucket": "lead", "diff": 2, "audience": "builder", "format": "project",     "sessions": 6,  "blurb": "Run a technical project - charter, milestones, dependencies, risk, RACI and tracking on the Northwind case." },
+
+    { "slug": "learn-meditation-with-phoebe", "title": "Meditation & Breathwork", "icon": "🧘", "bucket": "move", "diff": 1, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "The theory of stillness - attention, breath, and nervous-system regulation, with guided practice video." },
+    { "slug": "learn-yoga-with-phoebe",       "title": "Yoga: Foundations & Flow", "icon": "🤸", "bucket": "move", "diff": 2, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "Alignment principles, breath-linked movement, and sequencing theory - form demos stay real, not AI-generated." },
+    { "slug": "learn-taichi-with-phoebe",     "title": "Tai Chi: Principles & Form", "icon": "☯️", "bucket": "move", "diff": 2, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "Weight-shift, the five principles, and the philosophy behind the form - the pilot course for the video pipeline." },
+    { "slug": "learn-tcm-with-phoebe",        "title": "TCM Basics", "icon": "🌿", "bucket": "move", "diff": 2, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "Traditional Chinese Medicine concepts - qi, meridians, and the five elements - as a literacy course, not medical advice." },
+    { "slug": "learn-kpop-dance-with-phoebe", "title": "K-pop Dance", "icon": "💃", "bucket": "move", "diff": 3, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "Choreography breakdown theory - counts, formations, and drills - paired with a slow-mo, loop-and-mirror practice app." }
   ]
 }

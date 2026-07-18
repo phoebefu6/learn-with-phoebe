@@ -2,8 +2,8 @@
    courses.json is the single source of truth; adding a course = one entry there. */
 (function () {
   var OWNER = "phoebefu6";
-  var AUD = { leader: "🤝 Leader", builder: "🛠️ Builder", both: "⚡ Both" };
-  var FMT = { project: "🎯 Running project", concept: "📖 Concept", interactive: "▶️ Interactive" };
+  var AUD = { leader: "🤝 Leader", builder: "🛠️ Builder", both: "⚡ Both", everyone: "🌱 Everyone" };
+  var FMT = { project: "🎯 Running project", concept: "📖 Concept", interactive: "▶️ Interactive", video: "🎬 Video" };
 
   function el(tag, cls, html) {
     var e = document.createElement(tag);
@@ -37,9 +37,10 @@
 
     renderLegend(data.levels || []);
 
-    // ---- stats ----
-    var totalSessions = courses.reduce(function (s, c) { return s + (c.sessions || 0); }, 0);
-    setCount("stat-courses", courses.length);
+    // ---- stats (live courses only; planned ones do not inflate the totals) ----
+    var live = courses.filter(function (c) { return c.status !== "planned"; });
+    var totalSessions = live.reduce(function (s, c) { return s + (c.sessions || 0); }, 0);
+    setCount("stat-courses", live.length);
     setCount("stat-tracks", buckets.length);
     setCount("stat-sessions", totalSessions);
 
@@ -68,7 +69,10 @@
       sec.setAttribute("data-bucket", b.id);
       var head = el("div", "bucket-head");
       head.appendChild(el("h2", null, esc(b.name)));
-      head.appendChild(el("span", "count", byBucket[b.id].length + (byBucket[b.id].length === 1 ? " course" : " courses")));
+      var list = byBucket[b.id];
+      var allPlanned = list.length > 0 && list.every(function (c) { return c.status === "planned"; });
+      var countTxt = list.length + (allPlanned ? " planned" : (list.length === 1 ? " course" : " courses"));
+      head.appendChild(el("span", "count", countTxt));
       if (b.tier) {
         var lv = levelOf(b.tier);
         var pill = el("span", "bkt-tier", '<span class="bt-dot" style="background:' + lv.color + '"></span>' + esc(lv.name) + " lane");
@@ -87,26 +91,29 @@
   }
 
   function card(c, bucket, idx) {
-    var url = "https://" + OWNER + ".github.io/" + c.slug + "/";
-    var a = el("a", "card");
-    a.href = url;
-    a.setAttribute("data-bucket", c.bucket);
-    a.setAttribute("data-aud", c.audience);
-    a.setAttribute("data-fmt", c.format);
-    a.style.animationDelay = (idx * 0.04) + "s";
+    var planned = c.status === "planned";
     var lv = levelOf(c.diff);
-    a.innerHTML =
+    var node = planned ? el("div", "card planned") : el("a", "card");
+    if (!planned) node.href = "https://" + OWNER + ".github.io/" + c.slug + "/";
+    node.setAttribute("data-bucket", c.bucket);
+    node.setAttribute("data-aud", c.audience);
+    node.setAttribute("data-fmt", c.format);
+    if (planned) node.setAttribute("data-planned", "1");
+    node.style.animationDelay = (idx * 0.04) + "s";
+    node.innerHTML =
       '<span class="dot" style="background:' + lv.color + '" title="' + esc(lv.name) + '"></span>' +
       '<span class="icon">' + c.icon + '</span>' +
       '<span class="bkt">' + esc(bucket.name) + '</span>' +
       '<h3>' + esc(c.title) + '</h3>' +
       '<p class="blurb">' + esc(c.blurb) + '</p>' +
       '<span class="tags">' +
-        '<span class="tag">' + AUD[c.audience] + '</span>' +
-        '<span class="tag' + (c.format === "interactive" ? " lime" : "") + '">' + FMT[c.format] + '</span>' +
+        '<span class="tag">' + (AUD[c.audience] || esc(c.audience)) + '</span>' +
+        '<span class="tag' + (c.format === "interactive" || c.format === "video" ? " lime" : "") + '">' + (FMT[c.format] || esc(c.format)) + '</span>' +
       '</span>' +
-      '<span class="go">Open course <span class="ar">→</span></span>';
-    return a;
+      (planned
+        ? '<span class="go planned-go">Planned - coming soon</span>'
+        : '<span class="go">Open course <span class="ar">→</span></span>');
+    return node;
   }
 
   function chip(key, label, n) {
