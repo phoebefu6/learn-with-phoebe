@@ -20,11 +20,22 @@
       '<p class="empty show">Could not load the course list (' + esc(err.message) + ').</p>';
   });
 
+  var LEVELS = {};   // diff -> {name, color}
+  function levelOf(d) { return LEVELS[d] || { name: "", color: "var(--faint)" }; }
+
   function build(data) {
     var buckets = data.buckets, courses = data.courses;
+    (data.levels || []).forEach(function (l) { LEVELS[l.d] = { name: l.name, color: l.color }; });
+
     var byBucket = {};
     buckets.forEach(function (b) { byBucket[b.id] = []; });
     courses.forEach(function (c) { (byBucket[c.bucket] || (byBucket[c.bucket] = [])).push(c); });
+    // sort each bucket easy -> hard (stable: equal diff keeps manifest order)
+    Object.keys(byBucket).forEach(function (id) {
+      byBucket[id].sort(function (a, b) { return (a.diff || 0) - (b.diff || 0); });
+    });
+
+    renderLegend(data.levels || []);
 
     // ---- stats ----
     var totalSessions = courses.reduce(function (s, c) { return s + (c.sessions || 0); }, 0);
@@ -79,7 +90,9 @@
     a.setAttribute("data-aud", c.audience);
     a.setAttribute("data-fmt", c.format);
     a.style.animationDelay = (idx * 0.04) + "s";
+    var lv = levelOf(c.diff);
     a.innerHTML =
+      '<span class="dot" style="background:' + lv.color + '" title="' + esc(lv.name) + '"></span>' +
       '<span class="icon">' + c.icon + '</span>' +
       '<span class="bkt">' + esc(bucket.name) + '</span>' +
       '<h3>' + esc(c.title) + '</h3>' +
@@ -101,6 +114,16 @@
   }
   function sep() { return el("span", "fsep"); }
   function dim(t) { return el("span", "fdim", esc(t)); }
+
+  function renderLegend(levels) {
+    var box = document.getElementById("legend");
+    if (!box || !levels.length) return;
+    box.innerHTML =
+      '<span class="lg-lbl">Each lane runs easy to hard</span>' +
+      levels.map(function (l) {
+        return '<span class="lg-item"><span class="lg-dot" style="background:' + l.color + '"></span>' + esc(l.name) + '</span>';
+      }).join("");
+  }
 
   function wireFilters() {
     var chips = document.querySelectorAll(".fchip");
