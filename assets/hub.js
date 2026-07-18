@@ -13,7 +13,8 @@
   }
   function esc(s) { return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
 
-  fetch("courses.json").then(function (r) { return r.json(); }).then(function (data) {
+  // cache-bust so manifest edits show up immediately (Pages CDN caches courses.json)
+  fetch("courses.json?ts=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.json(); }).then(function (data) {
     build(data);
   }).catch(function (err) {
     document.getElementById("shelf").innerHTML =
