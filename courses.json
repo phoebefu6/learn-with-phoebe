@@ -7,6 +7,7 @@
     { "id": "lead", "name": "Leadership & Decision-making", "tier": 1, "blurb": "Think in frameworks, decide well, and ship projects that land. Decision science parks here." },
     { "id": "prog", "name": "Programming & Dev Tools",      "tier": 3, "blurb": "The languages and tooling every practitioner leans on." },
     { "id": "docs", "name": "Markup, Docs & Diagrams",      "tier": 1, "blurb": "Write, format, and diagram so your work reads well." },
+    { "id": "emrg", "name": "Emerging Tech",                "tier": 3, "blurb": "Frontier tech on your radar - blockchain, crypto, web3, quantum, security. Learn it by teaching it: output is the forcing function." },
     { "id": "move", "name": "Mind & Movement",              "tier": 1, "blurb": "Yoga, tai chi, dance, and meditation - theory-first courses enriched with curated and AI-generated video. In progress." }
   ],
   "levels": [
@@ -46,6 +47,13 @@
 
     { "slug": "learn-system-design-with-phoebe",  "title": "System Design & Orchestration", "icon": "🎛️", "bucket": "sys", "diff": 4, "audience": "builder", "format": "project", "sessions": 0, "status": "planned", "blurb": "Architect the whole system - services, orchestration, and the governed shell that ties a data/AI platform together." },
     { "slug": "learn-product-design-with-phoebe", "title": "Product Design & UI/UX", "icon": "🎨", "bucket": "sys", "diff": 3, "audience": "both", "format": "concept", "sessions": 0, "status": "planned", "blurb": "Think in products - user needs, flows, information design, and UI/UX that makes a system usable." },
+
+    { "slug": "learn-blockchain-with-phoebe",     "title": "Blockchain Fundamentals", "icon": "⛓️", "bucket": "emrg", "diff": 2, "audience": "both", "format": "concept", "sessions": 0, "status": "planned", "blurb": "How a blockchain actually works - blocks, consensus, and smart contracts - without the hype." },
+    { "slug": "learn-crypto-with-phoebe",         "title": "Crypto & Bitcoin", "icon": "🪙", "bucket": "emrg", "diff": 2, "audience": "both", "format": "concept", "sessions": 0, "status": "planned", "blurb": "Bitcoin, wallets, and how digital money works - a literacy course, not financial advice." },
+    { "slug": "learn-web3-with-phoebe",           "title": "Web3", "icon": "✨", "bucket": "emrg", "diff": 3, "audience": "both", "format": "concept", "sessions": 0, "status": "planned", "blurb": "Decentralized apps, tokens, and the web3 stack - what it promises and where it actually holds up." },
+    { "slug": "learn-cyber-security-with-phoebe", "title": "Cyber Security", "icon": "🔐", "bucket": "emrg", "diff": 3, "audience": "both", "format": "concept", "sessions": 0, "status": "planned", "blurb": "Security literacy - common threats, defenses, and how to reason about risk. Defensive and awareness-focused." },
+    { "slug": "learn-quant-trading-with-phoebe",  "title": "Quantitative Trading", "icon": "🧮", "bucket": "emrg", "diff": 4, "audience": "builder", "format": "project", "sessions": 0, "status": "planned", "blurb": "Data-driven trading concepts - signals, backtesting, and risk - as an educational build, not investment advice." },
+    { "slug": "learn-quantum-with-phoebe",        "title": "Quantum Computing", "icon": "⚛️", "bucket": "emrg", "diff": 4, "audience": "both", "format": "concept", "sessions": 0, "status": "planned", "blurb": "Qubits, superposition, and entanglement - the intuition for why quantum matters, no physics PhD required." },
 
     { "slug": "learn-meditation-with-phoebe", "title": "Meditation & Breathwork", "icon": "🧘", "bucket": "move", "diff": 1, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "The theory of stillness - attention, breath, and nervous-system regulation, with guided practice video." },
     { "slug": "learn-yoga-with-phoebe",       "title": "Yoga: Foundations & Flow", "icon": "🤸", "bucket": "move", "diff": 2, "audience": "everyone", "format": "video", "sessions": 0, "status": "planned", "blurb": "Alignment principles, breath-linked movement, and sequencing theory - form demos stay real, not AI-generated." },
