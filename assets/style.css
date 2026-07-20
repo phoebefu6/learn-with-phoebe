@@ -103,95 +103,135 @@ a { color:inherit; text-decoration:none; }
 .fsep { width:1px; height:22px; background:var(--line); margin:0 5px; }
 .fdim { font-family:var(--disp); font-size:11px; color:var(--faint); text-transform:uppercase; letter-spacing:.12em; font-weight:600; margin-right:3px; }
 
-/* ---------- shelf sections ---------- */
-main { padding:20px 0 100px; }
-.bucket { position:relative; margin-top:56px; padding-left:64px; }
-.bucket.hidden { display:none; }
+/* ---------- shelves (the bookshelf) ---------- */
+main { padding:26px 0 110px; }
+.shelf { position:relative; margin-top:58px; }
+.shelf.hidden { display:none; }
 
-/* ghost index numeral - the one editorial flourish */
-.bucket .shelf-no {
-  position:absolute; left:0; top:-6px;
-  font-family:var(--disp); font-weight:700; font-size:46px; line-height:1;
-  color:var(--ghost); letter-spacing:-.04em;
-  font-variant-numeric:tabular-nums; user-select:none;
+.shelf-label { display:flex; align-items:baseline; gap:13px; margin-bottom:6px; }
+.shelf-no {
+  font-family:var(--disp); font-weight:700; font-size:38px; line-height:1;
+  color:var(--ghost); letter-spacing:-.04em; font-variant-numeric:tabular-nums; user-select:none;
 }
-.bucket-head { display:flex; align-items:center; gap:13px; margin-bottom:5px; }
-.bucket-head h2 { font-family:var(--disp); font-size:22px; font-weight:600; letter-spacing:-.015em; }
-.bucket-head .count { font-size:12.5px; color:var(--lime); font-weight:700; font-variant-numeric:tabular-nums; }
-.bucket-head .bkt-tier {
-  display:inline-flex; align-items:center; gap:7px; margin-left:auto;
+.shelf-name { font-family:var(--disp); font-size:22px; font-weight:600; letter-spacing:-.015em; }
+.shelf-cnt { font-size:12.5px; color:var(--lime); font-weight:700; font-variant-numeric:tabular-nums; white-space:nowrap; }
+.shelf-tier {
+  display:inline-flex; align-items:center; gap:7px; margin-left:auto; align-self:center;
   font-size:11px; font-weight:700; color:var(--muted);
   text-transform:uppercase; letter-spacing:.07em;
-  border:1px solid var(--line); border-radius:999px; padding:5px 12px;
+  border:1px solid var(--line); border-radius:999px; padding:5px 12px; white-space:nowrap;
 }
-.bucket-head .bt-dot { width:7px; height:7px; border-radius:999px; flex:none; }
-.bucket-blurb { color:var(--muted); font-size:14px; margin-bottom:20px; max-width:72ch; }
+.shelf-tier .st-dot { width:7px; height:7px; border-radius:999px; flex:none; }
+.shelf-blurb { color:var(--muted); font-size:14px; margin:0 0 16px; max-width:72ch; }
 
-.grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(17rem,1fr)); gap:16px; }
-
-/* shelf "plank" the cards rest on */
-.bucket::after {
-  content:""; position:absolute; left:64px; right:0; bottom:-28px; height:1px;
-  background:linear-gradient(90deg, var(--line-hi), transparent 70%);
+/* the books stand on a plank */
+.books { display:flex; align-items:flex-end; gap:9px; flex-wrap:wrap; padding:0 4px; min-height:210px; }
+.plank {
+  height:12px; border-radius:0 0 7px 7px; margin:0 -2px;
+  background:linear-gradient(180deg,#2b2f34,#191b1e);
+  box-shadow:0 12px 26px -14px rgba(0,0,0,.95), inset 0 1px 0 rgba(255,255,255,.05);
 }
-.bucket:last-child::after { display:none; }
-
-/* ---------- course card ---------- */
-.card {
-  position:relative; display:flex; flex-direction:column; gap:10px;
-  background:var(--card); border:1px solid var(--line);
-  border-radius:var(--radius); padding:22px 22px 20px;
-  transition:transform .16s ease, border-color .16s ease, background .16s ease;
-  overflow:hidden;
+.plank::after {
+  content:""; display:block; height:3px; border-radius:2px; transform:translateY(9px);
+  background:linear-gradient(90deg, rgba(198,242,78,.32), transparent 55%);
 }
-.card::before {
-  content:""; position:absolute; top:0; left:0; bottom:0; width:3px;
-  background:var(--lime); transform:scaleY(0); transform-origin:top;
-  transition:transform .2s ease;
-}
-.card:hover { transform:translateY(-4px); border-color:var(--line-hi); background:var(--card-hi); }
-.card:hover::before { transform:scaleY(1); }
-.card.hidden { display:none; }
 
-.card .dot { position:absolute; top:17px; right:17px; width:9px; height:9px; border-radius:999px; }
-
-.card .icon { font-size:26px; line-height:1; }
-.card .bkt { font-family:var(--disp); font-size:10.5px; font-weight:600; text-transform:uppercase; letter-spacing:.1em; color:var(--faint); }
-.card h3 { font-family:var(--disp); font-size:18px; font-weight:600; letter-spacing:-.01em; line-height:1.22; }
-.card .blurb { font-size:13px; color:var(--muted); line-height:1.55; flex:1; }
-.card .tags { display:flex; gap:6px; flex-wrap:wrap; margin-top:2px; }
-.tag {
-  font-size:10.5px; font-weight:700; padding:3px 10px; border-radius:999px;
-  background:#212429; color:var(--muted); border:1px solid var(--line);
+/* a book spine */
+.book {
+  position:relative; flex:none; height:214px; width:58px;
+  border-radius:4px 4px 3px 3px; cursor:pointer; font-family:inherit;
+  background:linear-gradient(100deg, var(--card), #232629);
+  border:1px solid var(--line-hi); border-bottom:none;
+  display:flex; flex-direction:column; justify-content:space-between; align-items:center;
+  padding:12px 0 13px; overflow:hidden;
+  box-shadow:inset 3px 0 0 rgba(255,255,255,.045), inset -7px 0 13px rgba(0,0,0,.42);
+  transition:transform .18s cubic-bezier(.2,.7,.2,1), box-shadow .18s ease, border-color .18s ease;
 }
+.book::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px; background:var(--lane); }
+.book.hidden { display:none; }
+.book .bk-ico { font-size:19px; line-height:1; }
+.book .bk-ttl {
+  writing-mode:vertical-rl; transform:rotate(180deg);
+  font-family:var(--disp); font-weight:600; font-size:14px; letter-spacing:.005em; line-height:1.05;
+  color:var(--ink); max-height:150px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
+.book .bk-foot { width:26px; height:4px; border-radius:999px; background:var(--lane); }
+.book.interactive::after { content:"▶"; position:absolute; top:9px; right:6px; font-size:8px; color:var(--lime); opacity:.85; }
+.book:hover { transform:translateY(-15px); border-color:var(--lime-line);
+  box-shadow:0 24px 30px -16px rgba(0,0,0,.9), inset 3px 0 0 rgba(255,255,255,.06), inset -7px 0 13px rgba(0,0,0,.42); }
+.book.selected { transform:translateY(-15px); border-color:var(--lime);
+  box-shadow:0 24px 30px -16px rgba(0,0,0,.9), 0 0 0 1px rgba(198,242,78,.5), inset 3px 0 0 rgba(255,255,255,.06); }
+
+/* planned = ghost book */
+.book.planned {
+  width:44px; cursor:pointer; opacity:.62; border-style:dashed; border-color:var(--line);
+  background:repeating-linear-gradient(180deg,#17191c,#17191c 6px,#141619 6px,#141619 12px);
+}
+.book.planned::before { background:var(--line-hi); }
+.book.planned .bk-ttl { color:var(--faint); }
+.book.planned .bk-foot { background:var(--line-hi); }
+.book.planned:hover { transform:translateY(-8px); border-color:var(--line-hi); opacity:.8; }
+
+/* detail drawer under the shelf */
+.shelf-detail { display:grid; grid-template-rows:0fr; transition:grid-template-rows .3s ease; margin-top:14px; }
+.shelf-detail > .sd-inner { overflow:hidden; min-height:0; }
+.shelf-detail.open > .sd-inner {
+  display:flex; gap:20px; align-items:center; flex-wrap:wrap;
+  border:1px solid var(--line-hi); border-radius:var(--radius);
+  background:linear-gradient(100deg, var(--card), var(--card-hi));
+  padding:22px 24px;
+}
+.shelf-detail.open { grid-template-rows:1fr; }
+.sd-spine { width:46px; height:66px; border-radius:4px; flex:none; position:relative;
+  background:linear-gradient(100deg,#232629,#2b2f34); border:1px solid var(--line-hi);
+  display:flex; align-items:center; justify-content:center; font-size:22px; }
+.sd-spine::before { content:""; position:absolute; left:0; top:0; bottom:0; width:5px; border-radius:4px 0 0 4px; background:var(--lane); }
+.sd-body { flex:1; min-width:220px; }
+.sd-kick { font-family:var(--disp); font-size:10.5px; font-weight:600; text-transform:uppercase; letter-spacing:.1em; color:var(--faint); }
+.sd-title { font-family:var(--disp); font-size:22px; font-weight:700; letter-spacing:-.015em; margin:3px 0 6px; }
+.sd-blurb { font-size:14px; color:var(--ink-2); line-height:1.55; max-width:62ch; }
+.sd-tags { display:flex; gap:7px; flex-wrap:wrap; margin-top:12px; }
+.tag { font-size:10.5px; font-weight:700; padding:4px 11px; border-radius:999px;
+  background:#212429; color:var(--muted); border:1px solid var(--line); display:inline-flex; align-items:center; gap:6px; }
 .tag.lime { background:var(--lime-dim); color:var(--lime); border-color:transparent; }
-.card .go { font-size:12.5px; font-weight:700; color:var(--lime); margin-top:5px; letter-spacing:.01em; display:inline-flex; align-items:center; gap:6px; }
-.card .go .ar { transition:transform .15s ease; display:inline-block; }
-.card:hover .go .ar { transform:translateX(4px); }
-
-/* planned (not-yet-built) courses */
-.card.planned { cursor:default; border-style:dashed; opacity:.68; }
-.card.planned:hover { transform:none; background:var(--card); border-color:var(--line); }
-.card.planned::before { display:none; }
-.card .go.planned-go { color:var(--faint); font-weight:700; text-transform:uppercase; letter-spacing:.07em; font-size:11px; }
+.tag .tag-dot { width:7px; height:7px; border-radius:999px; }
+.sd-cta { display:flex; align-items:center; gap:14px; margin-left:auto; }
+.sd-open {
+  font-family:var(--disp); font-size:14px; font-weight:700; color:var(--lime-ink);
+  background:var(--lime); border-radius:999px; padding:11px 20px; display:inline-flex; align-items:center; gap:8px;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+.sd-open:hover { transform:translateY(-2px); box-shadow:0 10px 22px -10px rgba(198,242,78,.6); }
+.sd-open .ar { transition:transform .15s ease; }
+.sd-open:hover .ar { transform:translateX(4px); }
+.sd-planned { font-family:var(--disp); font-size:11px; font-weight:700; color:var(--faint);
+  text-transform:uppercase; letter-spacing:.07em; text-align:center; line-height:1.4; }
+.sd-close { background:transparent; border:1px solid var(--line); color:var(--muted);
+  width:34px; height:34px; border-radius:999px; cursor:pointer; font-size:13px; flex:none;
+  transition:color .14s ease, border-color .14s ease; }
+.sd-close:hover { color:var(--ink); border-color:var(--line-hi); }
 
 .empty { color:var(--faint); font-size:14px; padding:30px 0; display:none; }
 .empty.show { display:block; }
 
 /* ---------- footer ---------- */
-footer { border-top:1px solid var(--line); padding:30px 0 64px; }
+footer { border-top:1px solid var(--line); padding:30px 0 64px; margin-top:20px; }
 footer p { color:var(--faint); font-size:13px; }
 footer a { color:var(--muted); }
 footer a:hover { color:var(--lime); }
 
 @media (max-width:640px) {
-  .bucket { padding-left:0; }
-  .bucket .shelf-no { position:static; display:block; font-size:34px; margin-bottom:2px; }
-  .bucket::after { left:0; }
+  .books { gap:7px; min-height:184px; }
+  .book { height:190px !important; width:46px !important; }
+  .book .bk-ttl { font-size:12.5px; }
+  .book.planned { width:40px !important; }
+  .shelf-no { font-size:30px; }
+  .shelf-name { font-size:19px; }
+  .sd-cta { margin-left:0; width:100%; justify-content:space-between; }
 }
 
-/* reveal - gentle, once (not a fade on every scroll) */
+/* reveal - gentle fade, once. Opacity only, so :hover/.selected keep transform. */
 @media (prefers-reduced-motion:no-preference) {
-  .card { opacity:0; transform:translateY(10px); animation:rise .42s ease forwards; }
-  @keyframes rise { to { opacity:1; transform:translateY(0); } }
+  .book { opacity:0; animation:rise .5s ease forwards; }
+  @keyframes rise { from { opacity:0; } to { opacity:1; } }
 }
