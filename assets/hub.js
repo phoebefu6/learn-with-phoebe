@@ -65,9 +65,10 @@
 
     // ---- shelf ----
     var shelf = document.getElementById("shelf");
-    buckets.forEach(function (b) {
+    buckets.forEach(function (b, bi) {
       var sec = el("section", "bucket");
       sec.setAttribute("data-bucket", b.id);
+      sec.appendChild(el("span", "shelf-no", ("0" + (bi + 1)).slice(-2)));
       var head = el("div", "bucket-head");
       head.appendChild(el("h2", null, esc(b.name)));
       var list = byBucket[b.id];
