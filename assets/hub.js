@@ -64,20 +64,19 @@
 
     // ---- filter bar ----
     var bar = document.getElementById("filters");
-    var chips = [];
-    chips.push(chip("all", "All", courses.length));
-    buckets.forEach(function (b) { chips.push(chip("bucket:" + b.id, b.name, byBucket[b.id].length)); });
+    // topic: All + one chip per track
+    bar.appendChild(chip("all", "All", courses.length));
+    buckets.forEach(function (b) { bar.appendChild(chip("bucket:" + b.id, b.name, byBucket[b.id].length)); });
+    // audience group (who it's for)
     bar.appendChild(sep());
     bar.appendChild(dim("For"));
-    chips.push(chip("aud:leader", "Leaders", null));
-    chips.push(chip("aud:builder", "Builders", null));
-    chips.push(chip("fmt:interactive", "Interactive", null));
-
-    var frag = document.createDocumentFragment();
-    frag.appendChild(chips[0]);
-    for (var i = 1; i <= buckets.length; i++) frag.appendChild(chips[i]);
-    bar.insertBefore(frag, bar.firstChild);
-    for (var j = buckets.length + 1; j < chips.length; j++) bar.appendChild(chips[j]);
+    bar.appendChild(chip("aud:leader", "Leaders", null));
+    bar.appendChild(chip("aud:builder", "Builders", null));
+    // format group (how it's taught)
+    bar.appendChild(sep());
+    bar.appendChild(dim("Format"));
+    bar.appendChild(chip("fmt:interactive", "Interactive", null));
+    bar.appendChild(chip("fmt:project", "Running project", null));
 
     // ---- shelves ----
     var shelf = document.getElementById("shelf");
