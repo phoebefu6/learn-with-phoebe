@@ -442,6 +442,17 @@
       "blurb": "From a 40-line agent loop to a governed multi-agent system. Leader track to decide, builder track to ship - one running assistant, DataDesk."
     },
     {
+      "slug": "learn-data-product-with-phoebe",
+      "title": "Data Products",
+      "icon": "🪜",
+      "bucket": "data",
+      "diff": 1,
+      "audience": "both",
+      "format": "project",
+      "sessions": 6,
+      "blurb": "A guided tour of 29 data products from cloud infrastructure to agentic AI, arranged on a four-tier maturity ladder and told through Kasa - a retailer with a payments wallet growing from spreadsheets to one governed platform."
+    },
+    {
       "slug": "learn-data-literacy-with-phoebe",
       "title": "Data Literacy",
       "icon": "📊",
