@@ -940,6 +940,17 @@
       "blurb": "Neural nets from the ground up - backprop intuition, PyTorch, and when deep learning beats trees."
     },
     {
+      "slug": "learn-experimentation-with-phoebe",
+      "title": "Experimentation & A/B Testing",
+      "icon": "🧪",
+      "bucket": "ds",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Two tracks on experimentation, A/B testing, and causal inference - power, randomization, sequential testing, CUPED, geo and synthetic control, diff-in-diff, and propensity - on the Lumen running case, with live in-browser simulators."
+    },
+    {
       "slug": "learn-data-modeling-with-phoebe",
       "title": "Data Modeling & Schema Design",
       "icon": "🧱",
