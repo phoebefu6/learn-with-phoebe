@@ -884,7 +884,7 @@
       "bucket": "ds",
       "diff": 2,
       "audience": "both",
-      "format": "project",
+      "format": "interactive",
       "sessions": 16,
       "blurb": "Two tracks on classic machine learning end to end - the 6-session leader track reads a model's report card without being fooled by a big accuracy number, the 10-session builder track ships scikit-learn from the train/test split to a model-comparison capstone. The middle rung of the Data Science ladder (statistics gives the math, this gives the models, experimentation gives cause), on the Lumen running case with live in-browser ML tools."
     },
