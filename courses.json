@@ -856,6 +856,17 @@
       "blurb": "Instructional design done right - learning objectives, arc, activities, and assessment. The craft behind this whole shelf."
     },
     {
+      "slug": "learn-statistics-with-phoebe",
+      "title": "Statistics & Probability",
+      "icon": "🎲",
+      "bucket": "ds",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Statistics and probability from the ground up - descriptive stats to regression, read-only for leaders and Python (numpy/scipy/statsmodels) for builders. The prequel to experimentation, on the Lumen Skincare brand."
+    },
+    {
       "slug": "learn-intro-ml-with-phoebe",
       "title": "Intro to Machine Learning",
       "icon": "🎓",
