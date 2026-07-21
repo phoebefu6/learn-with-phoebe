@@ -1,10 +1,29 @@
-/* learn-with-phoebe hub - render the shelf from courses.json as a BOOKSHELF.
-   Each course is a book spine standing on a plank; clicking a book opens a
-   detail drawer under that shelf. courses.json is the single source of truth. */
+/* learn-with-phoebe hub - render the shelf from courses.json as a GARMENT RACK.
+   Each course is a printed T-shirt hanging on a rail; clicking a shirt opens a
+   detail drawer under that rack. courses.json is the single source of truth. */
 (function () {
   var OWNER = "phoebefu6";
   var AUD = { leader: "🤝 Leader", builder: "🛠️ Builder", both: "⚡ Both", everyone: "🌱 Everyone" };
   var FMT = { project: "🎯 Running project", concept: "📖 Concept", interactive: "▶️ Interactive", video: "🎬 Video" };
+
+  var HANGER =
+    '<svg class="hanger" width="48" height="30" viewBox="0 0 48 30" fill="none" aria-hidden="true">' +
+    '<path d="M24 7c0-2.2 1.7-4 3.8-4s3.8 1.8 3.8 4c0 1.8-1.3 2.9-2.7 3.4" stroke="#9384c0" stroke-width="1.8" stroke-linecap="round"/>' +
+    '<path d="M24 8 4.5 23.5A2 2 0 0 0 5.7 27h36.6a2 2 0 0 0 1.2-3.6L24 8Z" stroke="#b3a4dd" stroke-width="1.8" fill="#fff" stroke-linejoin="round"/></svg>';
+  var SHIRT =
+    '<svg class="s-svg" viewBox="0 0 180 160" preserveAspectRatio="xMidYMid meet" aria-hidden="true">' +
+    '<path class="s-body" d="M60 15 L36 15 L6 42 L6 69 L30 77 L32 152 L148 152 L150 77 L174 69 L174 42 L144 15 L120 15 Q90 44 60 15 Z"/>' +
+    '<path class="s-collar" d="M60 15 Q90 44 120 15"/></svg>';
+  var FMT_SHORT = { interactive: "▶ Interactive", video: "▶ Video", project: "Running project", concept: "Concept" };
+
+  // mix a hex colour with white; k = fraction of colour kept (rest white)
+  function mix(hex, k) {
+    hex = String(hex).replace("#", "");
+    if (hex.length !== 6) return hex;
+    var r = parseInt(hex.substr(0, 2), 16), g = parseInt(hex.substr(2, 2), 16), b = parseInt(hex.substr(4, 2), 16);
+    var w = function (c) { return Math.round(c * k + 255 * (1 - k)); };
+    return "rgb(" + w(r) + "," + w(g) + "," + w(b) + ")";
+  }
 
   function el(tag, cls, html) {
     var e = document.createElement(tag);
@@ -86,11 +105,12 @@
       var blurb = el("p", "shelf-blurb", esc(b.blurb));
       sec.appendChild(blurb);
 
-      // books on a plank
-      var books = el("div", "books");
-      list.forEach(function (c, idx) { books.appendChild(book(c, b, idx)); });
-      sec.appendChild(books);
-      sec.appendChild(el("div", "plank"));
+      // shirts on a rail
+      var bar = el("div", "bar");
+      var rail = el("div", "rail");
+      list.forEach(function (c, idx) { rail.appendChild(garment(c, b, idx)); });
+      bar.appendChild(rail);
+      sec.appendChild(bar);
 
       // detail drawer (one per shelf)
       var detail = el("div", "shelf-detail");
@@ -102,34 +122,54 @@
     shelf.appendChild(el("p", "empty", "Nothing on the shelf matches that filter yet."));
 
     wireFilters();
+    fitTitles();
+    if (document.fonts && document.fonts.ready) { document.fonts.ready.then(fitTitles); }
+    else { setTimeout(fitTitles, 350); }
+    var rt;
+    window.addEventListener("resize", function () { clearTimeout(rt); rt = setTimeout(fitTitles, 150); });
   }
 
-  function book(c, bucket, idx) {
+  // Shrink each shirt's printed name until it fits the chest (3-line clamp);
+  // only the very longest names get an ellipsis.
+  function fitTitles() {
+    document.querySelectorAll(".garment .s-name").forEach(function (t) {
+      t.style.fontSize = "13.5px";
+      if (t.clientHeight < 8) return;   // not laid out yet; skip until fonts.ready pass
+      var size = 13.5, guard = 0;
+      while (t.scrollHeight > t.clientHeight + 1 && size > 10 && guard < 24) { size -= 0.5; t.style.fontSize = size + "px"; guard++; }
+    });
+  }
+
+  function garment(c, bucket, idx) {
     var planned = c.status === "planned";
     var lv = levelOf(c.diff);
-    var sessions = Math.min(c.sessions || 6, 16);
-    var w = planned ? 46 : Math.round(50 + (sessions - 4) * 1.7);   // thickness = depth
-    var h = planned ? 178 : (178 + (c.diff || 1) * 13);             // height = difficulty
     var inter = c.format === "interactive" || c.format === "video";
 
-    var b = el("button", "book" + (planned ? " planned" : "") + (inter ? " interactive" : ""));
-    b.type = "button";
-    b.style.setProperty("--lane", lv.color);
-    b.style.height = h + "px";
-    b.style.width = w + "px";
-    b.setAttribute("data-bucket", c.bucket);
-    b.setAttribute("data-aud", c.audience);
-    b.setAttribute("data-fmt", c.format);
-    if (planned) b.setAttribute("data-planned", "1");
-    b.setAttribute("aria-label", c.title + (planned ? " (planned)" : ""));
-    b.style.animationDelay = (idx * 0.05) + "s";
-    b.innerHTML =
-      '<span class="bk-ico">' + c.icon + '</span>' +
-      '<span class="bk-ttl">' + esc(c.title) + '</span>' +
-      '<span class="bk-foot"></span>';
+    var g = el("button", "garment" + (planned ? " planned" : "") + (inter ? " interactive" : ""));
+    g.type = "button";
+    g.style.setProperty("--lane", lv.color);
+    g.style.setProperty("--lane-tint", mix(lv.color, 0.24));   // whole-shirt fill
+    g.style.setProperty("--lane-edge", mix(lv.color, 0.55));   // shirt outline
+    g.setAttribute("data-bucket", c.bucket);
+    g.setAttribute("data-aud", c.audience);
+    g.setAttribute("data-fmt", c.format);
+    if (planned) g.setAttribute("data-planned", "1");
+    g.setAttribute("aria-label", c.title + (planned ? " (planned)" : ""));
+    g.style.animationDelay = (idx * 0.05) + "s";
+    var name = c.title.replace(/^Learn\s+/i, "");             // site is about learning; show the subject
+    var cap = planned ? "Planned" : (FMT_SHORT[c.format] || (lv.name || ""));
+    g.innerHTML =
+      HANGER +
+      '<span class="shirt">' + SHIRT +
+        '<span class="s-face">' +
+          '<span class="s-ico">' + c.icon + '</span>' +
+          '<span class="s-name">' + esc(name) + '</span>' +
+          '<span class="s-cap">' + esc(cap) + '</span>' +
+        '</span>' +
+      '</span>';
 
-    b.addEventListener("click", function () { openDetail(b, c, bucket, lv); });
-    return b;
+    g.addEventListener("click", function () { openDetail(g, c, bucket, lv); });
+    return g;
   }
 
   function openDetail(bookEl, c, bucket, lv) {
@@ -138,8 +178,8 @@
     var inner = drawer.querySelector(".sd-inner");
     var already = bookEl.classList.contains("selected");
 
-    // clear selection across all shelves (one open at a time feels calmer)
-    document.querySelectorAll(".book.selected").forEach(function (x) { x.classList.remove("selected"); });
+    // clear selection across all racks (one open at a time feels calmer)
+    document.querySelectorAll(".garment.selected").forEach(function (x) { x.classList.remove("selected"); });
     document.querySelectorAll(".shelf-detail.open").forEach(function (d) {
       if (d !== drawer) { d.classList.remove("open"); }
     });
@@ -214,11 +254,11 @@
     var anyVisible = false;
     // collapse any open drawer when refiltering
     document.querySelectorAll(".shelf-detail.open").forEach(function (d) { d.classList.remove("open"); });
-    document.querySelectorAll(".book.selected").forEach(function (x) { x.classList.remove("selected"); });
+    document.querySelectorAll(".garment.selected").forEach(function (x) { x.classList.remove("selected"); });
 
     document.querySelectorAll(".shelf").forEach(function (sec) {
       var shown = 0;
-      sec.querySelectorAll(".book").forEach(function (bk) {
+      sec.querySelectorAll(".garment").forEach(function (bk) {
         var ok =
           kind === "all" ? true :
           kind === "bucket" ? bk.getAttribute("data-bucket") === val :
