@@ -475,6 +475,17 @@
       "blurb": "One running project - load 124k job postings, clean them, and ship a report - the analyst workflow start to finish."
     },
     {
+      "slug": "learn-governance-101-with-phoebe",
+      "title": "Data & AI Governance 101",
+      "icon": "🌱",
+      "bucket": "gov",
+      "diff": 1,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The plain-English on-ramp to the governance shelf - what personal data is, why governance matters (trust, risk, law), and the PDPA / GDPR / EU AI Act at a glance, with a live 'which regime touches me?' chooser. Feeds the four deeper gov courses."
+    },
+    {
       "slug": "learn-data-governance-with-phoebe",
       "title": "Data Governance",
       "icon": "🛡️",
