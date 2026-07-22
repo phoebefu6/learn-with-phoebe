@@ -1264,10 +1264,9 @@
       "bucket": "move",
       "diff": 2,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The why behind the practice - anatomy, the eight limbs, and the philosophy that turns poses into practice."
+      "format": "concept",
+      "sessions": 9,
+      "blurb": "The theory half of a 200-hour teacher training, mapped to the Yoga Alliance standard - the eight limbs, the Gita, the subtle and physical body, asana logic, sequencing, and teaching craft, with diagrams that make the Sanskrit stick."
     },
     {
       "slug": "learn-yoga-flow-design-with-phoebe",
