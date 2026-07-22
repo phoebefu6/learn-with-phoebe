@@ -475,6 +475,17 @@
       "blurb": "Read and judge SQL as a leader, or write it hands-on - every example runs live in your browser on the Daybreak database."
     },
     {
+      "slug": "learn-business-intelligence-with-phoebe",
+      "title": "Business Intelligence",
+      "icon": "📊",
+      "bucket": "data",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Two tracks from dashboard-curious to dashboard-fluent - read, commission and govern dashboards as a leader, or build the star schema, governed measures and a shipped exec dashboard on the Daybreak warehouse, with a live mini-BI that writes the SQL."
+    },
+    {
       "slug": "learn-python-data-analysis-with-phoebe",
       "title": "Python Data Analysis",
       "icon": "📈",
