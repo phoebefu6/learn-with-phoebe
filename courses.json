@@ -1350,6 +1350,17 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "Ask your data in plain English. Two tracks: leaders judge vendors, benchmarks and adoption; builders climb DaybreakGPT from an 8% baseline to 100% one context lever at a time. The model is not the product - context is."
+    },
+    {
+      "slug": "learn-mcp-with-phoebe",
+      "title": "MCP (Model Context Protocol)",
+      "icon": "🔌",
+      "bucket": "ai",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 14,
+      "blurb": "The open protocol wiring AI to everything. Two tracks: leaders judge, buy and govern MCP without code; builders build, connect, secure and publish a real Python server for Daybreak. Every builder page steps through live JSON-RPC wire traffic. Current spec 2025-11-25, with the 2026-07-28 revision flagged throughout."
     }
   ]
 }
