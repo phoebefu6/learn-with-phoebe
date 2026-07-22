@@ -906,10 +906,9 @@
       "bucket": "ds",
       "diff": 2,
       "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The workhorses - linear/logistic regression, trees, and kNN with scikit-learn on real data."
+      "format": "interactive",
+      "sessions": 10,
+      "blurb": "The supervised algorithm zoo in depth - linear and polynomial regression, logistic internals (odds, coefficients, gradient descent), kNN, naive Bayes, decision trees (gini, pruning), and SVMs, then choosing and a full model bake-off. Sequel to intro-ml on the Lumen running case, with a live in-browser decision-boundary explorer."
     },
     {
       "slug": "learn-feature-engineering-with-phoebe",
