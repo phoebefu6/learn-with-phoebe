@@ -1340,6 +1340,17 @@
       "sessions": 0,
       "status": "planned",
       "blurb": "Learn drums as an adult - pop and TikTok song charts with practice drills to build memory, timing, and groove."
+    },
+    {
+      "slug": "learn-text-to-sql-with-phoebe",
+      "title": "Text-to-SQL",
+      "icon": "🗣️",
+      "bucket": "ai",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Ask your data in plain English. Two tracks: leaders judge vendors, benchmarks and adoption; builders climb DaybreakGPT from an 8% baseline to 100% one context lever at a time. The model is not the product - context is."
     }
   ]
 }
