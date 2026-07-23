@@ -308,14 +308,13 @@
     {
       "slug": "learn-ai-finance-with-phoebe",
       "title": "AI + Finance",
-      "icon": "💰",
+      "icon": "🏦",
       "bucket": "aidm",
       "diff": 2,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "AI for finance work - analysis, reporting, and forecasting support. Educational, not financial advice."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How finance practitioners embrace AI - a leader (no-code) + builder (hands-on) course, with a live month-end close copilot simulator, forecasting, reporting, risk, and markets. Assist, never advise."
     },
     {
       "slug": "learn-ai-education-with-phoebe",
