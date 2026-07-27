@@ -269,6 +269,17 @@
       "blurb": "How marketers embrace AI across the funnel - a leader (no-code) + builder (hands-on) course that builds one launch campaign end to end, with a live message-market-fit simulator. Positioning, content, SEO, ads, email, social, creative."
     },
     {
+      "slug": "learn-ai-branding-with-phoebe",
+      "title": "AI + Branding",
+      "icon": "🏛️",
+      "bucket": "aidm",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How brand builders embrace AI without diluting the brand - a leader (no-code) + builder (hands-on) course that builds one brand end to end (Cadence), with a live brand-consistency simulator. Positioning, personality, naming, voice, guidelines."
+    },
+    {
       "slug": "learn-ai-media-domain-with-phoebe",
       "title": "AI + Media",
       "icon": "🎙️",
