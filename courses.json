@@ -268,6 +268,17 @@
       "blurb": "Generate content at scale without the slop - a leader (no-code) + creator (hands-on) course that builds a content engine, with a live one-idea-to-many-formats simulator. Ideas, long-form, social, visual, video, pipeline, and governance."
     },
     {
+      "slug": "learn-ai-law-with-phoebe",
+      "title": "AI + Law",
+      "icon": "⚖️",
+      "bucket": "aidm",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How lawyers use AI in practice - a leader (no-code) + practitioner (hands-on) course, with a live grounded-research simulator. Research, contracts, review, memos, litigation. Education, not legal advice."
+    },
+    {
       "slug": "learn-ai-marketing-with-phoebe",
       "title": "AI + Marketing",
       "icon": "🚀",
