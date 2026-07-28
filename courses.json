@@ -246,16 +246,15 @@
       "blurb": "AI copilots for the ML workflow - feature ideas, model scaffolding, and reading results critically."
     },
     {
-      "slug": "learn-ai-management-with-phoebe",
-      "title": "AI + Management",
-      "icon": "💼",
+      "slug": "learn-ai-leadership-with-phoebe",
+      "title": "AI + Leadership",
+      "icon": "🧭",
       "bucket": "aidm",
       "diff": 2,
-      "audience": "leader",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Lead with AI - planning, summarizing, and decision support without outsourcing your judgment."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How leaders lead in the AI age - a leader (no-code) + manager (hands-on) course, with a live decision-quality simulator. Decisions, culture, ethics, change, feedback, delegation, and team enablement."
     },
     {
       "slug": "learn-ai-marketing-with-phoebe",
