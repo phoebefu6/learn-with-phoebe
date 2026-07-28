@@ -257,6 +257,17 @@
       "blurb": "How leaders lead in the AI age - a leader (no-code) + manager (hands-on) course, with a live decision-quality simulator. Decisions, culture, ethics, change, feedback, delegation, and team enablement."
     },
     {
+      "slug": "learn-ai-content-with-phoebe",
+      "title": "AI + Content Generation",
+      "icon": "✨",
+      "bucket": "aidm",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Generate content at scale without the slop - a leader (no-code) + creator (hands-on) course that builds a content engine, with a live one-idea-to-many-formats simulator. Ideas, long-form, social, visual, video, pipeline, and governance."
+    },
+    {
       "slug": "learn-ai-marketing-with-phoebe",
       "title": "AI + Marketing",
       "icon": "🚀",
