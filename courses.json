@@ -1412,6 +1412,17 @@
       "format": "interactive",
       "sessions": 8,
       "blurb": "The Claude skills that 10x your workflow on a token budget - grill-me, superpowers, impeccable, data + design skills, mapped to all 17 tracks."
+    },
+    {
+      "slug": "learn-recommendation-with-phoebe",
+      "title": "Recommendation Systems",
+      "icon": "🎯",
+      "bucket": "ds",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How the 'recommended for you' engine works end to end - the 6-session leader track covers the families in plain English, e-commerce vs fintech logic, the team + R&R pipeline, measurement and ethics; the 10-session builder track ships real Python from basket analysis to item-item and user-user CF, content-based, matrix factorization, deep recsys, evaluation, serving and monitoring. Cites Amazon's item-to-item paper, the Netflix Prize, and Alibaba's DIN, with a real in-browser recommender you drive on the Kirana store."
     }
   ]
 }
