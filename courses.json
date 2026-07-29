@@ -1423,6 +1423,17 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "How the 'recommended for you' engine works end to end - the 6-session leader track covers the families in plain English, e-commerce vs fintech logic, the team + R&R pipeline, measurement and ethics; the 10-session builder track ships real Python from basket analysis to item-item and user-user CF, content-based, matrix factorization, deep recsys, evaluation, serving and monitoring. Cites Amazon's item-to-item paper, the Netflix Prize, and Alibaba's DIN, with a real in-browser recommender you drive on the Kirana store."
+    },
+    {
+      "slug": "learn-timeseries-forecasting-with-phoebe",
+      "title": "Time-Series Forecasting",
+      "icon": "📈",
+      "bucket": "ds",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Predicting what a number does next, end to end - the 6-session leader track covers the shape of a series, the method ladder in plain English, the team + R&R pipeline, how a forecast is measured, and the pitfalls; the 10-session builder track ships real Python from decomposition and baselines through exponential smoothing, ARIMA/SARIMA, Prophet, gradient-boosting, and a deep-model survey, then backtesting, serving and monitoring. Follows the FPP3 canon, Box-Jenkins, and Prophet (Taylor & Letham 2018), with a real in-browser forecaster you drive on the Lumen web-analytics series."
     }
   ]
 }
