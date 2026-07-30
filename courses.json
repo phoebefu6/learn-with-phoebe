@@ -1023,6 +1023,17 @@
       "blurb": "Design the schema everything else queries. Build a marketplace from a flat export to six dimensions, three facts and four marts on live SQLite - or take the leader track on grain, cost and what makes data agent-ready."
     },
     {
+      "slug": "learn-analytics-engineering-with-phoebe",
+      "title": "Analytics Engineering (dbt)",
+      "icon": "🧰",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Rebuild a marketplace warehouse as a real dbt project - sources, staging, ephemeral models, snapshots, marts, 100 tests, contracts and CI - with a break-a-model lab that runs the project's own tests in your browser."
+    },
+    {
       "slug": "learn-data-warehouse-with-phoebe",
       "title": "Data Warehouse",
       "icon": "🏭",
