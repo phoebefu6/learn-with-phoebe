@@ -1434,6 +1434,17 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "Predicting what a number does next, end to end - the 6-session leader track covers the shape of a series, the method ladder in plain English, the team + R&R pipeline, how a forecast is measured, and the pitfalls; the 10-session builder track ships real Python from decomposition and baselines through exponential smoothing, ARIMA/SARIMA, Prophet, gradient-boosting, and a deep-model survey, then backtesting, serving and monitoring. Follows the FPP3 canon, Box-Jenkins, and Prophet (Taylor & Letham 2018), with a real in-browser forecaster you drive on the Lumen web-analytics series."
+    },
+    {
+      "slug": "learn-anomaly-detection-with-phoebe",
+      "title": "Anomaly Detection",
+      "icon": "🚨",
+      "bucket": "ds",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Finding the points that do not belong, end to end - the 6-session leader track covers the anomaly types, the method ladder in plain English, the team + R&R pipeline, why accuracy lies on rare events, and the pitfalls (alert fatigue, drift); the 10-session builder track ships real Python from statistical detectors (z-score/IQR/MAD) through rolling and seasonal, distance and density (LOF), isolation forest, one-class methods, time-series change detection, and a deep-model survey, then evaluation, serving and alerting. Cites Chandola's survey, LOF, Isolation Forest, and One-Class SVM, with a real in-browser detector you drive on the Lumen web-analytics series. Sibling to the forecasting course."
     }
   ]
 }
