@@ -1017,11 +1017,10 @@
       "icon": "🧱",
       "bucket": "deng",
       "diff": 3,
-      "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Design the schemas everything else queries - normalization, dimensional modeling, and star schemas."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Design the schema everything else queries. Build a marketplace from a flat export to six dimensions, three facts and four marts on live SQLite - or take the leader track on grain, cost and what makes data agent-ready."
     },
     {
       "slug": "learn-data-warehouse-with-phoebe",
