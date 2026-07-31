@@ -384,6 +384,17 @@
    "blurb": "Accelerate research with AI - literature review, synthesis, and drafting, with citations you actually check."
   },
   {
+   "slug": "learn-ai-project-management-with-phoebe",
+   "title": "AI + Project Management",
+   "icon": "🗂️",
+   "bucket": "aidm",
+   "diff": 2,
+   "audience": "both",
+   "format": "project",
+   "sessions": 16,
+   "blurb": "Run a real programme with AI drafting beside you - a leader (PMO) track plus a PM track on one running data-platform build, with a live status-report simulator. Charter, milestones, dependencies, risk, reporting, escalations."
+  },
+  {
    "slug": "learn-marketing-attribution-with-phoebe",
    "title": "Marketing Attribution",
    "icon": "🎯",
