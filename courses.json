@@ -101,6 +101,12 @@
    "name": "Mind & Movement",
    "tier": 1,
    "blurb": "Yoga, tai chi, dance, and meditation - theory-first courses enriched with curated and AI-generated video. In progress."
+  },
+  {
+   "id": "ecom",
+   "name": "Ecommerce & Growth Analytics",
+   "tier": 4,
+   "blurb": "How an online business is measured - metrics, user journeys, traffic, and campaigns - decomposed on one running store."
   }
  ],
  "levels": [
@@ -1476,6 +1482,17 @@
    "format": "interactive",
    "sessions": 16,
    "blurb": "Finding the points that do not belong, end to end - the 6-session leader track covers the anomaly types, the method ladder in plain English, the team + R&R pipeline, why accuracy lies on rare events, and the pitfalls (alert fatigue, drift); the 10-session builder track ships real Python from statistical detectors (z-score/IQR/MAD) through rolling and seasonal, distance and density (LOF), isolation forest, one-class methods, time-series change detection, and a deep-model survey, then evaluation, serving and alerting. Cites Chandola's survey, LOF, Isolation Forest, and One-Class SVM, with a real in-browser detector you drive on the Lumen web-analytics series. Sibling to the forecasting course."
+  },
+  {
+   "slug": "learn-ecommerce-metrics-with-phoebe",
+   "title": "Ecommerce Metrics",
+   "icon": "🛍️",
+   "bucket": "ecom",
+   "diff": 1,
+   "audience": "both",
+   "format": "interactive",
+   "sessions": 14,
+   "blurb": "Every ecommerce number, explained on one store - the 6-session leader track covers the GMV equation, the metric dictionary (visitor vs session, the two conversion rates), reading the funnel, the weekly business review, honest benchmarks by industry, and metric governance; the 8-session analyst track decomposes Mango Lane (240K visitors, 360K sessions, 9,720 orders, $660,960 GMV) completely - core four by hand, a live driver-tree simulator (edit PDP penetration or checkout completion and watch GMV move, simulate a drop and trace the coral trail), funnel gates, drop diagnosis, segment cuts and mix effects, the review pack, and the metric spec sheet. Definitions verified against GA4 and Shopify docs, benchmarked with Baymard, IRP, Dynamic Yield, and Littledata. On-ramp of the ecommerce & growth analytics series."
   }
  ]
 }
