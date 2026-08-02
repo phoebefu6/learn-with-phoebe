@@ -331,10 +331,9 @@
    "bucket": "aidm",
    "diff": 2,
    "audience": "both",
-   "format": "concept",
-   "sessions": 0,
-   "status": "planned",
-   "blurb": "AI across the people function - hiring, onboarding, and enablement, done fairly and transparently."
+   "format": "interactive",
+   "sessions": 16,
+   "blurb": "AI across the whole people lifecycle - a leader (CHRO) track plus an HR practitioner track on one running company, with a live screening simulator where a reasonable-looking shortlist fails the four-fifths rule and you fix it."
   },
   {
    "slug": "learn-ai-finance-with-phoebe",
