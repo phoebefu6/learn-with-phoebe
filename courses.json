@@ -355,14 +355,13 @@
     {
       "slug": "learn-ai-education-with-phoebe",
       "title": "AI + Education",
-      "icon": "🎓",
+      "icon": "🍎",
       "bucket": "aidm",
       "diff": 2,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "AI as a tutor and course-builder - personalized learning and how to teach with it responsibly."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How educators teach WITH AI without losing the learning. Two tracks: leaders get the peer-reviewed evidence (same tool: -17% on exams unguarded, doubled learning well-designed), the 3-tier policy pattern and the governance rails; educators redesign one real unit end to end - policy, scaffolded AI roles, process portfolios, oral defenses, a guardrailed Socratic tutor, privacy discipline. A live classroom simulator runs 12 moments in your browser: watch the score climb 2 to 12 as the levers come on - and watch the fifth toggle, the AI detector, only ever make things worse."
     },
     {
       "slug": "learn-ai-sports-with-phoebe",
