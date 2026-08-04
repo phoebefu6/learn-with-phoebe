@@ -411,6 +411,42 @@
       "blurb": "Who gets the sale - attribution modeling from first and last-touch through Markov, Shapley, and ML to marketing mix models and causal geo-lift, on one running DTC brand."
     },
     {
+      "slug": "learn-ai-pm-with-phoebe",
+      "title": "AI + Product Management",
+      "icon": "🗺️",
+      "bucket": "aidm",
+      "diff": 2,
+      "audience": "both",
+      "format": "project",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "How PMs actually use AI - discovery, user research synthesis, specs, roadmaps, prioritisation and analytics - with the judgement calls it cannot make for you."
+    },
+    {
+      "slug": "learn-ai-consulting-with-phoebe",
+      "title": "AI + Consulting",
+      "icon": "💼",
+      "bucket": "aidm",
+      "diff": 3,
+      "audience": "both",
+      "format": "project",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Consultants using AI on real delivery - research, synthesis, models, decks and client-ready output - plus what you must never outsource to it."
+    },
+    {
+      "slug": "learn-ai-sales-with-phoebe",
+      "title": "AI + Sales",
+      "icon": "📞",
+      "bucket": "aidm",
+      "diff": 2,
+      "audience": "both",
+      "format": "project",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Sales teams using AI - prospecting, outreach that does not read as generated, call prep, CRM hygiene and forecasting - with the compliance rails."
+    },
+    {
       "slug": "learn-claude-with-phoebe",
       "title": "Learn Claude",
       "icon": "🤖",
