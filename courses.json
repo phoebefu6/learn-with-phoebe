@@ -1016,15 +1016,14 @@
     },
     {
       "slug": "learn-model-evaluation-with-phoebe",
-      "title": "Model Evaluation & Selection",
-      "icon": "🎯",
+      "title": "Model Evaluation",
+      "icon": "🧮",
       "bucket": "ds",
       "diff": 3,
-      "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Trust your numbers - cross-validation, the right metric, overfitting, and honest model comparison."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Every metric is an opinion about which mistakes matter. Both families in one arc: the classic canon (precision, recall, F1, ROC, calibration, cost matrices) and the LLM-era system (groundedness, hallucination, LLM-as-judge, latency and cost). A live evaluator runs in your browser: drag a real threshold on 2,000 scored sessions, press Optimize F1 and watch it cost $704 more than the money-optimal point, then calibrate an LLM judge and catch its verbosity bias red-handed. Ends with the eight-slot eval sheet you can defend line by line."
     },
     {
       "slug": "learn-ensemble-methods-with-phoebe",
