@@ -501,7 +501,7 @@
       "blurb": "Retrieval-augmented generation end to end - embeddings, chunking, vector databases, hybrid retrieval, reranking, grounding with citations, and evaluation - grown across three escalating corpora with a live retrieval playground. The prerequisite that feeds LangChain."
     },
     {
-      "slug": "learn-evals-with-phoebe",
+      "slug": "learn-ai-evals-with-phoebe",
       "title": "Learn Evals",
       "icon": "📊",
       "bucket": "ai",
