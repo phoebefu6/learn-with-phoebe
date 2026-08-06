@@ -1416,15 +1416,15 @@
     },
     {
       "slug": "learn-tcm-with-phoebe",
-      "title": "TCM Basics",
-      "icon": "🌿",
+      "title": "Reading the Yellow Emperor",
+      "icon": "📜",
       "bucket": "move",
       "diff": 2,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Traditional Chinese Medicine concepts - qi, meridians, and the five elements - as a literacy course, not medical advice."
+      "format": "interactive",
+      "sessions": 6,
+      "status": "live",
+      "blurb": "A guided first read of 黄帝内经 - yin-yang, five phases, the zang-fu body, living with the seasons - with an interactive five-phases wheel and an honesty rail that never blurs what the text says with what research shows."
     },
     {
       "slug": "learn-kpop-dance-with-phoebe",
