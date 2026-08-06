@@ -1346,15 +1346,15 @@
     },
     {
       "slug": "learn-meditation-with-phoebe",
-      "title": "Meditation & Breathwork",
+      "title": "Meditation for Skeptics",
       "icon": "🧘",
       "bucket": "move",
       "diff": 1,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The theory of stillness - attention, breath, and nervous-system regulation, with guided practice video."
+      "format": "interactive",
+      "sessions": 6,
+      "status": "live",
+      "blurb": "A secular, honest on-ramp: the breath, the body, the wandering mind - real effect sizes, a live breath pacer, and your own 4-week starter plan."
     },
     {
       "slug": "learn-yoga-with-phoebe",
