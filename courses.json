@@ -416,10 +416,9 @@
       "bucket": "aidm",
       "diff": 2,
       "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "How PMs actually use AI - discovery, user research synthesis, specs, roadmaps, prioritisation and analytics - with the judgement calls it cannot make for you."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Product management when drafting is free - a leader track on what AI changes and what it cannot touch, plus a PM track that takes one decision from a vague ask to a signable spec. The lab scores a spec on six checks and will score yours."
     },
     {
       "slug": "learn-ai-consulting-with-phoebe",
