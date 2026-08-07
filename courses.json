@@ -1007,11 +1007,10 @@
       "icon": "🧪",
       "bucket": "ds",
       "diff": 3,
-      "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Where models are won - encoding, scaling, leakage traps, and building features that actually predict."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "A column is what the database gives you; a feature is what the model can learn from - and almost all the winnable performance lives in that gap. Two tracks: leaders learn why feature work beats model shopping, why a suspiciously good score is a red flag, and what governance costs; practitioners rebuild Lumen's checkout data through scaling, encoding, datetime, interactions, missing-data signal, selection and an honest embeddings bridge. A live workbench trains a real model in your browser - held-out AUC climbs 0.500 to 0.813 with the algorithm never changing, then the leakage lever turns 0.967 training into 0.789 held-out the moment the column that knew the future goes missing."
     },
     {
       "slug": "learn-model-evaluation-with-phoebe",
