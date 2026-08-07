@@ -1403,15 +1403,15 @@
     },
     {
       "slug": "learn-taichi-with-phoebe",
-      "title": "Tai Chi: Principles & Form",
+      "title": "Before Your First Tai Chi Class",
       "icon": "☯️",
       "bucket": "move",
       "diff": 2,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Weight-shift, the five principles, and the philosophy behind the form - the pilot course for the video pipeline."
+      "format": "interactive",
+      "sessions": 6,
+      "status": "live",
+      "blurb": "What text can honestly teach about 太极拳 - the three identities, the history without the myth, rooting and 松 song, the thirteen postures, the real evidence, and how to vet a teacher when no certification exists. With a rooting lab that computes the balance geometry live."
     },
     {
       "slug": "learn-tcm-with-phoebe",
