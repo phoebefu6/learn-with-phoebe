@@ -228,18 +228,6 @@
       "blurb": "Build an AI avatar - talking-head video, cloned voice, and a digital presenter that scales your content."
     },
     {
-      "slug": "learn-ai-data-analysis-with-phoebe",
-      "title": "AI + Data Analysis",
-      "icon": "📈",
-      "bucket": "aidm",
-      "diff": 2,
-      "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Let AI do the first pass - explore, chart, and explain a dataset in plain language, then verify."
-    },
-    {
       "slug": "learn-ai-data-science-with-phoebe",
       "title": "AI + Data Science",
       "icon": "🧪",
