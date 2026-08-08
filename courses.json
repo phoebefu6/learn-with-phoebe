@@ -756,6 +756,17 @@
       "blurb": "Set goals, measure fairly, and grow people - OKRs, reviews, and performance conversations that work."
     },
     {
+      "slug": "learn-okr-with-phoebe",
+      "title": "OKRs & Fair Measurement",
+      "icon": "⚖️",
+      "bucket": "lead",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "How to measure people and teams fairly. A leader track (6, design the system) plus a manager track (10, run it fairly), worked on Cartwheel, an online retailer. OKRs vs KPIs, the metric tree decomposed to controllable levers, the idiosyncratic rater effect (most of a rating's variance is the rater, not the rated), bias hiding in review language, calibration that corrects instead of ranking, and AI as a bias-checking helper inside the EU AI Act / GDPR Art 22 / NYC LL144 floor. A live Fair-Metric Lab scores a metric's fairness from its real attributes, then ties it to pay and watches the number race to target while the outcome it stood for collapses. The linchpin, repeated all course: OKR scores steer and teach, they never set pay."
+    },
+    {
       "slug": "learn-ai-governance-with-phoebe",
       "title": "AI Governance & the EU AI Act",
       "icon": "⚖️",
