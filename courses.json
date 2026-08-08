@@ -301,10 +301,9 @@
       "bucket": "aidm",
       "diff": 2,
       "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Design with AI - moodboards, UI drafts, and illustration, with taste still in the driver's seat."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Two tracks on designing with AI - the 6-session leader track covers the tool and credit map, IP and provenance risk, craft and careers, and a rollout measured on quality; the 10-session designer track takes one Cadence feature from constraint brief to spec'd handoff. A live critique lab renders a real screen and measures it for real (WCAG contrast, computed spacing, hue families), climbing 17 to 100 - then loses 19 points to the most popular instinct in design reviews."
     },
     {
       "slug": "learn-ai-hr-with-phoebe",
@@ -358,10 +357,9 @@
       "bucket": "aidm",
       "diff": 3,
       "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Accelerate research with AI - literature review, synthesis, and drafting, with citations you actually check."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Two tracks on research you can defend - the 6-session leader track sets the shared evidence standard, the failure catalogue, the consent rails and how to decide on fast evidence; the 10-session researcher track runs one real decision from falsifiable claims through tiered search, screening, extraction and replication checks to a memo with an audit trail. A live evidence lab audits 10 claims against 7 rules, climbing 0 to 9 of 10 - and shows why adding 40 more sources costs you a claim. Fabricated-citation catching belongs to the AI + Law course; this one owns whether a real source supports the claim."
     },
     {
       "slug": "learn-ai-project-management-with-phoebe",
