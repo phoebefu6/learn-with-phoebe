@@ -150,10 +150,9 @@
       "bucket": "aiap",
       "diff": 1,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Draft, edit, and polish with AI while keeping your voice - the writing workflow that saves hours."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Two tracks on the writing that fills a working week and has your name on it - the 6-session leader track covers reading a document a model touched, the house voice written down, disclosure and over-reliance, and a one-page team standard; the 10-session writer track runs one real week at Cadence through briefs, voice capture, emails, memos, editing, difficult messages and long-form. A live clarity lab measures real text on seven computed checks and climbs 48 to 98 while the word count falls from 223 to 102 - then loses 36 points to \"make it sound more professional\". Includes a score-your-own-writing box you keep after the course."
     },
     {
       "slug": "learn-ai-office-with-phoebe",
