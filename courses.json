@@ -1546,6 +1546,17 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "What an agent actually is - an LLM in a loop with tools - and how to make one reliable. Two tracks: leaders learn workflows-vs-agents, the seven guardrail types and when NOT to build; builders assemble the Daybreak Ops Agent in raw Python across tools, memory, planning, guardrails and evals. A live agent simulator runs the 12-task golden set in your browser: watch the score climb 1 to 12 as you switch the four levers on, catch a real prompt injection, and gate an irreversible send behind draft-and-hold."
+    },
+    {
+      "slug": "learn-ai-infra-with-phoebe",
+      "title": "AI Infrastructure",
+      "icon": "🏗️",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "The platform behind your whole data team, as eight layers and five personas. Leaders get the investment case: where the money actually goes, why every published GPU TCO analysis concludes rent and who wrote them, and what really happened in the platform builds that published numbers. Practitioners build the reference architecture layer by layer - storage economics, the catalog as the real lock-in surface, orchestration, lakehouse, semantic layer, MLOps, LLM gateway - with honest cost bands and named options throughout. A live simulator computes the monthly bill from published rate cards as your five people come unblocked, then shows what analytics egress costs and why self-serve bought before a semantic layer produces confident wrong answers."
     }
   ]
 }
