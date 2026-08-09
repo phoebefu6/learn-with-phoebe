@@ -743,14 +743,13 @@
     {
       "slug": "learn-performance-management-with-phoebe",
       "title": "Performance Management",
-      "icon": "✨",
+      "icon": "🌱",
       "bucket": "lead",
       "diff": 3,
-      "audience": "leader",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Set goals, measure fairly, and grow people - OKRs, reviews, and performance conversations that work."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Grow people, and part well when you must. The craft the OKR course deliberately leaves out: ramp and the first 90 days, coaching rather than fixing (GROW, oversight matched to task-relevant maturity), growth plans people actually use, ladders translated into behaviour you can observe, and the four causes of underperformance - skill, will, fit, context - each needing a different intervention. Then the conversations nobody is taught: promotion denial, pay, \"this is not working\", and a managed exit with a defensible process and dignity intact. A live PIP Lab runs two meters at once: build a plan properly and recovery climbs 22% to 88% while defensibility climbs 8% to 92%, shorten it to two weeks and both collapse to 32/36, write it after the decision is made and it drops to 5/13. The case that matters most tops out at 31% recovery with a perfect 92% process, because the cause was never the person. Two tracks: 6 for CHROs and heads of function who design the system, 10 for team leads who run it. Sibling to learn-okr-with-phoebe on the same company. Not legal advice."
     },
     {
       "slug": "learn-okr-with-phoebe",
