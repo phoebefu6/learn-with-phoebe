@@ -1020,15 +1020,14 @@
     },
     {
       "slug": "learn-unsupervised-with-phoebe",
-      "title": "Unsupervised Learning & Clustering",
-      "icon": "🔮",
+      "title": "Unsupervised Learning",
+      "icon": "🥭",
       "bucket": "ds",
       "diff": 3,
       "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Find structure with no labels - k-means, hierarchical clustering, and dimensionality reduction."
+      "format": "interactive",
+      "sessions": 10,
+      "blurb": "Segment 12,000 Mango Lane customers with no labels: real k-means, DBSCAN, PCA and basket mining running live in your browser - spring the cents trap and the k=12 trap yourself, then learn the tells that stop you naming noise."
     },
     {
       "slug": "learn-deep-learning-with-phoebe",
