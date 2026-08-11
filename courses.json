@@ -1054,6 +1054,17 @@
       "blurb": "Two tracks on experimentation, A/B testing, and causal inference - power, randomization, sequential testing, CUPED, geo and synthetic control, diff-in-diff, and propensity - on the Lumen running case, with live in-browser simulators."
     },
     {
+      "slug": "learn-data-pipelines-with-phoebe",
+      "title": "Data Pipelines",
+      "icon": "🚚",
+      "bucket": "deng",
+      "diff": 1,
+      "audience": "leader",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The zero-code on-ramp to the deng shelf: follow one Daybreak order from an 11:41pm checkout to the Monday dashboard, decode every tool name in plain English, then break the pipeline floor stage by stage and watch what the dashboard admits."
+    },
+    {
       "slug": "learn-data-modeling-with-phoebe",
       "title": "Data Modeling & Schema Design",
       "icon": "🧱",
