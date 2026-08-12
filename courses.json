@@ -417,6 +417,17 @@
       "blurb": "Sales teams using AI - prospecting, outreach that does not read as generated, call prep, CRM hygiene and forecasting - with the compliance rails."
     },
     {
+      "slug": "learn-ai-academia-with-phoebe",
+      "title": "AI + Academia",
+      "icon": "🎓",
+      "bucket": "aidm",
+      "diff": 2,
+      "audience": "both",
+      "format": "topic",
+      "sessions": 16,
+      "blurb": "AI for researchers, PhDs and professors - no bluff, every claim traced to a primary source. The 6-session leader track gives PIs and lab heads the real policy rails (NIH's two notices, publisher rules, ICMJE, COPE), authorship and supervision norms, grants, peer-review red lines and a one-page lab AI policy. The 10-session researcher track runs the full cycle hands-on: search, screening, extraction, hypothesis discipline, research code with tests, analysis without forking paths, writing with clean disclosure, and reviewing others. A live screening lab computes recall and precision over 40 records as five practices toggle on - 4 to 11 of 12 - then shows what unverified AI screening silently costs."
+    },
+    {
       "slug": "learn-claude-with-phoebe",
       "title": "Learn Claude",
       "icon": "🤖",
