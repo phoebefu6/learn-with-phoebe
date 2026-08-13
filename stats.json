@@ -1,11 +1,11 @@
 {
   "updated": "2026-08-13",
-  "courses_live": 75,
+  "courses_live": 76,
   "courses_planned": 52,
-  "courses_total": 127,
-  "sessions_live": 978,
+  "courses_total": 128,
+  "sessions_live": 994,
   "buckets_live": 12,
-  "repos_live": 83,
+  "repos_live": 84,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
     "learn-ai-academia-with-phoebe",
@@ -24,6 +24,7 @@
     "learn-ai-leadership-with-phoebe",
     "learn-ai-literacy-with-phoebe",
     "learn-ai-marketing-with-phoebe",
+    "learn-ai-observability-with-phoebe",
     "learn-ai-pm-with-phoebe",
     "learn-ai-project-management-with-phoebe",
     "learn-ai-research-with-phoebe",
