@@ -1572,6 +1572,17 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "The platform behind your whole data team, as eight layers and five personas. Leaders get the investment case: where the money actually goes, why every published GPU TCO analysis concludes rent and who wrote them, and what really happened in the platform builds that published numbers. Practitioners build the reference architecture layer by layer - storage economics, the catalog as the real lock-in surface, orchestration, lakehouse, semantic layer, MLOps, LLM gateway - with honest cost bands and named options throughout. A live simulator computes the monthly bill from published rate cards as your five people come unblocked, then shows what analytics egress costs and why self-serve bought before a semantic layer produces confident wrong answers."
+    },
+    {
+      "slug": "learn-agent-launch-with-phoebe",
+      "title": "Agent Launch Gate",
+      "icon": "🚦",
+      "bucket": "ai",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Given all the eval numbers, do you ship? The launch-gate capstone over the eval courses: pick criteria per bot archetype, size a golden set until it proves something, and run a six-gate scorecard where quality cannot buy off cost. Three archetypes gated end to end - a support chatbot with no ground truth, a text-to-query bot whose answers are executable, and an analytics bot where errors compound. A live gate computes a real 95% Wilson interval in your browser: watch confidence climb from 76.4%, the honest reading of a nineteen-out-of-twenty demo, to 92.5% where it can be signed - and twice along the way nothing about the bot changes at all."
     }
   ]
 }
