@@ -1,0 +1,41 @@
+name: Refresh stats
+
+# stats.json is the single source of truth for every count shown across the
+# repos, badges and the profile README. Nothing hardcodes a course count, so
+# this daily run is what keeps all of them honest as courses ship.
+
+on:
+  schedule:
+    - cron: "17 22 * * *" # 06:17 Singapore time, daily
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - courses.json
+      - scripts/build-stats.py
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rebuild stats.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 scripts/build-stats.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- stats.json; then
+            echo "no change"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add stats.json
+          git commit -m "chore: refresh stats.json"
+          git push
