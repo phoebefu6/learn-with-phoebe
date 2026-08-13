@@ -1,3 +1,13 @@
+<!-- phoebe header -->
+
+[![Browse every course](https://img.shields.io/badge/%E2%96%B6%20browse%20every%20course-1f6feb?style=for-the-badge)](https://phoebefu6.github.io/learn-with-phoebe/)
+[![Star this repo](https://img.shields.io/github/stars/phoebefu6/learn-with-phoebe?style=for-the-badge&label=star%20this%20repo&color=444444)](https://github.com/phoebefu6/learn-with-phoebe/stargazers)
+
+### ▶︎ [Browse every course →](https://phoebefu6.github.io/learn-with-phoebe/)
+
+Every course is free and runs in your browser. No install, no login.
+
+<!-- /phoebe header -->
 # Learn with Phoebe
 
 The front door to every **learn-X-with-phoebe** course - a single shelf that categorizes
