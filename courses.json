@@ -1583,6 +1583,17 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "Given all the eval numbers, do you ship? The launch-gate capstone over the eval courses: pick criteria per bot archetype, size a golden set until it proves something, and run a six-gate scorecard where quality cannot buy off cost. Three archetypes gated end to end - a support chatbot with no ground truth, a text-to-query bot whose answers are executable, and an analytics bot where errors compound. A live gate computes a real 95% Wilson interval in your browser: watch confidence climb from 76.4%, the honest reading of a nineteen-out-of-twenty demo, to 92.5% where it can be signed - and twice along the way nothing about the bot changes at all."
+    },
+    {
+      "slug": "learn-ai-observability-with-phoebe",
+      "title": "AI Observability",
+      "icon": "🔭",
+      "bucket": "ai",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Evals tell you whether it works; this tells you what actually happened. Tuesday 09:14, an analytics bot starts sending executives stale numbers - no error, no alert, green dashboard - because two thirds of the run sits inside no span at all. Spans and the current OpenTelemetry GenAI conventions including the names that changed under you, instrumenting an agent loop that is width rather than depth, per-span cost and latency, the empirical failure taxonomy, tail sampling, burn-rate alerting, and the privacy split that keeps you debuggable and compliant. A live trace explorer computes real arithmetic in your browser: switch coverage on one lever at a time and watch the visible wall clock climb 32.4% to 100% while the diagnosis goes zero of five questions to five - then switch on full prompt capture and watch the diagnosis refuse to move while retention jumps ten and a half times."
     }
   ]
 }
