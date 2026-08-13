@@ -8,22 +8,15 @@
 Every course is free and runs in your browser. No install, no login.
 
 <!-- /phoebe header -->
+
 # Learn with Phoebe
 
-The front door to every **learn-X-with-phoebe** course - a single shelf that categorizes
-them into five buckets and links out to each live course site.
+The front door to every **learn-X-with-phoebe** course - one shelf that groups them into
+buckets and links out to each live course site. By Phoebe Fu.
 
-By Phoebe Fu. Live: https://phoebefu6.github.io/learn-with-phoebe/
-
-## Buckets
-
-- 🤖 **AI & LLMs** - LangChain, Prompt Engineering, Claude, Codex, Hermes AI, AI Literacy
-- 📊 **Data & Analytics** - SQL, Python Data Analysis, Data Literacy, Data Governance, DataOps
-- 💻 **Programming & Dev Tools** - Python, HTML, GitHub (builder + non-tech)
-- ✍️ **Markup, Docs & Diagrams** - Markdown, Mermaid, Tech Writing
-- 🧭 **Leadership & Delivery** - Strategic Thinking, Tech Project PMO
-
-Filter by bucket, by audience (leaders / builders), or by interactive courses.
+Filter by bucket, by audience (leaders / builders), or by interactive courses. The bucket
+list is not repeated here on purpose: `courses.json` is the source of truth and the site
+renders it, so this README cannot fall out of date.
 
 ## How it works
 
