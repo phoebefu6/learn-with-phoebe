@@ -21,22 +21,25 @@ permissions:
 jobs:
   backfill:
     runs-on: ubuntu-latest
+    # The secrets context cannot be read from a step-level `if`, so the token is
+    # mapped into the environment once and the steps branch on that.
+    env:
+      REPO_ADMIN_TOKEN: ${{ secrets.REPO_ADMIN_TOKEN }}
     steps:
       - uses: actions/checkout@v4
 
       - name: Report what is missing
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_ADMIN_TOKEN: ""
         run: python3 scripts/backfill-metadata.py --dry-run
 
       - name: Apply
-        if: ${{ secrets.REPO_ADMIN_TOKEN != '' }}
-        env:
-          REPO_ADMIN_TOKEN: ${{ secrets.REPO_ADMIN_TOKEN }}
+        if: env.REPO_ADMIN_TOKEN != ''
         run: python3 scripts/backfill-metadata.py
 
       - name: Note the missing secret
-        if: ${{ secrets.REPO_ADMIN_TOKEN == '' }}
+        if: env.REPO_ADMIN_TOKEN == ''
         run: |
           echo "::warning::REPO_ADMIN_TOKEN is not set, so nothing was applied."
           echo "The dry run above lists what a run would fix. Add a fine-grained PAT"
