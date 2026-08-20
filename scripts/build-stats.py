@@ -100,8 +100,39 @@ def build() -> dict:
         "buckets_live": len(buckets),
         "repos_live": len(live),
         "live_course_slugs": live_courses,
+        "first_seen": first_seen(live_courses),
         "unlisted_course_repos": unlisted,
     }
+
+
+def first_seen(live_courses: list[str]) -> dict[str, str]:
+    """Date each course was first observed live, carried forward across runs.
+
+    A course going live is the only real "new" signal available - git history
+    records pushes, not launches, and the repo often exists for days before its
+    site serves. Whatever this file already recorded is never rewritten, so the
+    dates stay honest even as courses.json is reordered or edited.
+
+    Courses first seen before this map existed are backdated to the day tracking
+    started, so they are not all announced at once as brand new.
+    """
+    out = ROOT / "stats.json"
+    known: dict[str, str] = {}
+    if out.exists():
+        try:
+            known = json.loads(out.read_text()).get("first_seen", {}) or {}
+        except json.JSONDecodeError:
+            known = {}
+
+    today = date.today().isoformat()
+    backfill = today if not known else min(known.values())
+
+    seen = {}
+    for slug in live_courses:
+        # An unknown slug is new only once tracking is established; on the very
+        # first run everything is backdated together.
+        seen[slug] = known.get(slug, today if known else backfill)
+    return dict(sorted(seen.items()))
 
 
 def main() -> int:
