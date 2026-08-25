@@ -181,12 +181,11 @@
       "title": "AI + Coding",
       "icon": "👩‍💻",
       "bucket": "aiap",
-      "diff": 2,
-      "audience": "builder",
+      "diff": 3,
+      "audience": "practitioner",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Ship code faster with AI - Claude Code, Copilot, and the habits that keep quality high."
+      "sessions": 6,
+      "blurb": "Six sessions, one real feature. The famous 19 percent slowdown study, the walk-back its own authors published, and a playground that really compiles and runs five coding tasks. Accept everything and it scores 5/5 green while every implementation is wrong."
     },
     {
       "slug": "learn-ai-qa-with-phoebe",
@@ -194,11 +193,10 @@
       "icon": "🔍",
       "bucket": "aiap",
       "diff": 2,
-      "audience": "builder",
+      "audience": "practitioner",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Use AI to test smarter - generating cases, reviewing changes, and catching bugs before users do."
+      "sessions": 6,
+      "blurb": "Six sessions, one suite you can defend. Two suites, identical 100 percent coverage, mutation scores of 25 and 92. Real mutation testing running in your browser, nothing simulated."
     },
     {
       "slug": "learn-ai-media-with-phoebe",
