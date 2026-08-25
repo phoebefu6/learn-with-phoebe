@@ -172,11 +172,10 @@
       "icon": "📽️",
       "bucket": "aiap",
       "diff": 2,
-      "audience": "both",
+      "audience": "practitioner",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Go from outline to a designed deck with AI - structure, slides, and visuals in a fraction of the time."
+      "sessions": 6,
+      "blurb": "Six sessions, one real deck. The 30-second test, assertion-evidence (the only slide method with peer-reviewed comprehension data), and a live simulator that climbs 27 to 91 percent as you fix one thing at a time."
     },
     {
       "slug": "learn-ai-coding-with-phoebe",
