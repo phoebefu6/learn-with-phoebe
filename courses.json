@@ -160,11 +160,10 @@
       "icon": "📁",
       "bucket": "aiap",
       "diff": 1,
-      "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "AI across everyday tools - email, docs, spreadsheets, and the office tasks that eat your day."
+      "audience": "practitioner",
+      "format": "project",
+      "sessions": 6,
+      "blurb": "Six sessions, one weekly report. The honest one: 40 percent faster on one task, 2 percent of your actual week, and a simulator that shows you exactly where the difference goes. Includes the meeting claim that is measurably false."
     },
     {
       "slug": "learn-ai-ppt-with-phoebe",
