@@ -282,10 +282,9 @@
       "bucket": "aidm",
       "diff": 2,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "AI in content and media - ideation, production, and distribution across formats."
+      "format": "project",
+      "sessions": 16,
+      "blurb": "Fewer people, less money, more checking, lower trust. Editors get provenance, rights, policy and the economics after search; producers work one story end to end with a live verification desk."
     },
     {
       "slug": "learn-ai-design-with-phoebe",
