@@ -205,7 +205,7 @@
       "bucket": "aiap",
       "diff": 2,
       "audience": "both",
-      "format": "video",
+      "format": "project",
       "sessions": 6,
       "blurb": "Six sessions, one sixty-second video. The biggest lever costs nothing and needs no tool: saying the point in the first three seconds takes retention from 16 percent to 72. Run a real silence detector in your browser, learn the constraints no feature page mentions, and see why OpenAI switching Sora off in September makes tool knowledge here worth less than judgment."
     },
@@ -216,7 +216,7 @@
       "bucket": "aiap",
       "diff": 3,
       "audience": "both",
-      "format": "video",
+      "format": "project",
       "sessions": 6,
       "blurb": "Six sessions, one decision you can defend. Not how to make a synthetic presenter, but whether you should. What consent each vendor genuinely requires, why the on-screen face is the weakest lever in multimedia learning at d = 0.22, what happens to every video already made when the person leaves, and why disclosure is worth plus zero on believability and everything on durability."
     },
