@@ -337,10 +337,9 @@
       "bucket": "aidm",
       "diff": 2,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "AI in sport - performance analytics, tracking, and tactics, from wearables to game film."
+      "format": "project",
+      "sessions": 16,
+      "blurb": "The models are weakest where the stakes are highest. Directors get the data estate, recruitment, athlete welfare and integrity; analysts build a shot model where the anti-feature makes the headline number go up."
     },
     {
       "slug": "learn-ai-research-with-phoebe",
