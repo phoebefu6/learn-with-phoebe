@@ -1129,9 +1129,9 @@
       "diff": 4,
       "audience": "builder",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Architect the whole system - services, orchestration, and the governed shell that ties a data/AI platform together."
+      "sessions": 8,
+      "status": "live",
+      "blurb": "Not what the layers are and not how to build the pipe - how to CHOOSE. Eight sessions architecting the Daybreak platform against four meters that fight each other, with a tradeoff board where switching the requirement flips the verdict without touching a lever."
     },
     {
       "slug": "learn-product-design-with-phoebe",
@@ -1140,10 +1140,10 @@
       "bucket": "sys",
       "diff": 3,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Think in products - user needs, flows, information design, and UI/UX that makes a system usable."
+      "format": "project",
+      "sessions": 6,
+      "status": "live",
+      "blurb": "One real screen from problem statement to engineering handoff. Research that changes your mind, structure, and a live scorer that measures WCAG contrast on the actual rendered pixels - then an anti-lever that costs you 42 points."
     },
     {
       "slug": "learn-blockchain-with-phoebe",
