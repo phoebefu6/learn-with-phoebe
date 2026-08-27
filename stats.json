@@ -1,11 +1,11 @@
 {
   "updated": "2026-08-27",
-  "courses_live": 91,
-  "courses_planned": 38,
+  "courses_live": 93,
+  "courses_planned": 36,
   "courses_total": 129,
-  "sessions_live": 1142,
-  "buckets_live": 14,
-  "repos_live": 100,
+  "sessions_live": 1154,
+  "buckets_live": 15,
+  "repos_live": 102,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
     "learn-ai-academia-with-phoebe",
@@ -57,6 +57,7 @@
     "learn-data-product-with-phoebe",
     "learn-data-warehouse-with-phoebe",
     "learn-dataops-with-phoebe",
+    "learn-dataviz-with-phoebe",
     "learn-ecommerce-metrics-with-phoebe",
     "learn-experimentation-with-phoebe",
     "learn-feature-engineering-with-phoebe",
@@ -96,6 +97,7 @@
     "learn-timeseries-forecasting-with-phoebe",
     "learn-unsupervised-with-phoebe",
     "learn-user-journey-analytics-with-phoebe",
+    "learn-visual-storytelling-with-phoebe",
     "learn-workbuddy-with-phoebe",
     "learn-yoga-theory-with-phoebe"
   ],
@@ -150,6 +152,7 @@
     "learn-data-product-with-phoebe": "2026-08-20",
     "learn-data-warehouse-with-phoebe": "2026-08-20",
     "learn-dataops-with-phoebe": "2026-08-20",
+    "learn-dataviz-with-phoebe": "2026-08-27",
     "learn-ecommerce-metrics-with-phoebe": "2026-08-20",
     "learn-experimentation-with-phoebe": "2026-08-20",
     "learn-feature-engineering-with-phoebe": "2026-08-20",
@@ -189,6 +192,7 @@
     "learn-timeseries-forecasting-with-phoebe": "2026-08-20",
     "learn-unsupervised-with-phoebe": "2026-08-20",
     "learn-user-journey-analytics-with-phoebe": "2026-08-20",
+    "learn-visual-storytelling-with-phoebe": "2026-08-27",
     "learn-workbuddy-with-phoebe": "2026-08-20",
     "learn-yoga-theory-with-phoebe": "2026-08-20"
   },
