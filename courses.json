@@ -885,11 +885,11 @@
       "icon": "💬",
       "bucket": "comm",
       "diff": 1,
-      "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The foundation - clarity, listening, and structuring a message so it actually lands."
+      "audience": "both",
+      "format": "project",
+      "sessions": 6,
+      "status": "live",
+      "blurb": "One message rebuilt six times, from ignored to acted on. With a clarity scorer that measures your real text - sentence length, passive voice, abstractions by name, and which sentence your ask is buried in."
     },
     {
       "slug": "learn-business-english-with-phoebe",
@@ -940,18 +940,6 @@
       "blurb": "Run a room of people to a real outcome - agendas, group dynamics, and steering without dominating."
     },
     {
-      "slug": "learn-corporate-training-with-phoebe",
-      "title": "Corporate Training",
-      "icon": "🏫",
-      "bucket": "comm",
-      "diff": 3,
-      "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Design and deliver training that changes behavior - needs analysis, adult learning, and measuring impact."
-    },
-    {
       "slug": "learn-course-design-with-phoebe",
       "title": "Workshop & Course Design",
       "icon": "📐",
@@ -959,9 +947,9 @@
       "diff": 3,
       "audience": "both",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Instructional design done right - learning objectives, arc, activities, and assessment. The craft behind this whole shelf."
+      "sessions": 12,
+      "status": "live",
+      "blurb": "Two tracks: design the learning, then get it used and prove it changed something. With a transfer board showing where a trained skill goes over 90 days - and the biggest lever on it is a two-line email to somebody's manager. Absorbs the planned corporate-training course."
     },
     {
       "slug": "learn-statistics-with-phoebe",
