@@ -1295,9 +1295,9 @@
       "diff": 2,
       "audience": "both",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Charts that tell the truth well - encoding, color, and picking the right chart for the question."
+      "sessions": 6,
+      "status": "live",
+      "blurb": "A 21 percent difference, shown as 173 percent, by a chart nobody thought was dishonest. Six sessions on which encoding a question needs and whether the picture is telling the truth - with a bench that computes the lie factor from the chart's own geometry, the contrast from its own colours, and colour-vision separation through a real matrix transform."
     },
     {
       "slug": "learn-sketchnoting-with-phoebe",
@@ -1319,9 +1319,9 @@
       "diff": 2,
       "audience": "both",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Make ideas land - narrative structure plus visuals, the craft behind your Worth a Thousand Words gallery."
+      "sessions": 6,
+      "status": "live",
+      "blurb": "The charts are right and nobody acts on the deck. Six sessions on the other half: the one sentence, answer-first order, one idea per visual, and a bench that reads where your point lands, the words before it and the claim count straight out of the rendered slides. One requested context slide costs 170 of those words."
     },
     {
       "slug": "learn-ai-illustration-with-phoebe",
