@@ -10,7 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="assets/style.css?v=14">
+<link rel="stylesheet" href="assets/style.css?v=15">
 </head>
 <body>
 
@@ -30,7 +30,13 @@
 </header>
 
 <nav class="filterbar">
-  <div class="wrap" id="filters"></div>
+  <div class="wrap fbar-row">
+    <span class="fsummary" id="fsummary">All courses</span>
+    <button class="fchip ftoggle" id="ftoggle" type="button" aria-expanded="false" aria-controls="fpanel">Browse categories <span class="fcaret">▾</span></button>
+  </div>
+  <div class="fpanel" id="fpanel">
+    <div class="wrap" id="filters"></div>
+  </div>
 </nav>
 
 <main>
@@ -43,6 +49,6 @@
   </div>
 </footer>
 
-<script src="assets/hub.js?v=16"></script>
+<script src="assets/hub.js?v=17"></script>
 </body>
 </html>

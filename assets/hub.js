@@ -236,15 +236,43 @@
   }
 
   function wireFilters() {
-    var chips = document.querySelectorAll(".fchip");
+    var chips = document.querySelectorAll("#filters .fchip");
     var empty = document.querySelector(".empty");
+    var panel = document.getElementById("fpanel");
+    var toggle = document.getElementById("ftoggle");
+    var summary = document.getElementById("fsummary");
+
+    function updateSummary() {
+      var on = document.querySelector("#filters .fchip.on");
+      if (on && summary) summary.innerHTML = on.innerHTML;
+    }
+    function setOpen(open) {
+      panel.classList.toggle("open", open);
+      toggle.setAttribute("aria-expanded", String(open));
+    }
+    if (toggle && panel) {
+      toggle.addEventListener("click", function (e) {
+        e.stopPropagation();
+        setOpen(!panel.classList.contains("open"));
+      });
+      document.addEventListener("click", function (e) {
+        if (panel.classList.contains("open") && !panel.contains(e.target) && e.target !== toggle) setOpen(false);
+      });
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape") setOpen(false);
+      });
+    }
+
     chips.forEach(function (c) {
       c.addEventListener("click", function () {
         chips.forEach(function (x) { x.classList.remove("on"); });
         c.classList.add("on");
         apply(c.getAttribute("data-filter"), empty);
+        updateSummary();
+        setOpen(false);
       });
     });
+    updateSummary();
   }
 
   function apply(filter, empty) {
