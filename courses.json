@@ -888,7 +888,6 @@
       "audience": "both",
       "format": "project",
       "sessions": 6,
-      "status": "live",
       "blurb": "One message rebuilt six times, from ignored to acted on. With a clarity scorer that measures your real text - sentence length, passive voice, abstractions by name, and which sentence your ask is buried in."
     },
     {
@@ -948,7 +947,6 @@
       "audience": "both",
       "format": "project",
       "sessions": 12,
-      "status": "live",
       "blurb": "Two tracks: design the learning, then get it used and prove it changed something. With a transfer board showing where a trained skill goes over 90 days - and the biggest lever on it is a two-line email to somebody's manager. Absorbs the planned corporate-training course."
     },
     {
@@ -1116,7 +1114,6 @@
       "audience": "builder",
       "format": "project",
       "sessions": 8,
-      "status": "live",
       "blurb": "Not what the layers are and not how to build the pipe - how to CHOOSE. Eight sessions architecting the Daybreak platform against four meters that fight each other, with a tradeoff board where switching the requirement flips the verdict without touching a lever."
     },
     {
@@ -1128,7 +1125,6 @@
       "audience": "both",
       "format": "project",
       "sessions": 6,
-      "status": "live",
       "blurb": "One real screen from problem statement to engineering handoff. Research that changes your mind, structure, and a live scorer that measures WCAG contrast on the actual rendered pixels - then an anti-lever that costs you 42 points."
     },
     {
@@ -1296,7 +1292,6 @@
       "audience": "both",
       "format": "project",
       "sessions": 6,
-      "status": "live",
       "blurb": "A 21 percent difference, shown as 173 percent, by a chart nobody thought was dishonest. Six sessions on which encoding a question needs and whether the picture is telling the truth - with a bench that computes the lie factor from the chart's own geometry, the contrast from its own colours, and colour-vision separation through a real matrix transform."
     },
     {
@@ -1320,7 +1315,6 @@
       "audience": "both",
       "format": "project",
       "sessions": 6,
-      "status": "live",
       "blurb": "The charts are right and nobody acts on the deck. Six sessions on the other half: the one sentence, answer-first order, one idea per visual, and a bench that reads where your point lands, the words before it and the claim count straight out of the rendered slides. One requested context slide costs 170 of those words."
     },
     {
@@ -1344,7 +1338,6 @@
       "audience": "everyone",
       "format": "interactive",
       "sessions": 6,
-      "status": "live",
       "blurb": "A secular, honest on-ramp: the breath, the body, the wandering mind - real effect sizes, a live breath pacer, and your own 4-week starter plan."
     },
     {
@@ -1403,7 +1396,6 @@
       "audience": "everyone",
       "format": "interactive",
       "sessions": 6,
-      "status": "live",
       "blurb": "What text can honestly teach about 太极拳 - the three identities, the history without the myth, rooting and 松 song, the thirteen postures, the real evidence, and how to vet a teacher when no certification exists. With a rooting lab that computes the balance geometry live."
     },
     {
@@ -1415,7 +1407,6 @@
       "audience": "everyone",
       "format": "interactive",
       "sessions": 6,
-      "status": "live",
       "blurb": "A guided first read of 黄帝内经 - yin-yang, five phases, the zang-fu body, living with the seasons - with an interactive five-phases wheel and an honesty rail that never blurs what the text says with what research shows."
     },
     {
