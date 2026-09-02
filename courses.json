@@ -1708,6 +1708,17 @@
       "blurb": "Testing the AI systems you own, honestly, and what you may claim afterwards. A bug bounty ran 183 people over 3,000 hours and found no universal jailbreak; a later exercise with 339 people found one - red teaming establishes presence, never absence. Defensive throughout: attack classes named so you can build test cases, each paired with its defence, no exploit payloads. Scoping and rules of engagement, the OWASP 2026 and MITRE ATLAS taxonomies, injection, refusal, extraction and tool abuse, then build the suite and harden. A live attack-surface board counts an untested class at FULL risk, so it reports unknown rather than safe: probe the whole surface and the total moves only 99.3 to 96.4 while unknown risk goes 86% to zero. The system-prompt guard everyone reaches for first removes 3.6 points; least-privilege plus human approval removes 55."
     },
     {
+      "slug": "learn-when-ai-with-phoebe",
+      "title": "When AI, When Not",
+      "icon": "🦟",
+      "bucket": "ai",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The routing skill - when a dashboard beats a model, when classic ML beats GenAI, and when the tokens are worth every cent. Route a live 10-workload backlog: true cost $2,315 to $416 while trust climbs to 10/10. Never nuke a mosquito."
+    },
+    {
       "slug": "learn-customer-retention-with-phoebe",
       "title": "Customer Retention",
       "icon": "🔥",
