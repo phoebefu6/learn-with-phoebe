@@ -1,11 +1,11 @@
 {
-  "updated": "2026-09-02",
+  "updated": "2026-09-03",
   "courses_live": 95,
   "courses_planned": 46,
   "courses_total": 141,
   "sessions_live": 1172,
   "buckets_live": 15,
-  "repos_live": 104,
+  "repos_live": 105,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
     "learn-ai-academia-with-phoebe",
