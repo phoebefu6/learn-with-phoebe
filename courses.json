@@ -409,10 +409,9 @@
       "bucket": "ds",
       "diff": 4,
       "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Neural nets from the ground up - backprop intuition, PyTorch, and when deep learning beats trees."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Neural nets from the ground up - the neuron on paper, backprop by hand, a real network carving decision boundaries live in your browser, the architectures that ate vision, and the honest showdown vs the gradient booster on byte-identical data."
     },
     {
       "slug": "learn-causal-inference-with-phoebe",
