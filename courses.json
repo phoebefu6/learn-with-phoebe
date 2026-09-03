@@ -1728,6 +1728,17 @@
       "format": "interactive",
       "sessions": 12,
       "blurb": "Cohort-based retention done right: frozen history, D1/7/14/30 defined precisely, the heatmap and curve shapes, survival analysis, CLV and churn ML - plus a live flatten-the-curve simulator and the famous cases folklore-checked."
+    },
+    {
+      "slug": "learn-streaming-data-with-phoebe",
+      "title": "Streaming Data",
+      "icon": "⚡",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Daybreak's dashboard goes real-time: flip the stream on and watch accuracy land at 78.9%, then earn it back to 100.0 with idempotency, event-time windows, watermarks and replay - every number computed live, including one honest dip and a cost anti-lever that never helps."
     }
   ]
 }
