@@ -1011,10 +1011,9 @@
       "bucket": "ds",
       "diff": 3,
       "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The tabular champions - bagging, boosting, and tuning gradient-boosted trees that win in practice."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The tabular champions - bagging, boosting, XGBoost, LightGBM, CatBoost and SHAP, with real trees fitted live in your browser. Climb a measured ladder from one overfit tree at 58% to a tuned booster at 73% on the Mango Lane churn project."
     },
     {
       "slug": "learn-unsupervised-with-phoebe",
