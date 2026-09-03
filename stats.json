@@ -1,9 +1,9 @@
 {
   "updated": "2026-09-03",
-  "courses_live": 96,
-  "courses_planned": 46,
+  "courses_live": 97,
+  "courses_planned": 45,
   "courses_total": 142,
-  "sessions_live": 1178,
+  "sessions_live": 1184,
   "buckets_live": 15,
   "repos_live": 107,
   "live_course_slugs": [
@@ -60,6 +60,7 @@
     "learn-dataops-with-phoebe",
     "learn-dataviz-with-phoebe",
     "learn-ecommerce-metrics-with-phoebe",
+    "learn-ensemble-methods-with-phoebe",
     "learn-experimentation-with-phoebe",
     "learn-feature-engineering-with-phoebe",
     "learn-gdpr-with-phoebe",
@@ -158,6 +159,7 @@
     "learn-dataops-with-phoebe": "2026-08-20",
     "learn-dataviz-with-phoebe": "2026-08-27",
     "learn-ecommerce-metrics-with-phoebe": "2026-08-20",
+    "learn-ensemble-methods-with-phoebe": "2026-09-03",
     "learn-experimentation-with-phoebe": "2026-08-20",
     "learn-feature-engineering-with-phoebe": "2026-08-20",
     "learn-gdpr-with-phoebe": "2026-08-20",
