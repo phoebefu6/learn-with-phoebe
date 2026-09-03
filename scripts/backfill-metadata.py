@@ -50,7 +50,7 @@ BUCKET_TOPICS = {
     "deng": ["data-engineering", "data-pipeline", "etl", "data-warehouse"],
     "ai": ["llm", "generative-ai", "artificial-intelligence", "claude"],
     "aiap": ["applied-ai", "ai-tools", "artificial-intelligence"],
-    "aidm": ["applied-ai", "artificial-intelligence", "ai-adoption"],
+    "dsec": ["dataops", "data-security", "security-operations"],
     "gov": ["data-governance", "ai-governance", "compliance", "privacy"],
     "sys": ["system-design", "product-management", "ux-design"],
     "lead": ["leadership", "management", "decision-making"],
