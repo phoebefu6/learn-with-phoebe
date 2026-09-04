@@ -1771,6 +1771,17 @@
       "format": "interactive",
       "sessions": 6,
       "blurb": "Daybreak's 2am build runs on cron: thirty mornings on time, twelve silently wrong. Wire real dependencies, retries that know their price, rerun-safe tasks, a backfill and a 2:12am page - every lever measured across the same thirty nights, including the retry-10x trap that only slows your pager."
+    },
+    {
+      "slug": "learn-data-heuristics-with-phoebe",
+      "title": "Data Product Heuristics",
+      "icon": "🔍",
+      "bucket": "sys",
+      "diff": 4,
+      "audience": "both",
+      "format": "project",
+      "sessions": 9,
+      "blurb": "32 published principle sets, about 215 principles, assembled into one small review instrument - then run over a product carrying twenty real defects that the page genuinely detects rather than scripts. A trained usability reviewer finds 5 of 20; the measured ladder reaches 20, and two of the nine lenses add nothing at all."
     }
   ]
 }
