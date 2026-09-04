@@ -1,10 +1,10 @@
 {
   "updated": "2026-09-04",
   "courses_live": 100,
-  "courses_planned": 43,
-  "courses_total": 143,
+  "courses_planned": 45,
+  "courses_total": 145,
   "sessions_live": 1202,
-  "buckets_live": 15,
+  "buckets_live": 14,
   "repos_live": 110,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
