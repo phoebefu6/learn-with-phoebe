@@ -1736,6 +1736,17 @@
       "format": "interactive",
       "sessions": 14,
       "blurb": "Where the numbers happen: the ecommerce in-app journey, measured - the 6-session leader track reads the journey map (five entry doors and their quality, search vs browse with honestly-flagged conversion research, the PDP as decision room with Spiegel's reviews math, Baymard's checkout killers, and the reach x severity x confidence prioritization ritual); the 8-session analyst track measures it all on Mango Lane - screen map with real counts, entry-door quality and mix-vs-quality decomposition, path analysis (search 12% vs browse 4.5%), a live journey-flow simulator (toggle four classic fixes and watch conversion climb from 2.7% to 4.0%, GMV +47%), PDP engagement, the checkout micro-funnel, a full journey-leak diagnosis, and the journey scorecard. Same store and month as the metrics course - every count reconciles to the order. Course 2 of the ecommerce & growth analytics series."
+    },
+    {
+      "slug": "learn-data-orchestration-with-phoebe",
+      "title": "Data Orchestration",
+      "icon": "🌙",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Daybreak's 2am build runs on cron: thirty mornings on time, twelve silently wrong. Wire real dependencies, retries that know their price, rerun-safe tasks, a backfill and a 2:12am page - every lever measured across the same thirty nights, including the retry-10x trap that only slows your pager."
     }
   ]
 }
