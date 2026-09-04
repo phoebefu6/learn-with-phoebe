@@ -103,10 +103,10 @@
       "blurb": "Yoga, tai chi, dance, and meditation - theory-first courses enriched with curated and AI-generated video. In progress."
     },
     {
-      "id": "ecom",
-      "name": "Ecommerce & Growth Analytics",
+      "id": "ship",
+      "name": "Let's Ship It End to End",
       "tier": 4,
-      "blurb": "How an online business is measured - metrics, user journeys, traffic, and campaigns - decomposed on one running store."
+      "blurb": "Industry-by-industry data and AI roadmaps - the use-case portfolio a business model actually makes possible, the data it really holds, and the order to build it in."
     }
   ],
   "levels": [
@@ -1719,23 +1719,47 @@
       "slug": "learn-ecommerce-metrics-with-phoebe",
       "title": "Ecommerce Metrics",
       "icon": "🛍️",
-      "bucket": "ecom",
+      "bucket": "data",
       "diff": 1,
       "audience": "both",
       "format": "interactive",
       "sessions": 14,
-      "blurb": "Every ecommerce number, explained on one store - the 6-session leader track covers the GMV equation, the metric dictionary (visitor vs session, the two conversion rates), reading the funnel, the weekly business review, honest benchmarks by industry, and metric governance; the 8-session analyst track decomposes Mango Lane (240K visitors, 360K sessions, 9,720 orders, $660,960 GMV) completely - core four by hand, a live driver-tree simulator (edit PDP penetration or checkout completion and watch GMV move, simulate a drop and trace the coral trail), funnel gates, drop diagnosis, segment cuts and mix effects, the review pack, and the metric spec sheet. Definitions verified against GA4 and Shopify docs, benchmarked with Baymard, IRP, Dynamic Yield, and Littledata. On-ramp of the ecommerce & growth analytics series."
+      "blurb": "Every ecommerce number, explained on one store - the 6-session leader track covers the GMV equation, the metric dictionary (visitor vs session, the two conversion rates), reading the funnel, the weekly business review, honest benchmarks by industry, and metric governance; the 8-session analyst track decomposes Mango Lane (240K visitors, 360K sessions, 9,720 orders, $660,960 GMV) completely - core four by hand, a live driver-tree simulator (edit PDP penetration or checkout completion and watch GMV move, simulate a drop and trace the coral trail), funnel gates, drop diagnosis, segment cuts and mix effects, the review pack, and the metric spec sheet. Definitions verified against GA4 and Shopify docs, benchmarked with Baymard, IRP, Dynamic Yield, and Littledata. Course 1 of the ecommerce measurement pair, with User Journey Analytics."
     },
     {
       "slug": "learn-user-journey-analytics-with-phoebe",
       "title": "User Journey Analytics",
       "icon": "🧭",
-      "bucket": "ecom",
+      "bucket": "data",
       "diff": 2,
       "audience": "both",
       "format": "interactive",
       "sessions": 14,
-      "blurb": "Where the numbers happen: the ecommerce in-app journey, measured - the 6-session leader track reads the journey map (five entry doors and their quality, search vs browse with honestly-flagged conversion research, the PDP as decision room with Spiegel's reviews math, Baymard's checkout killers, and the reach x severity x confidence prioritization ritual); the 8-session analyst track measures it all on Mango Lane - screen map with real counts, entry-door quality and mix-vs-quality decomposition, path analysis (search 12% vs browse 4.5%), a live journey-flow simulator (toggle four classic fixes and watch conversion climb from 2.7% to 4.0%, GMV +47%), PDP engagement, the checkout micro-funnel, a full journey-leak diagnosis, and the journey scorecard. Same store and month as the metrics course - every count reconciles to the order. Course 2 of the ecommerce & growth analytics series."
+      "blurb": "Where the numbers happen: the ecommerce in-app journey, measured - the 6-session leader track reads the journey map (five entry doors and their quality, search vs browse with honestly-flagged conversion research, the PDP as decision room with Spiegel's reviews math, Baymard's checkout killers, and the reach x severity x confidence prioritization ritual); the 8-session analyst track measures it all on Mango Lane - screen map with real counts, entry-door quality and mix-vs-quality decomposition, path analysis (search 12% vs browse 4.5%), a live journey-flow simulator (toggle four classic fixes and watch conversion climb from 2.7% to 4.0%, GMV +47%), PDP engagement, the checkout micro-funnel, a full journey-leak diagnosis, and the journey scorecard. Same store and month as the metrics course - every count reconciles to the order. Course 2 of the ecommerce measurement pair, after Ecommerce Metrics."
+    },
+    {
+      "slug": "learn-ship-playbook-with-phoebe",
+      "title": "Ship It: The Playbook",
+      "icon": "🧰",
+      "bucket": "ship",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The shared spine every vertical roadmap imports - five use-case categories, the four-way verdict (automate, augment, build, keep human), the data-entity gate that decides what is even possible, and the sequencing rule that the revenue model decides which use cases actually pay."
+    },
+    {
+      "slug": "learn-ship-ecommerce-enabler-with-phoebe",
+      "title": "Ship It: E-commerce Enablers",
+      "icon": "🛰️",
+      "bucket": "ship",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The SEA e-commerce enabler and MCN business model, mapped end to end - seven data domains from cross-platform identity to creator performance, the cross-platform order-and-customer moat and the contract question that decides whether it can be banked, and a four-phase roadmap that starts with automating labor because that is what a service-fee model pays for."
     },
     {
       "slug": "learn-data-orchestration-with-phoebe",
