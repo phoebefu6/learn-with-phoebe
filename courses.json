@@ -350,9 +350,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Decisions first, data second - decision boundaries before looking, calibration training, base rates and belief updating, value of information, and uncertainty you can promise."
+      "sessions": 6,
+      "blurb": "Decisions first, data second - your calibration measured live against verified facts, the Tetlock canon quoted with its own corrections, a Brier forecast game with a base-rate bot that is humblingly hard to beat, and a live EVPI calculator that cancels analyses with arithmetic."
     },
     {
       "slug": "learn-two-cultures-with-phoebe",
