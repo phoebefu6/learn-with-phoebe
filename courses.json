@@ -1782,6 +1782,17 @@
       "format": "project",
       "sessions": 9,
       "blurb": "32 published principle sets, about 215 principles, assembled into one small review instrument - then run over a product carrying twenty real defects that the page genuinely detects rather than scripts. A trained usability reviewer finds 5 of 20; the measured ladder reaches 20, and two of the nine lenses add nothing at all."
+    },
+    {
+      "slug": "learn-entity-resolution-with-phoebe",
+      "title": "Entity Resolution & Master Data",
+      "icon": "🔗",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "builder",
+      "format": "project",
+      "sessions": 6,
+      "blurb": "What you do when two systems describe the same customers and nothing joins them. A real matcher over 63 labelled records - genuine Jaro-Winkler, Fellegi-Sunter weights, blocking metrics - ending at two pairs that score an identical 0.84 where one is the same person and one is a father and son. No threshold separates them, which is why the 1969 paper specified a band for a human."
     }
   ]
 }
