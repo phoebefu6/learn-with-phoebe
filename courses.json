@@ -43,10 +43,34 @@
       "blurb": "Govern data and AI responsibly - PDPA, GDPR, and the EU AI Act. Your domain, forced into output."
     },
     {
+      "id": "ship",
+      "name": "Let's Ship It End to End",
+      "tier": 4,
+      "blurb": "Industry-by-industry data and AI roadmaps - the use-case portfolio a business model actually makes possible, the data it really holds, and the order to build it in."
+    },
+    {
+      "id": "prog",
+      "name": "Programming & Dev Tools",
+      "tier": 3,
+      "blurb": "The languages and tooling every practitioner leans on."
+    },
+    {
       "id": "sys",
       "name": "System & Product Design",
       "tier": 3,
       "blurb": "The whole system - orchestration and architecture - plus product thinking and UI/UX design."
+    },
+    {
+      "id": "emrg",
+      "name": "Emerging Tech",
+      "tier": 3,
+      "blurb": "Frontier tech on your radar - blockchain, crypto, web3, quantum, security. Learn it by teaching it: output is the forcing function."
+    },
+    {
+      "id": "docs",
+      "name": "Markup, Docs & Diagrams",
+      "tier": 1,
+      "blurb": "Write, format, and diagram so your work reads well."
     },
     {
       "id": "lead",
@@ -67,22 +91,10 @@
       "blurb": "Speak, write, present, negotiate, and facilitate - the skills that move people and ideas, plus designing training that lands."
     },
     {
-      "id": "prog",
-      "name": "Programming & Dev Tools",
-      "tier": 3,
-      "blurb": "The languages and tooling every practitioner leans on."
-    },
-    {
       "id": "prod",
       "name": "Productivity & Knowledge Systems",
       "tier": 2,
       "blurb": "Run your work and life on a system - Notion, Obsidian, PKM, and automation that gives you time back."
-    },
-    {
-      "id": "docs",
-      "name": "Markup, Docs & Diagrams",
-      "tier": 1,
-      "blurb": "Write, format, and diagram so your work reads well."
     },
     {
       "id": "viz",
@@ -91,22 +103,10 @@
       "blurb": "Turn ideas into pictures - mind maps, data viz, visual storytelling, and AI-generated illustration."
     },
     {
-      "id": "emrg",
-      "name": "Emerging Tech",
-      "tier": 3,
-      "blurb": "Frontier tech on your radar - blockchain, crypto, web3, quantum, security. Learn it by teaching it: output is the forcing function."
-    },
-    {
       "id": "move",
       "name": "Mind & Movement",
       "tier": 1,
       "blurb": "Yoga, tai chi, dance, and meditation - theory-first courses enriched with curated and AI-generated video. In progress."
-    },
-    {
-      "id": "ship",
-      "name": "Let's Ship It End to End",
-      "tier": 4,
-      "blurb": "Industry-by-industry data and AI roadmaps - the use-case portfolio a business model actually makes possible, the data it really holds, and the order to build it in."
     }
   ],
   "levels": [
