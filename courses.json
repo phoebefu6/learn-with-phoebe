@@ -31,6 +31,12 @@
       "blurb": "Get AI to do real work - by skill (writing, code, slides, media) and by field (finance, law, HR, marketing, and more)."
     },
     {
+      "id": "viz",
+      "name": "Visual Thinking & Storytelling",
+      "tier": 2,
+      "blurb": "Turn ideas into pictures - mind maps, data viz, visual storytelling, and AI-generated illustration."
+    },
+    {
       "id": "dsec",
       "name": "Data Ops & Security",
       "tier": 3,
@@ -95,12 +101,6 @@
       "name": "Productivity & Knowledge Systems",
       "tier": 2,
       "blurb": "Run your work and life on a system - Notion, Obsidian, PKM, and automation that gives you time back."
-    },
-    {
-      "id": "viz",
-      "name": "Visual Thinking & Storytelling",
-      "tier": 2,
-      "blurb": "Turn ideas into pictures - mind maps, data viz, visual storytelling, and AI-generated illustration."
     },
     {
       "id": "move",

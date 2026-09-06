@@ -304,7 +304,10 @@
     var e = document.getElementById(id);
     if (!e) return;
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-    if (reduce || target <= 0) { e.textContent = target; return; }
+    // A hidden tab throttles rAF, which used to freeze the count-up part-way
+    // and leave a wrong number on screen (19 of 102 courses). Show the real
+    // number immediately instead, and animate only when the page is visible.
+    if (reduce || target <= 0 || document.hidden) { e.textContent = target; return; }
     var start = null, dur = 900;
     function step(ts) {
       if (start === null) start = ts;
@@ -315,5 +318,10 @@
     }
     requestAnimationFrame(step);
     setTimeout(function () { e.textContent = target; }, dur + 120);
+    document.addEventListener("visibilitychange", function fin() {
+      if (document.hidden) return;
+      e.textContent = target;
+      document.removeEventListener("visibilitychange", fin);
+    });
   }
 })();

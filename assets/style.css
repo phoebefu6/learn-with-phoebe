@@ -4,6 +4,7 @@
    every course is a book spine on a plank; click one to open its detail. */
 
 :root {
+  color-scheme: light;   /* never let a dark-mode browser paint the canvas, scrollbars or controls dark */
   --bg:      #FBFAFE;
   --bg-2:    #F5F2FC;
   --panel:   #FFFFFF;
@@ -30,7 +31,7 @@
 }
 
 * { margin:0; padding:0; box-sizing:border-box; }
-html { scroll-behavior:smooth; }
+html { scroll-behavior:smooth; background:var(--bg); }
 body {
   background:
     radial-gradient(120% 60% at 100% -10%, rgba(124,58,237,.09), transparent 60%),
