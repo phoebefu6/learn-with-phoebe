@@ -1793,6 +1793,28 @@
       "format": "project",
       "sessions": 6,
       "blurb": "What you do when two systems describe the same customers and nothing joins them. A real matcher over 63 labelled records - genuine Jaro-Winkler, Fellegi-Sunter weights, blocking metrics - ending at two pairs that score an identical 0.84 where one is the same person and one is a father and son. No threshold separates them, which is why the 1969 paper specified a band for a human."
+    },
+    {
+      "slug": "learn-data-observability-with-phoebe",
+      "title": "Data Observability & Quality",
+      "icon": "📡",
+      "bucket": "dsec",
+      "diff": 1,
+      "audience": "both",
+      "format": "project",
+      "sessions": 14,
+      "blurb": "Find out a table is wrong before a stakeholder does. The five signals, thresholds learned from a table's own history, and a monitor bench that scores your set over 30 nights of real metadata with five real defects: 5 of 5 caught with 2 false pages, or 2 of 5 with 25 once you tighten everything. Leader and builder tracks on Bellwether's orders_daily."
+    },
+    {
+      "slug": "learn-data-access-control-with-phoebe",
+      "title": "Data Access Control",
+      "icon": "🔑",
+      "bucket": "dsec",
+      "diff": 2,
+      "audience": "both",
+      "format": "project",
+      "sessions": 14,
+      "blurb": "Who can see what, and proving it. Role hierarchies, row and column policies, masking with honest exception roles, tokenisation, secrets and an access review a pipeline produces. A policy bench scores the set against 150 real requests: 109 leaks down to zero across five policies, then one ACCOUNTADMIN grant puts all 109 back. Leader and builder tracks on saltbox.customers."
     }
   ]
 }
