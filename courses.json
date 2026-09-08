@@ -1762,6 +1762,17 @@
       "blurb": "The SEA e-commerce enabler and MCN business model, mapped end to end - seven data domains from cross-platform identity to creator performance, the cross-platform order-and-customer moat and the contract question that decides whether it can be banked, and a four-phase roadmap that starts with automating labor because that is what a service-fee model pays for."
     },
     {
+      "slug": "learn-ship-platform-diagnosis-with-phoebe",
+      "title": "Ship It: Five-Year Platform Diagnosis",
+      "icon": "🩺",
+      "bucket": "ship",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 8,
+      "blurb": "A B2B print-on-demand platform reviewed a rolling quarter for five years and missed a thirteen-point margin break on two servers - a chairman track drives the lookback window on real numbers and turns findings into decisions with owners, and an analyst track builds every chart in pandas: the data map, the per-SKU margin bridge, baskets, merchant survival, frozen-history cohorts and the gaps to close."
+    },
+    {
       "slug": "learn-data-orchestration-with-phoebe",
       "title": "Data Orchestration",
       "icon": "🌙",
