@@ -1001,15 +1001,14 @@
     },
     {
       "slug": "learn-cyber-security-with-phoebe",
-      "title": "Cyber Security",
-      "icon": "🔐",
+      "title": "Cyber Security for the Data Estate",
+      "icon": "🛡️",
       "bucket": "dsec",
       "diff": 3,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Security operations for the data estate - threats, access control, data protection, and how to reason about risk. Defensive and awareness-focused."
+      "format": "project",
+      "sessions": 14,
+      "blurb": "Defence taught from the attacker's path inward. NIST CSF 2.0's six functions, the ATT&CK kill chain on a warehouse, backups as attack surface, and an attack-path bench that counts what is still open: nine paths to the customers table become one, the legitimate one, logged. A perimeter firewall alone closes one door. Leader and builder tracks on Ironwood's estate."
     },
     {
       "slug": "learn-dataops-with-phoebe",
@@ -1826,6 +1825,17 @@
       "format": "project",
       "sessions": 14,
       "blurb": "Who can see what, and proving it. Role hierarchies, row and column policies, masking with honest exception roles, tokenisation, secrets and an access review a pipeline produces. A policy bench scores the set against 150 real requests: 109 leaks down to zero across five policies, then one ACCOUNTADMIN grant puts all 109 back. Leader and builder tracks on saltbox.customers."
+    },
+    {
+      "slug": "learn-data-reliability-with-phoebe",
+      "title": "Data Reliability: SLOs & On-call",
+      "icon": "📟",
+      "bucket": "dsec",
+      "diff": 3,
+      "audience": "both",
+      "format": "project",
+      "sessions": 14,
+      "blurb": "The promise, the budget and the people on call for a data pipeline. SLIs for partitions, targets set from history not hope, error budgets that decide what ships, and alerting that pages once per incident: 35 pages or 5 for the same five incidents, computed over 30 real nights. The target decides the budget; the policy decides the pages. Leader and builder tracks on Harborlight's orders pipeline."
     }
   ]
 }
