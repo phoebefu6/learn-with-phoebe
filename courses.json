@@ -337,10 +337,9 @@
       "bucket": "ds",
       "diff": 3,
       "audience": "both",
-      "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The Andrew Ng discipline that predicts team velocity - single-number metrics, dev/test design, manual error analysis, orthogonalization, and the evals loop that decides what to fix next."
+      "format": "project",
+      "sessions": 16,
+      "blurb": "The Andrew Ng discipline that decides how fast a team moves: a dev set that tells the truth, one metric, the error-analysis spreadsheet with a ceiling column, bias and variance from three numbers, and error analysis by parts. A bench scores your order of work: re-labelling the dev set is 1.62 points per week against 0.21 for the specialist model everybody wants to build. Leader and practitioner tracks."
     },
     {
       "slug": "learn-decision-intelligence-with-phoebe",
