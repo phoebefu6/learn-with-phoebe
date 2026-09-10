@@ -414,14 +414,13 @@
     {
       "slug": "learn-causal-inference-with-phoebe",
       "title": "Causal Inference: The Ladder",
-      "icon": "🪜",
+      "icon": "\ud83e\ude9c",
       "bucket": "ds",
       "diff": 4,
       "audience": "both",
-      "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "When you cannot run the experiment - DAGs, confounders vs colliders, potential outcomes vs Pearl, uplift and CATE targeting, and auditing causal claims in the wild."
+      "format": "project",
+      "sessions": 16,
+      "blurb": "The causal model, not the estimator: the ladder of causation, whether a question is identifiable at all, and which columns make the answer worse if you control for them. A bench with an answer known by construction scores every adjustment set you tick - the back-door set leaves noise that changes sign across seeds, every wrong one leaves bias that does not. Kestrelmark's email lifts spend 6.23 on average and drives 7.9 percent of the file away, so a blanket send is worth -3,848 and the persuadable fifth is worth +22,578. Leader and practitioner tracks."
     },
     {
       "slug": "learn-ml-epistemology-with-phoebe",
