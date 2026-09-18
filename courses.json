@@ -390,15 +390,14 @@
     },
     {
       "slug": "learn-model-risk-with-phoebe",
-      "title": "Model Risk & AI Governance",
-      "icon": "⚖️",
+      "title": "Model Risk: Validation & Challenge",
+      "icon": "\u2696\ufe0f",
       "bucket": "ds",
       "diff": 3,
-      "audience": "leader",
-      "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Where DS leadership is examined now - NIST AI RMF, EU AI Act risk tiers, model cards, validation and challenge, fairness audits, and sign-off design that actually works."
+      "audience": "both",
+      "format": "project",
+      "sessions": 16,
+      "blurb": "The validation function, which sits between the law and the metrics and is owned by neither: what model risk actually is, effective challenge and why standing is the requirement that fails, materiality and the inventory, conceptual soundness, target leakage, challengers, outcomes analysis and monitoring. Built on the revised interagency guidance of April 2026, which superseded SR 11-7. A bench whose truth is known by construction scores your findings: a scorecard submitted at 0.863 scores 0.682 out of time, six thousandths ahead of three columns, and its calibration is perfect in aggregate while every band is wrong. Leader and practitioner tracks."
     },
     {
       "slug": "learn-deep-learning-with-phoebe",
