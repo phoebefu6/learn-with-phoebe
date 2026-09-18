@@ -391,7 +391,7 @@
     {
       "slug": "learn-model-risk-with-phoebe",
       "title": "Model Risk: Validation & Challenge",
-      "icon": "\u2696\ufe0f",
+      "icon": "⚖️",
       "bucket": "ds",
       "diff": 3,
       "audience": "both",
@@ -413,7 +413,7 @@
     {
       "slug": "learn-causal-inference-with-phoebe",
       "title": "Causal Inference: The Ladder",
-      "icon": "\ud83e\ude9c",
+      "icon": "🪜",
       "bucket": "ds",
       "diff": 4,
       "audience": "both",
@@ -1495,11 +1495,10 @@
       "icon": "🕸️",
       "bucket": "viz",
       "diff": 1,
-      "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Think on paper - radial maps that untangle a topic, plan a project, or take notes that stick."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Fourteen things said in a meeting, written down in the order they were said, which is the one order nobody needs them in again. Six sessions on the other shape - one centre, three to seven branches, one keyword each - and on knowing when it is the wrong shape. A bench parses any outline, draws it, and reads nine numbers off the drawn map: grouping alone sends seven labels off the page before keywords bring collisions to zero."
     },
     {
       "slug": "learn-dataviz-with-phoebe",
