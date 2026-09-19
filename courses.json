@@ -435,15 +435,14 @@
     },
     {
       "slug": "learn-bayesian-with-phoebe",
-      "title": "Bayesian Thinking & Probabilistic Programming",
+      "title": "Bayesian: Priors, Pooling & Decisions",
       "icon": "🎲",
       "bucket": "ds",
       "diff": 4,
-      "audience": "builder",
+      "audience": "both",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Priors as encoded expertise - hierarchical models, MCMC, PyMC, Bayesian A/B testing, and the honest language of uncertainty for executives on small data."
+      "sessions": 16,
+      "blurb": "Estimating honestly from small data: what a prior costs in pseudo-observations, why the posterior is a distribution and the interval must state its level and kind, how twelve outlets beat one through partial pooling, and how a probability becomes a decision through expected loss. PyMC 6 and ArviZ 1 as they are in 2026. Three exact benches on Halloway Bakeries where every true rate is known: an informed prior misses the smallest outlet, pooling cuts error from 0.054 to 0.025, and an A/B rule that stops at 100 per arm and was wrong 2 times in 200. Leader and practitioner tracks."
     },
     {
       "slug": "learn-prescriptive-analytics-with-phoebe",
