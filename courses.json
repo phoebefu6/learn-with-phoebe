@@ -423,15 +423,14 @@
     },
     {
       "slug": "learn-ml-epistemology-with-phoebe",
-      "title": "Why Believe a Model? The Epistemology of ML",
+      "title": "ML Epistemology: Why Believe a Model?",
       "icon": "🔬",
       "bucket": "ds",
       "diff": 4,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Why our best models outrun our theory of them - memorization vs generalization, double descent, leakage taxonomy, benchmark illusions, Goodhart, and underspecification."
+      "sessions": 16,
+      "blurb": "What licenses the belief that a model will work on data it has not seen. Underspecification, what selecting on a test set costs, what a benchmark licenses, leakage at the scale of a field, and the falsifier written before the run. Two benches train real networks in the browser."
     },
     {
       "slug": "learn-bayesian-with-phoebe",
