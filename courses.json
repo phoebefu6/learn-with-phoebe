@@ -1517,10 +1517,9 @@
       "bucket": "viz",
       "diff": 2,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Visual note-taking - simple icons, layout, and hierarchy to capture ideas as pictures, no art skills needed."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Typing along kept ten of a talk's twelve ideas in 286 words, 84 percent of them the speaker's. Choosing kept all twelve in 110, none of them. Six sessions on listening with a pen - five shapes, seven layouts, three weights and one accent - with a bench that plays a real talk at speaking pace and measures what survived."
     },
     {
       "slug": "learn-visual-storytelling-with-phoebe",
@@ -1540,10 +1539,9 @@
       "bucket": "viz",
       "diff": 3,
       "audience": "both",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Generate on-brand, ironic illustrations - style DNA, prompting, and building a repeatable visual voice with AI."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "A prompt persuades, a ratio binds, a seed is 99 percent, and eleven characters of lettering are enough to fail - because the text encoder reads tokens, not glyphs. Six sessions on art direction with image models, with a bench that counts the anchors, contradictions and lettering requests in your own brief. No generated image anywhere on the site."
     },
     {
       "slug": "learn-blockchain-with-phoebe",
