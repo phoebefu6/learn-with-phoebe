@@ -1396,15 +1396,14 @@
     },
     {
       "slug": "learn-pkm-with-phoebe",
-      "title": "PKM Foundations (Second Brain)",
-      "icon": "🗃️",
+      "title": "PKM",
+      "icon": "📥",
       "bucket": "prod",
       "diff": 1,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Capture, organize, and actually reuse what you learn - PARA, the second-brain method, tool-agnostic."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "One big folder answers zero of sixteen questions by looking; sorting it into topic folders fixes the tidiness and leaves the lost count exactly where it was. Six sessions on capture, organize, retrieve and review in any tool, with a bench that files one collection five ways and counts what you could still get back eight months later."
     },
     {
       "slug": "learn-notion-with-phoebe",
