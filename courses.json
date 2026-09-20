@@ -1246,15 +1246,14 @@
     },
     {
       "slug": "learn-finance-with-phoebe",
-      "title": "Finance",
+      "title": "Finance: Reading the Numbers",
       "icon": "💰",
       "bucket": "biz",
       "diff": 3,
-      "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Read a balance sheet, understand cash flow, and speak the language of finance - personal and corporate."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Best month in the company's history, same month the money ran out. The three statements, why profit and cash pull apart, what growth costs, and how to size a funding gap. Built on a real three-statement model that runs in the browser. Not investment advice."
     },
     {
       "slug": "learn-value-investing-with-phoebe",
