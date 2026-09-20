@@ -1542,15 +1542,14 @@
     },
     {
       "slug": "learn-blockchain-with-phoebe",
-      "title": "Blockchain Fundamentals",
+      "title": "Blockchain: How It Actually Works",
       "icon": "⛓️",
       "bucket": "emrg",
       "diff": 2,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "How a blockchain actually works - blocks, consensus, and smart contracts - without the hype."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Change one entry and a check fires. Fix the hash to cover your tracks and the failure moves one block along. The mechanism taught without the hype, on a real SHA-256 you can break in the page. No coins, no prices, not investment advice."
     },
     {
       "slug": "learn-crypto-with-phoebe",
