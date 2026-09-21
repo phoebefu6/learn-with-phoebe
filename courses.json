@@ -1083,6 +1083,17 @@
       "blurb": "Govern the AI you build and deploy - the EU AI Act risk tiers, obligations, and penalties, plus NIST AI RMF and ISO/IEC 42001, with a live risk-tier classifier. Running case: Vantage, a Singapore firm shipping an AI hiring tool into the EU."
     },
     {
+      "slug": "learn-product-thinking-with-phoebe",
+      "title": "Product Thinking: What To Build, and Whether",
+      "icon": "✂️",
+      "bucket": "sys",
+      "diff": 1,
+      "audience": "everyone",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The on-ramp for anyone who has been asked to get a thing built. Find the job under the request, read feature requests as evidence rather than orders, cut to what the job needs, and say no so it lands. No code and nothing to design. Session 3 is a live bench: one job, twelve features, and a cut that ships fastest of all and is never usable."
+    },
+    {
       "slug": "learn-product-design-with-phoebe",
       "title": "Product Design & UI/UX",
       "icon": "🎨",
