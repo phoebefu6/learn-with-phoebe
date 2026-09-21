@@ -210,6 +210,17 @@
       "blurb": "One running project - load 124k job postings, clean them, and ship a report - the analyst workflow start to finish."
     },
     {
+      "slug": "learn-data-thinking-with-phoebe",
+      "title": "Data Thinking: The Job Before the Model",
+      "icon": "🔎",
+      "bucket": "ds",
+      "diff": 1,
+      "audience": "everyone",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The on-ramp for anyone who has been asked for numbers and has to produce them. Sharpen the question, say what would answer it, look at the rows, check a number at more than one level, and stop at the right rung. No models, no p-values, no code. Session 4 is a live bench: 1,186 rows, three questions, four levels each, and one headline that reverses."
+    },
+    {
       "slug": "learn-statistics-with-phoebe",
       "title": "Statistics & Probability",
       "icon": "🎲",
