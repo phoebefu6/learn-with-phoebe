@@ -1755,9 +1755,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The shared spine every vertical roadmap imports - five use-case categories, the four-way verdict (automate, augment, build, keep human), the data-entity gate that decides what is even possible, and the sequencing rule that the revenue model decides which use cases actually pay."
+      "sessions": 6,
+      "blurb": "The shared spine every vertical roadmap imports. Five use-case categories as a dependency ladder, a four-way verdict passed on a task rather than a job, the data-entity gate that decides what is even possible, and sequencing against how the business actually makes money. Session 3 is a live bench: twelve candidates, two gates, and the most-requested item on the list turns out to be worth exactly nothing."
     },
     {
       "slug": "learn-ship-ecommerce-enabler-with-phoebe",
