@@ -1,11 +1,11 @@
 {
   "updated": "2026-09-22",
-  "courses_live": 122,
-  "courses_planned": 31,
+  "courses_live": 123,
+  "courses_planned": 30,
   "courses_total": 153,
-  "sessions_live": 1451,
+  "sessions_live": 1467,
   "buckets_live": 18,
-  "repos_live": 133,
+  "repos_live": 134,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
     "learn-ai-academia-with-phoebe",
@@ -126,6 +126,7 @@
     "learn-unsupervised-with-phoebe",
     "learn-user-journey-analytics-with-phoebe",
     "learn-visual-storytelling-with-phoebe",
+    "learn-web3-with-phoebe",
     "learn-when-ai-with-phoebe",
     "learn-workbuddy-with-phoebe",
     "learn-yoga-theory-with-phoebe"
@@ -250,6 +251,7 @@
     "learn-unsupervised-with-phoebe": "2026-08-20",
     "learn-user-journey-analytics-with-phoebe": "2026-08-20",
     "learn-visual-storytelling-with-phoebe": "2026-08-27",
+    "learn-web3-with-phoebe": "2026-09-22",
     "learn-when-ai-with-phoebe": "2026-09-02",
     "learn-workbuddy-with-phoebe": "2026-08-20",
     "learn-yoga-theory-with-phoebe": "2026-08-20"
