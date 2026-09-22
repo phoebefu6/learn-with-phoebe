@@ -456,15 +456,14 @@
     },
     {
       "slug": "learn-prescriptive-analytics-with-phoebe",
-      "title": "Prescriptive Analytics: Optimize & Simulate",
+      "title": "Prescriptive Analytics: Choosing, Not Predicting",
       "icon": "📐",
       "bucket": "ds",
       "diff": 4,
-      "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Prediction is half the question - linear and integer programming, Monte Carlo simulation, what-if decision tools, and when optimization beats ML entirely."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "The highest margin product appears in no optimal plan, because the mill allocates hours and not margin. Linear and integer programming, shadow prices published with the range they hold over, and Monte Carlo on the plan. Built on a simplex solver you can drive in the page."
     },
     {
       "slug": "learn-data-pipelines-with-phoebe",
