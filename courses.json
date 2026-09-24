@@ -1746,6 +1746,17 @@
       "blurb": "Where the numbers happen: the ecommerce in-app journey, measured - the 6-session leader track reads the journey map (five entry doors and their quality, search vs browse with honestly-flagged conversion research, the PDP as decision room with Spiegel's reviews math, Baymard's checkout killers, and the reach x severity x confidence prioritization ritual); the 8-session analyst track measures it all on Mango Lane - screen map with real counts, entry-door quality and mix-vs-quality decomposition, path analysis (search 12% vs browse 4.5%), a live journey-flow simulator (toggle four classic fixes and watch conversion climb from 2.7% to 4.0%, GMV +47%), PDP engagement, the checkout micro-funnel, a full journey-leak diagnosis, and the journey scorecard. Same store and month as the metrics course - every count reconciles to the order. Course 2 of the ecommerce measurement pair, after Ecommerce Metrics."
     },
     {
+      "slug": "learn-rfm-modeling-with-phoebe",
+      "title": "RFM Modeling",
+      "icon": "🔪",
+      "bucket": "data",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "RFM as a decision system, on 93,358 real Olist customers of whom 97 percent bought once: the six decisions inside R, F and M, the frozen snapshot, where the knife goes (mean, median, thirds, fifths, merchant thresholds) and what each cut does to the same people - two vendor defaults call 13 to 16 percent Champions and nine in ten of those bought once. A live bench runs six cuts on 4,000 real customers in your browser with a one-total-score anti-lever; engagement, live-room and referral dimensions on Taobao, Douyin and Pinduoduo; the action table, the holdout that proves a lift; cadence, drift and the one-page RFM spec."
+    },
+    {
       "slug": "learn-ship-playbook-with-phoebe",
       "title": "Ship It: The Playbook",
       "icon": "🧰",
