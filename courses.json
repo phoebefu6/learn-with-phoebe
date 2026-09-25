@@ -1855,6 +1855,54 @@
       "format": "project",
       "sessions": 14,
       "blurb": "The promise, the budget and the people on call for a data pipeline. SLIs for partitions, targets set from history not hope, error budgets that decide what ships, and alerting that pages once per incident: 35 pages or 5 for the same five incidents, computed over 30 real nights. The target decides the budget; the policy decides the pages. Leader and builder tracks on Harborlight's orders pipeline."
+    },
+    {
+      "slug": "learn-people-analytics-with-phoebe",
+      "title": "People Analytics: HR by the Numbers",
+      "icon": "🧑‍🤝‍🧑",
+      "bucket": "data",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Generic intro then the data/AI deep dive: headcount, attrition, hiring funnel and pay equity as measurable systems, the four-fifths rule on a real screening pass, and which HR metrics an AI model can move without breaking the law."
+    },
+    {
+      "slug": "learn-product-analytics-with-phoebe",
+      "title": "Product Analytics: Events to Decisions",
+      "icon": "📱",
+      "bucket": "data",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Generic intro then the data/AI deep dive: event instrumentation, activation and retention curves, feature adoption, the north-star tree, and an AI copilot that reads the funnel without inventing a cause."
+    },
+    {
+      "slug": "learn-aws-with-phoebe",
+      "title": "AWS for Data & AI Teams",
+      "icon": "☁️",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Generic cloud intro then the data/AI deep dive: S3, IAM, compute versus serverless, the data services a warehouse and a model actually need, and a cost bench that shows where a data platform bill really comes from."
+    },
+    {
+      "slug": "learn-databricks-with-phoebe",
+      "title": "Databricks: Lakehouse for Data & AI",
+      "icon": "🧱",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Generic lakehouse intro then the data/AI deep dive: Delta tables, Unity Catalog, notebooks versus jobs, MLflow inside the platform, and when a lakehouse beats a warehouse plus a feature store."
     }
   ]
 }
