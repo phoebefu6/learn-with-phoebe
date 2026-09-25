@@ -1230,15 +1230,14 @@
     },
     {
       "slug": "learn-economics-with-phoebe",
-      "title": "Economics Fundamentals",
-      "icon": "📉",
+      "title": "Economics for Data and AI Teams",
+      "icon": "🏷️",
       "bucket": "biz",
       "diff": 2,
-      "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "How markets, incentives, and money actually work - the mental models behind every business decision."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Same 2,216 real marketplace rows, three elasticities: +0.008 across products, -0.108 pooled, -1.788 when each product is compared with itself. Six no-code Foundations sessions on prices, incentives, margins, market failure, money and games, then ten Python sessions on demand from data, pricing, the economics of a prediction, moats, auctions, labour, information and platforms, ending on a bench that refits every rung live and an anti-lever with the wrong sign."
     },
     {
       "slug": "learn-marketing-with-phoebe",
