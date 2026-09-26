@@ -1874,9 +1874,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Generic intro then the data/AI deep dive: headcount, attrition, hiring funnel and pay equity as measurable systems, the four-fifths rule on a real screening pass, and which HR metrics an AI model can move without breaking the law."
+      "sessions": 16,
+      "blurb": "Same 210 leavers, three attrition rates; same pyramid, most of a pay gap. Six no-code Foundations sessions on stocks and flows, a rate and its base, the funnel, pay gaps, surveys and the dashboard, then ten Python sessions on the people data model, survival on a snapshot, benchmarks, adverse impact, pay gap decomposition on 11,301 real UK filings, pay equity regression, psychometrics, planning and the law, ending on a bench where hiring women at the bottom widens the gap."
     },
     {
       "slug": "learn-product-analytics-with-phoebe",
