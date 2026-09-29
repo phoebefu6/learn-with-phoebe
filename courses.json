@@ -106,7 +106,7 @@
       "id": "move",
       "name": "Mind & Movement",
       "tier": 1,
-      "blurb": "Yoga, tai chi, dance, and meditation - theory-first courses enriched with curated and AI-generated video. In progress."
+      "blurb": "Yoga, tai chi, meditation, stress control and focus - theory-first courses plus small office routines that win back your energy. In progress."
     }
   ],
   "levels": [
@@ -370,10 +370,9 @@
       "bucket": "ds",
       "diff": 3,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The identity course - Breiman two cultures, all models are wrong, Tukey exploratory vs confirmatory, frequentist vs Bayesian, Donoho 50 years, and veridical data science."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The identity course, read at source: Breiman's two cultures, Box on useful wrong models, Tukey's explore-then-confirm and Donoho's fifty years - with a live bench that fits a readable regression and a random forest to the same 569 real biopsies and puts accuracy next to being able to say why."
     },
     {
       "slug": "learn-data-centric-ai-with-phoebe",
@@ -382,10 +381,9 @@
       "bucket": "ds",
       "diff": 3,
       "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Hold the model fixed, fix the data - label consistency, consensus labeling, slicing, augmentation vs collection, small-data strategy, and beating a benchmark by data edits only."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Hold the model fixed, fix the data - label consistency, confident learning, slicing, augment or collect, and a data-edit spec. The live bench freezes a kNN on 1,797 real handwritten digits with 133 planted wrong labels, and every edit is scored, including the one that adds data and makes it worse."
     },
     {
       "slug": "learn-ml-production-with-phoebe",
@@ -395,9 +393,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The first deployment is the middle of the project - lifecycle scoping, deployment patterns, drift and monitoring strategy, retraining loops, and when NOT to productionize."
+      "sessions": 6,
+      "blurb": "The first deployment is the middle of the project - scoping, shadow and canary rollouts, monitoring you will act on, and when not to productionize. The live bench replays eight retrain policies over 15,104 real Elec2 rows, where retraining on every step scores below having no model at all."
     },
     {
       "slug": "learn-model-risk-with-phoebe",
@@ -1686,18 +1683,6 @@
       "blurb": "A guided first read of 黄帝内经 - yin-yang, five phases, the zang-fu body, living with the seasons - with an interactive five-phases wheel and an honesty rail that never blurs what the text says with what research shows."
     },
     {
-      "slug": "learn-drum-with-phoebe",
-      "title": "Adult Drum",
-      "icon": "🥁",
-      "bucket": "move",
-      "diff": 2,
-      "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Learn drums as an adult - pop and TikTok song charts with practice drills to build memory, timing, and groove."
-    },
-    {
       "slug": "learn-yoga-flow-design-with-phoebe",
       "title": "Yoga Flow Design",
       "icon": "🌊",
@@ -1722,16 +1707,40 @@
       "blurb": "Design a full program - a multi-week arc, progressions, and how to take students from beginner to confident."
     },
     {
-      "slug": "learn-kpop-dance-with-phoebe",
-      "title": "K-pop Dance",
-      "icon": "💃",
+      "slug": "learn-stress-control-with-phoebe",
+      "title": "Stress Control",
+      "icon": "🌿",
       "bucket": "move",
-      "diff": 3,
+      "diff": 2,
       "audience": "everyone",
-      "format": "video",
+      "format": "interactive",
       "sessions": 0,
       "status": "planned",
-      "blurb": "Choreography breakdown theory - counts, formations, and drills - paired with a slow-mo, loop-and-mirror practice app."
+      "blurb": "How the stress response works and what actually turns it down - breathing, reappraisal, sleep and recovery, with the real evidence for each."
+    },
+    {
+      "slug": "learn-focus-with-phoebe",
+      "title": "Getting Focused",
+      "icon": "🎯",
+      "bucket": "move",
+      "diff": 2,
+      "audience": "everyone",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Attention as a trainable skill - distraction, task switching, deep-work blocks and attention-restoring breaks, with a live focus timer."
+    },
+    {
+      "slug": "learn-office-energy-with-phoebe",
+      "title": "Desk Energy Reset",
+      "icon": "⚡",
+      "bucket": "move",
+      "diff": 1,
+      "audience": "everyone",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Small exercises you can do at the office to win back energy - 2 to 5 minute mobility, posture and movement breaks for long sitting days."
     },
     {
       "slug": "learn-ecommerce-metrics-with-phoebe",
