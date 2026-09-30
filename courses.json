@@ -1912,14 +1912,13 @@
     {
       "slug": "learn-product-analytics-with-phoebe",
       "title": "Product Analytics: Events to Decisions",
-      "icon": "📱",
+      "icon": "📈",
       "bucket": "data",
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Generic intro then the data/AI deep dive: event instrumentation, activation and retention curves, feature adoption, the north-star tree, and an AI copilot that reads the funnel without inventing a cause."
+      "sessions": 14,
+      "blurb": "From events to decisions: the tracking plan, defining active, the activation moment, the power-user curve, feature adoption and measuring an AI feature - a no-code leader track plus an analyst track in Python. The live bench follows 8,348 real repositories born in one GH Archive hour and scores eight activation definitions by the lift they predict."
     },
     {
       "slug": "learn-asking-right-questions-as-da-with-phoebe",
