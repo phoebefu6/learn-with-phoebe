@@ -481,9 +481,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The discovery meeting before any model - what exactly to predict, how often it happens today, and what each kind of wrong guess costs, asked of a business person who knows nothing about data."
+      "sessions": 6,
+      "blurb": "The discovery meeting before any model, run by a data scientist - what exactly to predict, how often it happens today, and what each wrong guess costs, asked of an operations director with 24 hidden facts. Outcome first scores 55 on the bench against 46 for the doors in printed order."
     },
     {
       "slug": "learn-data-pipelines-with-phoebe",
@@ -757,9 +756,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The discovery meeting before any assistant - the human workflow as it happens today, which replies are lookups and which are decisions, and who checks the output."
+      "sessions": 6,
+      "blurb": "The discovery meeting before any assistant, run by an AI developer - one real thread watched end to end, which replies are lookups and which are decisions, and who checks the output. The kind of question matters more than the order: jargon 11, the doors 54."
     },
     {
       "slug": "learn-ai-writing-with-phoebe",
@@ -1963,9 +1961,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The discovery meeting before any pipeline - every system a number passes through, who can log in, which copy is real, and how fresh it has to be, got out of a person who has never seen a schema."
+      "sessions": 6,
+      "blurb": "The discovery meeting before any pipeline, run by a data engineer - every system a number passes through, who can log in, which copy is real, got out of an operations director who has never seen a schema. The fast yes-or-no interview writes down \"the POS is the source of truth\" and scores 17."
     }
   ]
 }
