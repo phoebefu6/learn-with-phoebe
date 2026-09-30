@@ -474,6 +474,18 @@
       "blurb": "The highest margin product appears in no optimal plan, because the mill allocates hours and not margin. Linear and integer programming, shadow prices published with the range they hold over, and Monte Carlo on the plan. Built on a simplex solver you can drive in the page."
     },
     {
+      "slug": "learn-asking-right-questions-as-ds-with-phoebe",
+      "title": "Asking the Right Questions as a Data Scientist",
+      "icon": "🎯",
+      "bucket": "ds",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The discovery meeting before any model - what exactly to predict, how often it happens today, and what each kind of wrong guess costs, asked of a business person who knows nothing about data."
+    },
+    {
       "slug": "learn-data-pipelines-with-phoebe",
       "title": "Data Pipelines",
       "icon": "🚚",
@@ -736,6 +748,18 @@
       "format": "project",
       "sessions": 16,
       "blurb": "From a 40-line agent loop to a governed multi-agent system. Leader track to decide, builder track to ship - one running assistant, DataDesk."
+    },
+    {
+      "slug": "learn-asking-right-questions-as-ai-with-phoebe",
+      "title": "Asking the Right Questions as an AI Developer",
+      "icon": "🤝",
+      "bucket": "ai",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The discovery meeting before any assistant - the human workflow as it happens today, which replies are lookups and which are decisions, and who checks the output."
     },
     {
       "slug": "learn-ai-writing-with-phoebe",
@@ -1899,6 +1923,17 @@
       "blurb": "Generic intro then the data/AI deep dive: event instrumentation, activation and retention curves, feature adoption, the north-star tree, and an AI copilot that reads the funnel without inventing a cause."
     },
     {
+      "slug": "learn-asking-right-questions-as-da-with-phoebe",
+      "title": "Asking the Right Questions as a Data Analyst",
+      "icon": "🚪",
+      "bucket": "data",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The first meeting of any data project, run from the data side - the Six Doors framework, plain questions that teach the business while they answer, and a bench where one operations director with 24 hidden facts is interviewed five ways: the fast yes-or-no interview scores 15, the doors in order 48."
+    },
+    {
       "slug": "learn-aws-with-phoebe",
       "title": "AWS for Data & AI Teams",
       "icon": "☁️",
@@ -1921,6 +1956,18 @@
       "sessions": 0,
       "status": "planned",
       "blurb": "Generic lakehouse intro then the data/AI deep dive: Delta tables, Unity Catalog, notebooks versus jobs, MLflow inside the platform, and when a lakehouse beats a warehouse plus a feature store."
+    },
+    {
+      "slug": "learn-asking-right-questions-as-de-with-phoebe",
+      "title": "Asking the Right Questions as a Data Engineer",
+      "icon": "🧭",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The discovery meeting before any pipeline - every system a number passes through, who can log in, which copy is real, and how fresh it has to be, got out of a person who has never seen a schema."
     }
   ]
 }
