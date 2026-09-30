@@ -1812,15 +1812,14 @@
     },
     {
       "slug": "learn-ship-ecommerce-enabler-with-phoebe",
-      "title": "Ship It: E-commerce Enablers",
+      "title": "Ship It: Social Commerce Enablers",
       "icon": "🛰️",
       "bucket": "ship",
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The SEA e-commerce enabler and MCN business model, mapped end to end - seven data domains from cross-platform identity to creator performance, the cross-platform order-and-customer moat and the contract question that decides whether it can be banked, and a four-phase roadmap that starts with automating labor because that is what a service-fee model pays for."
+      "sessions": 14,
+      "blurb": "The SEA social commerce enabler, mapped end to end on a fictional enabler and live channel - why a service-fee model makes margin from hours removed, a live channel grown from GMV-only to Stop, Hold, Love, Buy, and what the platforms let you bank. The bench splits 8,614 real orders into three masked marketplace exports: customer-grain identity tops out at 23 percent while store grain holds at 100."
     },
     {
       "slug": "learn-ship-platform-diagnosis-with-phoebe",
