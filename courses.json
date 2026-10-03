@@ -1948,9 +1948,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Generic lakehouse intro then the data/AI deep dive: Delta tables, Unity Catalog, notebooks versus jobs, MLflow inside the platform, and when a lakehouse beats a warehouse plus a feature store."
+      "sessions": 14,
+      "blurb": "The lakehouse as Databricks builds it - Delta tables that remember, time travel, MERGE, data skipping, OPTIMIZE and clustering, Unity Catalog grants, DBU costs and MLflow - a no-account leader track plus an analyst track on Free Edition or locally with delta-rs. The live bench replays a real 37-commit Delta transaction log and counts the files each query must read."
     },
     {
       "slug": "learn-asking-right-questions-as-de-with-phoebe",
