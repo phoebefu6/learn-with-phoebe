@@ -1937,9 +1937,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Generic cloud intro then the data/AI deep dive: S3, IAM, compute versus serverless, the data services a warehouse and a model actually need, and a cost bench that shows where a data platform bill really comes from."
+      "sessions": 14,
+      "blurb": "AWS as a data and AI team meets it - S3 as the lake, IAM as AWS evaluates it, Glue, Athena, Lambda or a container, Redshift or Athena, Bedrock - a no-account leader track plus an analyst track that runs locally. The live bench evaluates IAM requests against 36 documented cases and prices Athena from bytes really scanned on a NYC taxi sample."
     },
     {
       "slug": "learn-databricks-with-phoebe",
