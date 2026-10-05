@@ -1388,6 +1388,28 @@
       "blurb": "Two tracks: design the learning, then get it used and prove it changed something. With a transfer board showing where a trained skill goes over 90 days - and the biggest lever on it is a two-line email to somebody's manager. Absorbs the planned corporate-training course."
     },
     {
+      "slug": "learn-business-chinese-basic-with-phoebe",
+      "title": "Business Chinese Basic",
+      "icon": "🀄",
+      "bucket": "comm",
+      "diff": 1,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Zero to a first business meeting in Mandarin - tones, titles and cards, numbers and money, WeChat, and the meeting itself, every word with pinyin and English. A pitch tracker in your browser scores tone shape, not height: raw hertz gets a lower voice right 6 times in 23, the calibrated method 23."
+    },
+    {
+      "slug": "learn-business-chinese-advanced-with-phoebe",
+      "title": "Business Chinese Advanced",
+      "icon": "✉️",
+      "bucket": "comm",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Business register for people who already speak Chinese - formal emails and WeChat, presenting numbers with 同比 (tóngbǐ, year on year) and 环比 (huánbǐ, period on period), negotiation and face, dining. A formality checker scores one message five ways: each draft fits one channel, and polishing everything fits none."
+    },
+    {
       "slug": "learn-github-with-phoebe",
       "title": "Learn GitHub",
       "icon": "🐙",
