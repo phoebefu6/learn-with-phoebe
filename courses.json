@@ -1481,26 +1481,24 @@
     {
       "slug": "learn-automation-with-phoebe",
       "title": "Life & Work Automation",
-      "icon": "🔁",
+      "icon": "⚙️",
       "bucket": "prod",
       "diff": 3,
       "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Automate the boring parts - no-code with Zapier/Make/n8n, so your systems run themselves."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "No-code automation that does not break - is it worth the time, triggers and the data between steps, Zapier or Make or n8n, retries and idempotency, and a system you can leave running. The live bench runs real n8n-format workflows over a day of injected failures: retry-everything sends duplicate texts, an idempotency key takes them to zero."
     },
     {
       "slug": "learn-ai-productivity-with-phoebe",
       "title": "AI-Powered Productivity",
-      "icon": "⚡",
+      "icon": "🤖",
       "bucket": "prod",
       "diff": 3,
       "audience": "both",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Put LLMs to work on your workflow - drafting, triage, and agents that handle real personal-ops tasks."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Personal ops with AI - where your week goes, triage rules against an AI judge, follow-ups that do not fall through, agents scoped to read, draft or send, and a weekly review. The live bench scores your triage rules on 390 real Enron emails labelled by what their owners actually did."
     },
     {
       "slug": "learn-markdown-with-phoebe",
