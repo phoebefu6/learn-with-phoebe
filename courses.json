@@ -1265,22 +1265,20 @@
       "bucket": "biz",
       "diff": 2,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Positioning, audience, and channels - how to make something people want and get it in front of them."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Marketing fundamentals on the fictional Cadence - who it is for, the promise against the real alternative, where buyers already are, what a customer is worth, and a one-page plan. The live bench splits a budget across 5,998 real Olist B2B leads and their real close rates, and prices each split in CAC and payback."
     },
     {
       "slug": "learn-personal-branding-with-phoebe",
       "title": "Personal Branding",
-      "icon": "🌟",
+      "icon": "🌱",
       "bucket": "biz",
       "diff": 2,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Build a reputation that compounds - your niche, your voice, and showing up consistently in public."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Build a reputation that compounds, following a fictional analyst - what a search for you returns, the onliness test, proof over claims, owned versus rented ground, and a system you keep. The live bench reads 22,657 real Stack Exchange answers and asks whether posting more actually grows anything."
     },
     {
       "slug": "learn-solopreneur-with-phoebe",
