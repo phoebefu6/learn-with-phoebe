@@ -1975,6 +1975,42 @@
       "format": "interactive",
       "sessions": 6,
       "blurb": "The discovery meeting before any pipeline, run by a data engineer - every system a number passes through, who can log in, which copy is real, got out of an operations director who has never seen a schema. The fast yes-or-no interview writes down \"the POS is the source of truth\" and scores 17."
+    },
+    {
+      "slug": "learn-autonomous-driving-with-phoebe",
+      "title": "Autonomous Driving for Data & AI Teams",
+      "icon": "🚗",
+      "bucket": "emrg",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The long tail, the cost of a label per frame, simulation against real miles, and why a disengagement count is a bad metric. How many miles prove a car is safe, computed in the page. What a warehouse data person carries over, and what they must learn."
+    },
+    {
+      "slug": "learn-iot-data-with-phoebe",
+      "title": "IoT & Industrial Data (incl. smart home)",
+      "icon": "📡",
+      "bucket": "emrg",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Sensors fail silently, missing data is never random, a false alarm stops a line. The OT and IT divide, edge against cloud, and the smart home as the consumer face of the same problem. Remaining useful life on real turbofan rows. What a warehouse data person carries over, and what they must learn."
+    },
+    {
+      "slug": "learn-smart-city-with-phoebe",
+      "title": "Smart City Data",
+      "icon": "🏙️",
+      "bucket": "emrg",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Open public data at scale, residents who never consented, and where the sensors were never placed. Real trip rows in the page and a bench on sensor-placement bias. What a warehouse data person carries over, and what they must learn."
     }
   ]
 }
