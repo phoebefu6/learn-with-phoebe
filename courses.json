@@ -1639,15 +1639,14 @@
     },
     {
       "slug": "learn-quant-trading-with-phoebe",
-      "title": "Quantitative Trading",
+      "title": "Quant Trading: The Backtest That Lies",
       "icon": "🧮",
       "bucket": "emrg",
       "diff": 4,
-      "audience": "builder",
-      "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Data-driven trading concepts - signals, backtesting, and risk - as an educational build, not investment advice."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Backtest overfitting treated as a data-science problem. Try a hundred rules on pure noise and the best one shows a Sharpe ratio near 1.8. A naive test passes in every world and every pass is false, while the deflated test passes in none. Purged walk-forward, leakage you plant and then catch, costs, and sizing on a median that collapses, all running in the page on synthetic data. Not investment advice."
     },
     {
       "slug": "learn-quantum-with-phoebe",
