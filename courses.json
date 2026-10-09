@@ -1617,15 +1617,14 @@
     },
     {
       "slug": "learn-crypto-with-phoebe",
-      "title": "Crypto & Bitcoin",
+      "title": "Crypto Markets as a Data Problem",
       "icon": "🪙",
       "bucket": "emrg",
       "diff": 2,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Bitcoin, wallets, and how digital money works - a literacy course, not financial advice."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "The off-chain side of crypto as a data problem: no close price, one asset at many prices, and venues that report their own volume with nobody auditing it. Benford, roundness and size-clustering detectors run in the page on a declared synthetic tape, calibrated on honest venues so the false-positive rate is a printed number. No coins, no prices, no venues named. Not investment advice."
     },
     {
       "slug": "learn-web3-with-phoebe",
