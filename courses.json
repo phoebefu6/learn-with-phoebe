@@ -1650,15 +1650,14 @@
     },
     {
       "slug": "learn-quantum-with-phoebe",
-      "title": "Quantum Computing",
+      "title": "Quantum for Data Teams: Fine Print First",
       "icon": "⚛️",
       "bucket": "emrg",
       "diff": 4,
       "audience": "both",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Qubits, superposition, and entanglement - the intuition for why quantum matters, no physics PhD required."
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "What quantum computing will and will not do to a data team, worked through on a real statevector simulator in the page. Grover finds one slot in 1,024 in 25 iterations. Then the fine print: loading the rows costs more than the search saves, one per-gate error in a thousand drops success from 0.9995 to 0.35, and the classical algorithm caught up on recommendation. It ends with the post-quantum inventory, the part of the job that has already started. No vendors and no roadmaps; the timeline is taught as a disagreement."
     },
     {
       "slug": "learn-meditation-with-phoebe",
