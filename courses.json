@@ -1988,9 +1988,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Sensors fail silently, missing data is never random, a false alarm stops a line. The OT and IT divide, edge against cloud, and the smart home as the consumer face of the same problem. Remaining useful life on real turbofan rows. What a warehouse data person carries over, and what they must learn."
+      "sessions": 16,
+      "blurb": "What changes when the row is written by a sensor instead of a person. Sensors drift, readings vanish exactly when the engine runs hot, a false alarm stops a line, and a smart meter can tell when a household is out. A remaining-useful-life bench runs on all 20,631 real public rows from NASA's turbofan simulation. Dropping the rows with gaps barely moves the error but raises the late-penalty score by 38 percent. Ends with a transfer map for a warehouse data team."
     },
     {
       "slug": "learn-smart-city-with-phoebe",
