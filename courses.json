@@ -1287,10 +1287,9 @@
       "bucket": "biz",
       "diff": 2,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Run a business of one - leverage, automation, and AI so a solo founder ships like a team."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Run a business of one, following Marlow, a constructed solo data consultant - the hours that never reach an invoice, the offer ladder from hourly to productized, leverage, client concentration, and a 52-week capacity bench in your browser. Illustrative, not financial or tax advice."
     },
     {
       "slug": "learn-finance-with-phoebe",
@@ -1454,10 +1453,9 @@
       "bucket": "prod",
       "diff": 1,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Read deeply and remember it - active reading, note-taking, and how to actually learn from books."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Read deeply and remember it - what reading speed really measures, reading with a question, why rereading feels like learning, spacing, and papers, docs and charts. A recall bench times your own reading and models forgetting over 30 days."
     },
     {
       "slug": "learn-pkm-with-phoebe",
@@ -1478,9 +1476,8 @@
       "diff": 2,
       "audience": "everyone",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Build a life-and-work OS in Notion - databases, relations, and dashboards you will actually use."
+      "sessions": 6,
+      "blurb": "Build a life-and-work OS for Ines, a constructed freelance researcher - pages against databases, properties that answer questions, relations and rollups so each fact lives once, formulas, templates and buttons, and a Monday dashboard. A drift bench counts what copied text does after ordinary edits."
     },
     {
       "slug": "learn-obsidian-with-phoebe",
@@ -1490,9 +1487,8 @@
       "diff": 2,
       "audience": "everyone",
       "format": "project",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Think in a graph - linked notes, Zettelkasten, and a knowledge base that compounds over years."
+      "sessions": 6,
+      "blurb": "Build a linked research vault for Ines - wikilinks and backlinks, atomic notes, Luhmann's slip box and how much it explains, maps of content, and what the graph view does not tell you. A link bench runs real graph search on a 192-note vault."
     },
     {
       "slug": "learn-automation-with-phoebe",
