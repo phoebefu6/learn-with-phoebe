@@ -1308,11 +1308,10 @@
       "icon": "🏦",
       "bucket": "biz",
       "diff": 3,
-      "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The Buffett/Graham approach - intrinsic value, margin of safety, and thinking like an owner. Educational, not advice."
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 16,
+      "blurb": "Graham and Buffett as a reasoning discipline - owner earnings, intrinsic value as a range, margin of safety, reverse DCF and base rates. An Owner track plus an Analyst track, with a bench that values four real SEC filers and backtests each rule against what the filings later showed. Educational, not investment advice."
     },
     {
       "slug": "learn-communication-with-phoebe",
