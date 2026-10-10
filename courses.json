@@ -151,7 +151,7 @@
       "diff": 1,
       "audience": "leader",
       "format": "interactive",
-      "sessions": 6,
+      "sessions": 8,
       "blurb": "For executives: read data with confidence, question a metric, and brief an analyst - interactive concept course."
     },
     {
@@ -569,7 +569,7 @@
       "diff": 1,
       "audience": "leader",
       "format": "interactive",
-      "sessions": 6,
+      "sessions": 8,
       "blurb": "For leaders: what AI can and cannot do, how it fails, and how to decide - interactive, no code."
     },
     {
@@ -1420,7 +1420,7 @@
       "diff": 2,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 8,
+      "sessions": 9,
       "blurb": "The web's building blocks - every example is an editable, sandboxed playground you type into and see render."
     },
     {
@@ -1431,7 +1431,7 @@
       "diff": 2,
       "audience": "builder",
       "format": "concept",
-      "sessions": 8,
+      "sessions": 6,
       "blurb": "Git and GitHub for people who ship code - branches, pull requests, and collaboration that scales."
     },
     {
@@ -1519,7 +1519,7 @@
       "diff": 1,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 8,
+      "sessions": 7,
       "blurb": "Write clean formatted text anywhere - a live editor pairs your Markdown with its rendered output as you type."
     },
     {
@@ -1530,7 +1530,7 @@
       "diff": 2,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 8,
+      "sessions": 9,
       "blurb": "Diagrams from text - every example renders a real Mermaid diagram you can flip to code and edit live."
     },
     {
@@ -1541,7 +1541,7 @@
       "diff": 3,
       "audience": "builder",
       "format": "project",
-      "sessions": 8,
+      "sessions": 12,
       "blurb": "Document real software well - you write up the Pulse data pipeline end to end as you learn."
     },
     {

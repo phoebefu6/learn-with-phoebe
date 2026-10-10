@@ -12,12 +12,16 @@ from __future__ import annotations
 
 import html
 import json
-import os
 import re
+from html.parser import HTMLParser
 from pathlib import Path
 
 TRACK_LEADER = "leader"
 TRACK_BUILDER = "builder"
+TRACK_PRACTITIONER = "practitioner"
+TRACK_STAKEHOLDER = "stakeholder"
+TRACK_EXEC = "exec"
+TRACK_CHAIRMAN = "chairman"
 TRACK_SINGLE = "single"
 
 PASS_PERCENT = 80
@@ -26,35 +30,129 @@ SESSION_COVERAGE_MIN = 0.80  # 10 questions must span >= 80% of the track's sess
 
 # ---------------------------------------------------------------- harvesting
 
-_QUIZ_BLOCK = re.compile(
-    r'<div class="quiz-q"\s+data-answer="(?P<ans>\d+)"\s*>(?P<body>.*?)</div>',
-    re.DOTALL,
-)
-_QTEXT = re.compile(r'<p class="qtext">(?P<t>.*?)</p>', re.DOTALL)
-_QOPT = re.compile(r'<button class="qopt"[^>]*>(?P<t>.*?)</button>', re.DOTALL)
-_QWHY = re.compile(r'<p class="qwhy">(?P<t>.*?)</p>', re.DOTALL)
+# Option and feedback markup drifted across course batches: older repos use
+# <button class="qopt"> + <p class="qwhy">, newer ones <div class="qopt"> +
+# <q class="qwhy">. A tag-specific regex matched nothing on the newer shape and
+# returned an empty bank instead of failing, so this parses structurally by
+# class and never by tag name.
+
 _H1 = re.compile(r"<h1[^>]*>(?P<t>.*?)</h1>", re.DOTALL)
 _CHEAT_TERM = re.compile(r'<div class="cheat-item"><b>(?P<t>.*?)</b>', re.DOTALL)
+_HAS_QUIZ = re.compile(r'class="[^"]*\bquiz-q\b')
 _TAGS = re.compile(r"<[^>]+>")
-_LEAD_LABEL = re.compile(r"^\s*[A-H]\s*·\s*")   # strips "A · " from harvested options
-_LEAD_NUM = re.compile(r"^\s*\d+\s*·\s*")       # strips "1 · " from harvested stems
+_LEAD_LABEL = re.compile(r"^\s*[A-H]\s*[·.)]\s*")   # strips "A · " from options
+_LEAD_NUM = re.compile(r"^\s*\d+\s*[·.)]\s*")       # strips "1 · " from stems
+
+# filename prefix -> track key. Unknown prefixes keep their own letter rather
+# than being silently folded into "single".
+_PREFIX_TRACK = {
+    "a": TRACK_LEADER, "b": TRACK_BUILDER, "p": TRACK_PRACTITIONER,
+    "s": TRACK_STAKEHOLDER, "e": TRACK_EXEC, "c": TRACK_CHAIRMAN,
+}
+
+# Courses name their own tracks in the page footer ("Analyst session 1 of 8").
+# The key above is for stable filing; this is the label a human reads, and it is
+# taken from the course rather than guessed - "a" is Leader in most courses but
+# Analyst in learn-customer-retention.
+_FOOTER_TRACK = re.compile(r"<span>\s*([A-Z][A-Za-z-]*)\s+session\s+\d+\s+of\s+\d+")
+_PREFIX_RE = re.compile(r"^([a-z]+)\d")
 
 
 def _clean(raw: str) -> str:
-    """HTML fragment -> plain text, whitespace normalised."""
     txt = _TAGS.sub("", raw)
     txt = html.unescape(txt)
     return re.sub(r"\s+", " ", txt).strip()
 
 
-def track_of(filename: str) -> str:
-    """Session page filename -> which track it belongs to."""
-    stem = Path(filename).stem
-    if re.match(r"^a\d", stem):
-        return TRACK_LEADER
-    if re.match(r"^b\d", stem):
-        return TRACK_BUILDER
-    return TRACK_SINGLE
+class _QuizParser(HTMLParser):
+    """Pulls .quiz-q blocks out of a session page, whatever tags they use."""
+
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.questions: list[dict] = []
+        self._depth = 0           # nesting depth inside the current quiz-q
+        self._cur: dict | None = None
+        self._capture: str | None = None
+        self._cap_depth = 0
+        self._buf: list[str] = []
+
+    @staticmethod
+    def _classes(attrs) -> set[str]:
+        d = dict(attrs)
+        return set((d.get("class") or "").split())
+
+    def handle_starttag(self, tag, attrs):
+        cls = self._classes(attrs)
+        if self._cur is None:
+            if "quiz-q" in cls:
+                d = dict(attrs)
+                try:
+                    ans = int(d.get("data-answer", ""))
+                except ValueError:
+                    return
+                self._cur = {"answer": ans, "q": "", "options": [], "why": ""}
+                self._depth = 1
+            return
+
+        self._depth += 1
+        if self._capture is None:
+            for name in ("qtext", "qopt", "qwhy"):
+                if name in cls:
+                    self._capture = name
+                    self._cap_depth = self._depth
+                    self._buf = []
+                    break
+
+    def handle_data(self, data):
+        if self._capture is not None:
+            self._buf.append(data)
+
+    def handle_endtag(self, tag):
+        if self._cur is None:
+            return
+        if self._capture is not None and self._depth == self._cap_depth:
+            text = _clean("".join(self._buf))
+            if self._capture == "qtext":
+                self._cur["q"] = _LEAD_NUM.sub("", text)
+            elif self._capture == "qopt":
+                self._cur["options"].append(_LEAD_LABEL.sub("", text))
+            else:
+                self._cur["why"] = text
+            self._capture = None
+        self._depth -= 1
+        if self._depth == 0:
+            q = self._cur
+            self._cur = None
+            if q["q"] and len(q["options"]) >= 2 and q["answer"] < len(q["options"]):
+                self.questions.append(q)
+
+
+def track_of(filename: str, prefixes: set[str] | None = None) -> str:
+    """Session page filename -> track key.
+
+    A repo with one filename prefix is single-track. With several, each prefix
+    is its own track: a and b keep their historic names, anything else keeps
+    its own letter so a new convention cannot be silently mislabelled.
+    """
+    m = _PREFIX_RE.match(Path(filename).stem)
+    pref = m.group(1) if m else ""
+    if prefixes is not None and len(prefixes) <= 1:
+        return TRACK_SINGLE
+    if not pref:
+        return TRACK_SINGLE
+    return _PREFIX_TRACK.get(pref, pref)
+
+
+def track_label(repo: Path, track: str) -> str:
+    """The name this course gives a track, read from its own page footers."""
+    prefixes = page_prefixes(repo)
+    for page in session_pages(repo):
+        if track_of(page.name, prefixes) != track:
+            continue
+        m = _FOOTER_TRACK.search(page.read_text(encoding="utf-8", errors="replace"))
+        if m:
+            return m.group(1) + " track"
+    return track.capitalize() + " track"
 
 
 def session_pages(repo: Path) -> list[Path]:
@@ -64,68 +162,83 @@ def session_pages(repo: Path) -> list[Path]:
     return sorted(p for p in d.glob("*.html"))
 
 
+def page_prefixes(repo: Path) -> set[str]:
+    out = set()
+    for p in session_pages(repo):
+        m = _PREFIX_RE.match(p.stem)
+        out.add(m.group(1) if m else "")
+    return out
+
+
 def repo_tracks(repo: Path) -> list[str]:
-    """Which tracks this course actually has. Single-track courses return ['single']."""
-    found = {track_of(p.name) for p in session_pages(repo)}
-    if TRACK_LEADER in found and TRACK_BUILDER in found:
-        return [TRACK_LEADER, TRACK_BUILDER]
-    return [TRACK_SINGLE]
+    prefixes = page_prefixes(repo)
+    seen: list[str] = []
+    for p in session_pages(repo):
+        t = track_of(p.name, prefixes)
+        if t not in seen:
+            seen.append(t)
+    return seen or [TRACK_SINGLE]
 
 
 def harvest_page(path: Path) -> dict:
-    """One session page -> its title, key terms, and its in-page questions."""
     src = path.read_text(encoding="utf-8", errors="replace")
+    parser = _QuizParser()
+    parser.feed(src)
     h1 = _H1.search(src)
+    session = _PREFIX_RE.sub(lambda m: m.group(0), path.stem).split("-")[0]
     questions = []
-    for m in _QUIZ_BLOCK.finditer(src):
-        body = m.group("body")
-        stem = _QTEXT.search(body)
-        opts = [_LEAD_LABEL.sub("", _clean(o.group("t"))) for o in _QOPT.finditer(body)]
-        why = _QWHY.search(body)
-        if not stem or len(opts) < 2:
-            continue
-        answer = int(m.group("ans"))
-        if answer >= len(opts):
-            continue
-        questions.append(
-            {
-                "session": path.stem.split("-")[0],
-                "page": path.name,
-                "q": _LEAD_NUM.sub("", _clean(stem.group("t"))),
-                "options": opts,
-                "answer": answer,
-                "why": _clean(why.group("t")) if why else "",
-            }
-        )
+    for q in parser.questions:
+        q = dict(q)
+        q["session"] = session
+        q["page"] = path.name
+        questions.append(q)
     return {
         "page": path.name,
-        "session": path.stem.split("-")[0],
-        "track": track_of(path.name),
+        "session": session,
         "title": _clean(h1.group("t")) if h1 else path.stem,
         "terms": [_clean(t.group("t")) for t in _CHEAT_TERM.finditer(src)],
         "questions": questions,
+        "has_quiz_markup": bool(_HAS_QUIZ.search(src)),
     }
 
 
-def harvest_repo(repo: str | Path) -> dict:
-    """Whole course repo -> candidate bank keyed by track.
+class HarvestError(RuntimeError):
+    """A page carries quiz markup that the parser could not read."""
 
-    {track: {"sessions": [...], "terms": [...], "candidates": [...]}}
+
+def harvest_repo(repo: str | Path, strict: bool = True) -> dict:
+    """Course repo -> candidate bank keyed by track.
+
+    strict=True raises when a page clearly contains quiz markup but yielded no
+    questions. An empty bank is almost always a parser problem, not a course
+    without quizzes, and silently returning zero is how that stays hidden.
     """
     repo = Path(repo)
+    prefixes = page_prefixes(repo)
     out: dict[str, dict] = {}
+    unreadable: list[str] = []
+
     for page in session_pages(repo):
         h = harvest_page(page)
-        t = h["track"]
+        if h["has_quiz_markup"] and not h["questions"]:
+            unreadable.append(h["page"])
+        t = track_of(page.name, prefixes)
         bucket = out.setdefault(t, {"sessions": [], "terms": [], "candidates": []})
-        bucket["sessions"].append({"session": h["session"], "page": h["page"], "title": h["title"]})
+        bucket["sessions"].append(
+            {"session": h["session"], "page": h["page"], "title": h["title"]})
         bucket["terms"].extend(h["terms"])
         bucket["candidates"].extend(h["questions"])
-    # single-track courses land under 'single' already via track_of
+
+    if unreadable and strict:
+        raise HarvestError(
+            f"{repo.name}: {len(unreadable)} page(s) contain quiz-q markup that produced "
+            f"no questions, e.g. {', '.join(unreadable[:3])}. The parser is out of date "
+            f"with this course's markup - fix it rather than accepting an empty bank.")
+
     for t in out:
         seen = set()
         out[t]["terms"] = [x for x in out[t]["terms"] if not (x in seen or seen.add(x))]
-    return {"slug": repo.name, "tracks": out}
+    return {"slug": repo.name, "tracks": out, "unreadable": unreadable}
 
 
 # ---------------------------------------------------------------- validation

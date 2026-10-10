@@ -384,3 +384,83 @@ inlined. Both scripts pass a real syntax check.
 
 Housekeeping spotted, unrelated: the hub `courses.json` records `sessions: 6` for Data Literacy but
 the repo has 8 session pages. Worth a sweep across the hub for the same drift elsewhere.
+
+---
+
+## AMENDMENT 4 - housekeeping sweep, 2026-10-10
+
+The project sat dormant for seven weeks. The sweep found rot in it and around it.
+
+### Corrected numbers
+
+Everything in this document above this line was measured on 2026-08-25 and is stale.
+
+| | doc said (Aug 25) | actual (Oct 10) |
+|---|---|---|
+| live courses | 79 | **157** |
+| forms needed | 131 | **242** |
+| questions to curate | 1310 | **2420** |
+
+Track shapes across the 157 live courses: 72 single-track, 65 leader+builder,
+17 leader+practitioner, and three one-offs (leader+stakeholder, exec+numbered,
+chairman+leader). One track is genuinely thin: `learn-ship-platform-diagnosis`
+chairman track has 9 candidates for 10 slots and needs one new question written.
+
+Bucket `aidm` referenced earlier in this document was retired on 2026-09-03 and
+merged into `aiap`. Do not write it again.
+
+### The harvester was silently returning zero
+
+`quiz_lib.py` matched quiz markup with tag-specific regexes: `<button class="qopt">`
+and `<p class="qwhy">`. Eight courses built in September and October use
+`<div class="qopt">` and `<q class="qwhy">` instead. The regexes matched nothing
+and the harvest returned an empty bank rather than failing, so a feasibility check
+run against the estate reported 17 tracks with zero questions and looked like a
+content problem rather than a parser problem.
+
+Fixed three ways:
+
+1. Parsing is now structural, by CSS class, through `html.parser` rather than
+   tag-specific regex. Markup can change tags again without breaking it.
+2. `harvest_repo()` raises `HarvestError` when a page contains `quiz-q` markup but
+   yields no questions. An empty bank can no longer pass quietly.
+3. Track detection no longer assumes `a`/`b` filename prefixes. Every prefix gets
+   its own track key, and the human-readable label is read from the course's own
+   page footer rather than guessed, because `a` means Leader in most courses and
+   Analyst in `learn-customer-retention`.
+
+Estate re-measured after the fix: 157 courses harvest clean, zero parser errors.
+
+### The quiz markup split is closed
+
+The eight newer courses were migrated back to `<button>` and `<p>`. Measured in a
+browser before the change, the newer shape had two real defects: options had
+`tabIndex -1` with zero focusable elements in a question, so the quizzes were
+mouse-only; and `<q>` generated open-quote and close-quote pseudo-elements, so
+every explanation rendered wrapped in quotation marks. After: `tabIndex 0`, three
+focusable options, no generated quotes, answer engine untouched.
+
+`migrate_quiz_markup.py` did the work. It refuses nested or multiline markup and
+asserts the harvested question count is unchanged on both sides of the migration.
+
+### The band that should never have shipped
+
+The placeholder quiz band injected into `learn-ai-agents-with-phoebe` on 2026-08-25
+was deliberately left uncommitted, then swept into an unrelated later commit by a
+bulk `git add -A` and published. It announced "Required - everyone who attends
+completes this" above two `href="#"` buttons, and was live for seven weeks.
+
+Removed via a new `inject_button.py --remove`, which strips the same marker-guarded
+blocks it injects. **A deliberately uncommitted placeholder is not safe in a repo
+that gets bulk sweeps.** Future placeholder injection should either be committed
+with a visible disabled state and an issue, or not written to the repo at all.
+
+### Still open
+
+- The `quiz-builder` skill (Amendment 3) is still unbuilt.
+- No Google Form has ever been created. Every `formId` and `formUrl` is empty.
+- `learn-ai-agents` and `learn-data-literacy` carry committed, public
+  `final-quiz.json` files with no form behind them. Harmless but inert.
+- `assets/app.js` and `assets/mindmap.js` are uncommitted in four of the eight
+  migrated repos, carrying a half-rolled-out "3 / 3 STAMPED" quiz flourish present
+  in only those four. Left alone deliberately: it is unfinished, not a fix.

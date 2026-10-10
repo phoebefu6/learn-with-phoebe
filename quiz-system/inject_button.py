@@ -142,9 +142,38 @@ def inject_page(repo: Path, quiz: dict) -> bool:
     return True
 
 
+def strip_block(text: str, start: str, end: str) -> str:
+    """Remove a generated block, markers included."""
+    if start not in text or end not in text:
+        return text
+    head = text[: text.index(start)]
+    tail = text[text.index(end) + len(end):]
+    return (head.rstrip() + "\n" + tail.lstrip("\n")) if head.strip() else tail.lstrip("\n")
+
+
+def remove(repo: Path) -> tuple[bool, bool]:
+    """Take the quiz band and its CSS back out. Inverse of the injection."""
+    idx = repo / "index.html"
+    src = idx.read_text(encoding="utf-8")
+    out = strip_block(src, HTML_START, HTML_END)
+    page_changed = out != src
+    if page_changed:
+        idx.write_text(out, encoding="utf-8")
+
+    css_path = repo / "assets" / "style.css"
+    css = css_path.read_text(encoding="utf-8")
+    ncss = strip_block(css, CSS_START, CSS_END)
+    css_changed = ncss != css
+    if css_changed:
+        css_path.write_text(ncss, encoding="utf-8")
+    return page_changed, css_changed
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("repo")
+    ap.add_argument("--remove", action="store_true",
+                    help="strip the generated band and CSS back out")
     ap.add_argument("--set", action="append", default=[], metavar="track=url",
                     help="write a live form URL into final-quiz.json before injecting")
     ap.add_argument("--placeholder", action="store_true",
@@ -152,6 +181,15 @@ def main() -> None:
     args = ap.parse_args()
 
     repo = Path(args.repo).resolve()
+
+    if args.remove:
+        page_changed, css_changed = remove(repo)
+        version = bump_version(repo) if (page_changed or css_changed) else None
+        print(f"{repo.name}: band={'removed' if page_changed else 'absent'} "
+              f"css={'removed' if css_changed else 'absent'}"
+              + (f" assets bumped to ?v={version}" if version else ""))
+        return
+
     qp = Q.quiz_path(repo)
     if not qp.exists():
         raise SystemExit(f"no {qp}")
