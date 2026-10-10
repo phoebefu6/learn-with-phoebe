@@ -1936,6 +1936,17 @@
       "blurb": "The first meeting of any data project, run from the data side - the Six Doors framework, plain questions that teach the business while they answer, and a bench where one operations director with 24 hidden facts is interviewed five ways: the fast yes-or-no interview scores 15, the doors in order 48."
     },
     {
+      "slug": "learn-marketing-analytics-with-phoebe",
+      "title": "Marketing Analytics for Data Teams",
+      "icon": "🧭",
+      "bucket": "data",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 10,
+      "blurb": "How data analysts read marketing and work with marketing, brand and BD - every channel (SEO, content, social, paid, email, partners) in four beats, cohorts, CAC and payback, lift and brand health, then an ownership map that keeps market research and penetration strategy with the business while data supplies the evidence. The live bench triages 24 asks for the fictional Kettle & Co: yes-to-everything burns 426 of 120 hours, no-to-everything leaves 9 decisions on anecdote, the split does neither."
+    },
+    {
       "slug": "learn-aws-with-phoebe",
       "title": "AWS for Data & AI Teams",
       "icon": "☁️",
