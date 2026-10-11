@@ -1944,6 +1944,17 @@
       "blurb": "How data analysts read marketing and work with marketing, brand and BD - every channel (SEO, content, social, paid, email, partners) in four beats, cohorts, CAC and payback, lift and brand health, then an ownership map that keeps market research and penetration strategy with the business while data supplies the evidence. The live bench triages 24 asks for the fictional Kettle & Co: yes-to-everything burns 426 of 120 hours, no-to-everything leaves 9 decisions on anecdote, the split does neither."
     },
     {
+      "slug": "learn-market-sizing-with-phoebe",
+      "title": "Market Sizing for Data Teams",
+      "icon": "📐",
+      "bucket": "data",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 10,
+      "blurb": "Market sizing as evidence for a decision - a business track on what a size is for, reading a sizing deck, who owns the evidence vs the bet, and from size to plan; an analyst track on top-down, bottom-up, analogy and proxy, ranges, and share realism. The live bench triangulates the fictional Kettle & Co's Japan tea market from real household spending data: 19.6 vs 13.1 billion yen, a 1.5x gap, while the hero assumption inflates it 10x and the collision test plans 120% of the market."
+    },
+    {
       "slug": "learn-aws-with-phoebe",
       "title": "AWS for Data & AI Teams",
       "icon": "☁️",
