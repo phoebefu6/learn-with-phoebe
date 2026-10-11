@@ -1955,6 +1955,17 @@
       "blurb": "Market sizing as evidence for a decision - a business track on what a size is for, reading a sizing deck, who owns the evidence vs the bet, and from size to plan; an analyst track on top-down, bottom-up, analogy and proxy, ranges, and share realism. The live bench triangulates the fictional Kettle & Co's Japan tea market from real household spending data: 19.6 vs 13.1 billion yen, a 1.5x gap, while the hero assumption inflates it 10x and the collision test plans 120% of the market."
     },
     {
+      "slug": "learn-sales-pipeline-analytics-with-phoebe",
+      "title": "B2B Sales Pipeline Analytics",
+      "icon": "🔭",
+      "bucket": "data",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 10,
+      "blurb": "B2B sales pipelines from the data side - a business track on what a pipeline proves, reading a pipeline review, who owns the forecast and when the evidence says scale; an analyst track on the pipeline data model, conversion and cycle time done honestly, three forecast methods and their measured bias. The live bench replays a quarter for the fictional Kettle & Co's office-tea arm on real Olist B2B funnel rows: stage-weighted over-calls by 63 percent, history-based covers the actual 17 times in 20."
+    },
+    {
       "slug": "learn-aws-with-phoebe",
       "title": "AWS for Data & AI Teams",
       "icon": "☁️",
