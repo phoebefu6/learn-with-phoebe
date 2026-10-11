@@ -1162,10 +1162,9 @@
       "bucket": "lead",
       "diff": 1,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Protect your attention and energy - prioritization, focus, and staying calm under load."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Plan against real capacity, following Dara, a constructed new analyst - urgent against important, why estimates run optimistic, why slack is not waste, interruptions, and saying no. A calendar bench queues eight weeks of work in your browser and shows why a fully booked week makes everything late. Workload and planning, not medical advice."
     },
     {
       "slug": "learn-tech-project-pmo-with-phoebe",
@@ -1185,10 +1184,9 @@
       "bucket": "lead",
       "diff": 2,
       "audience": "leader",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Lead people, not just projects - hiring, 1:1s, feedback, and building a team that ships."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "How a team runs, on Northline, a constructed seven-person data team - team size and shape, who decides what, the rhythm and what it costs, psychological safety and useful conflict, remote and async work, and the person who knows everything. A team-size bench counts paths, meeting hours and bus factor per design."
     },
     {
       "slug": "learn-interview-prep-with-phoebe",
@@ -1197,10 +1195,9 @@
       "bucket": "lead",
       "diff": 2,
       "audience": "everyone",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Prepare for data and AI interviews - question banks, frameworks, and telling your story well."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "The candidate side of data and AI interviews, following Ren, a constructed analyst moving to data science - what the interview measures, a story bank that covers the job, the SQL round, stats and the product case, take-homes and the review after. Practice SQL rounds run and are graded in your browser on real marketplace rows."
     },
     {
       "slug": "learn-okr-with-phoebe",
