@@ -1726,10 +1726,9 @@
       "bucket": "move",
       "diff": 3,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Design a full program - a multi-week arc, progressions, and how to take students from beginner to confident."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Design a multi-week yoga programme, not eight classes in a row, for Juniper, a constructed community studio - intake and referral, progressions across weeks, one room with many levels, finishing well. A programme bench checks a plan for prerequisite gaps, load spikes and skills taught only once. Builds on Yoga Theory."
     },
     {
       "slug": "learn-stress-control-with-phoebe",
@@ -1739,9 +1738,8 @@
       "diff": 2,
       "audience": "everyone",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "How the stress response works and what actually turns it down - breathing, reappraisal, sleep and recovery, with the real evidence for each."
+      "sessions": 6,
+      "blurb": "How the stress response works and what turns it down, following Malia, a constructed operations analyst - the nervous system's brake, slow breathing and what the cyclic sighing trial actually found, reappraisal, recovery, and when to get help. A sleep bench runs the two-process model over 14 nights in your browser. Not medical advice."
     },
     {
       "slug": "learn-focus-with-phoebe",
@@ -1751,9 +1749,8 @@
       "diff": 2,
       "audience": "everyone",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Attention as a trainable skill - distraction, task switching, deep-work blocks and attention-restoring breaks, with a live focus timer."
+      "sessions": 6,
+      "blurb": "Attention as a capacity you can protect, following Tomas, a constructed data engineer in an open-plan office - what attention is (and the goldfish number that is not), where the mind goes, why focus fades over an hour, the room and the phone. A bench measures your own focus with and without chat banners. Not medical advice."
     },
     {
       "slug": "learn-office-energy-with-phoebe",
@@ -1763,9 +1760,8 @@
       "diff": 1,
       "audience": "everyone",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Small exercises you can do at the office to win back energy - 2 to 5 minute mobility, posture and movement breaks for long sitting days."
+      "sessions": 6,
+      "blurb": "Short movement breaks at a desk, following Priyanka, a constructed analyst who sits nine hours a day - what long sitting does and does not do, why there is no perfect posture, a three-minute routine drawn step by step, eyes and wrists. A break bench turns your workday into sitting bouts and shows which breaks meetings swallow. Not medical advice."
     },
     {
       "slug": "learn-ecommerce-metrics-with-phoebe",
