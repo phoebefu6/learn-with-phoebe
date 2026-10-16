@@ -2002,9 +2002,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The long tail, the cost of a label per frame, simulation against real miles, and why a disengagement count is a bad metric. How many miles prove a car is safe, computed in the page. What a warehouse data person carries over, and what they must learn."
+      "sessions": 16,
+      "blurb": "A data course on the industry, not a tech tour. Zero fatal crashes in 150 million miles proves nothing yet, and a crash rate of 120 per 100 million miles becomes 192 once it is matched to the roads people drive and the rare scenarios are counted, against a human 186. Exact Poisson bounds and importance sampling run in the page on Lanehart, a constructed robotaxi fleet, and the disengagement metric picks the policy with 21 extra crashes. What a warehouse data person carries over, and what they must learn."
     },
     {
       "slug": "learn-iot-data-with-phoebe",
