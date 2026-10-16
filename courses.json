@@ -1212,15 +1212,14 @@
     },
     {
       "slug": "learn-leadership-ai-with-phoebe",
-      "title": "Leadership in the Age of AI",
+      "title": "Leadership in the Age of AI: Organising for AI",
       "icon": "🤝",
       "bucket": "lead",
       "diff": 3,
       "audience": "leader",
-      "format": "concept",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Lead when the tools change monthly - AI-era strategy, team enablement, and decision-making."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "For the C-suite deciding workforce strategy. AI changes tasks, not job titles: 9 of a management analyst's 11 tasks are exposed, yet once time shares, review work and rebounding demand are counted the freed share falls from 81.8% to 2.9%. A bench on 624 real O*NET task statements runs in the page for Marlowe Group, a constructed 4,000-person firm, and shows what cutting headcount on hours saved really costs: 80 FTE of work nobody is staffed for, and a thinner junior rung."
     },
     {
       "slug": "learn-performance-management-with-phoebe",
