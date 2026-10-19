@@ -2034,9 +2034,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Open public data at scale, residents who never consented, and where the sensors were never placed. Real trip rows in the page and a bench on sensor-placement bias. What a warehouse data person carries over, and what they must learn."
+      "sessions": 16,
+      "blurb": "City data as a data problem, practised on real NYC taxi records: 3,876,702 pickups in 262 zones for October 2024. Put 40 counting sensors on the busiest zones and they see 88.9 percent of trips, cover 15.3 percent of the city, leave three boroughs dark and miss the outer boroughs by +6,388.6 percent; an equity floor sees fewer trips and misses by +22.0. Wrenmouth, a constructed transport office, decides; residents who never consented, censored demand and small-cell suppression are all computed in the page."
     }
   ]
 }
