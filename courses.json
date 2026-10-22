@@ -485,6 +485,42 @@
       "blurb": "The discovery meeting before any model, run by a data scientist - what exactly to predict, how often it happens today, and what each wrong guess costs, asked of an operations director with 24 hidden facts. Outcome first scores 55 on the bench against 46 for the doors in printed order."
     },
     {
+      "slug": "learn-nlp-text-analytics-with-phoebe",
+      "title": "NLP & Text Analytics",
+      "icon": "📝",
+      "bucket": "ds",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Text as data: tokens, classification, topic structure and search, before and without a large language model."
+    },
+    {
+      "slug": "learn-computer-vision-with-phoebe",
+      "title": "Computer Vision Foundations",
+      "icon": "👁️",
+      "bucket": "ds",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Images as arrays, convolutions, detection and the labels that cost the most, on a public image set."
+    },
+    {
+      "slug": "learn-survey-design-with-phoebe",
+      "title": "Survey Design & Sampling",
+      "icon": "🗳️",
+      "bucket": "ds",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Questionnaires, sampling frames, non-response and the bias a survey carries before the first answer."
+    },
+    {
       "slug": "learn-data-pipelines-with-phoebe",
       "title": "Data Pipelines",
       "icon": "🚚",
@@ -758,6 +794,30 @@
       "format": "interactive",
       "sessions": 6,
       "blurb": "The discovery meeting before any assistant, run by an AI developer - one real thread watched end to end, which replies are lookups and which are decisions, and who checks the output. The kind of question matters more than the order: jargon 11, the doors 54."
+    },
+    {
+      "slug": "learn-fine-tuning-slm-with-phoebe",
+      "title": "Fine-tuning & Small Language Models",
+      "icon": "🧪",
+      "bucket": "ai",
+      "diff": 4,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Where the AI shelf stops: when a smaller tuned model beats the big general one, and how to prove it with evals."
+    },
+    {
+      "slug": "learn-voice-multimodal-agents-with-phoebe",
+      "title": "Voice & Multimodal Agents",
+      "icon": "🎙️",
+      "bucket": "ai",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Speech in, speech out, and images in the loop: latency, turn-taking, evals for a conversation you cannot read."
     },
     {
       "slug": "learn-ai-writing-with-phoebe",
@@ -1035,6 +1095,30 @@
       "blurb": "Run one six-week engagement with AI and the rails on: the jagged-frontier evidence, a live scorer that takes an exec summary from 19 to 100, the slop draft that scores 8, and a confidentiality gate that caps any draft at 15 the moment it names names."
     },
     {
+      "slug": "learn-ai-customer-support-with-phoebe",
+      "title": "AI + Customer Support",
+      "icon": "🎧",
+      "bucket": "aiap",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Deflection that is not just deflection: triage, drafting, hand-off and the quality bar for a support assistant."
+    },
+    {
+      "slug": "learn-ai-supply-chain-with-phoebe",
+      "title": "AI + Supply Chain",
+      "icon": "🚚",
+      "bucket": "aiap",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Forecast, allocate, reroute: where AI earns its place in a supply chain and where a spreadsheet still wins."
+    },
+    {
       "slug": "learn-cyber-security-with-phoebe",
       "title": "Cyber Security for the Data Estate",
       "icon": "🛡️",
@@ -1110,6 +1194,30 @@
       "format": "interactive",
       "sessions": 14,
       "blurb": "Govern the AI you build and deploy - the EU AI Act risk tiers, obligations, and penalties, plus NIST AI RMF and ISO/IEC 42001, with a live risk-tier classifier. Running case: Vantage, a Singapore firm shipping an AI hiring tool into the EU."
+    },
+    {
+      "slug": "learn-privacy-engineering-with-phoebe",
+      "title": "Privacy Engineering",
+      "icon": "🛡️",
+      "bucket": "gov",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Anonymisation, k-anonymity and differential privacy as engineering, computed on real rows; GDPR and PDPA keep the law."
+    },
+    {
+      "slug": "learn-metadata-catalog-lineage-with-phoebe",
+      "title": "Metadata, Catalog & Lineage",
+      "icon": "🗂️",
+      "bucket": "gov",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "A catalog as a product: owners, definitions, lineage and the open tools that hold them."
     },
     {
       "slug": "learn-product-thinking-with-phoebe",
@@ -1244,6 +1352,30 @@
       "blurb": "Run a whole data office's portfolio - 30 services, 10 projects, one year at Northgate. Sprint planning, roadmap, RACI, stakeholders, conflict, budget, headcount - with a live simulator where PMO levers lift on-time delivery from 1 to 9 of 10."
     },
     {
+      "slug": "learn-stakeholder-management-with-phoebe",
+      "title": "Stakeholder Management for Data Leaders",
+      "icon": "🤝",
+      "bucket": "lead",
+      "diff": 2,
+      "audience": "leader",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Managing up and sideways: the map of who decides, what they fear, and how a data leader earns the room."
+    },
+    {
+      "slug": "learn-data-strategy-with-phoebe",
+      "title": "Data Strategy for CDOs",
+      "icon": "🧭",
+      "bucket": "lead",
+      "diff": 3,
+      "audience": "leader",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Deciding what the data is for before any method: ambition, operating model, the first three bets."
+    },
+    {
       "slug": "learn-economics-with-phoebe",
       "title": "Economics for Data and AI Teams",
       "icon": "🏷️",
@@ -1308,6 +1440,30 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "Graham and Buffett as a reasoning discipline - owner earnings, intrinsic value as a range, margin of safety, reverse DCF and base rates. An Owner track plus an Analyst track, with a bench that values four real SEC filers and backtests each rule against what the filings later showed. Educational, not investment advice."
+    },
+    {
+      "slug": "learn-data-monetisation-with-phoebe",
+      "title": "Data Monetisation",
+      "icon": "💹",
+      "bucket": "biz",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Data as revenue: products, pricing, partnerships and the governance that makes any of it sellable."
+    },
+    {
+      "slug": "learn-business-cases-roi-with-phoebe",
+      "title": "Business Cases & ROI",
+      "icon": "🧮",
+      "bucket": "biz",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "A case a finance team will sign: ranges not points, the assumption doing the work, payback and the option to wait."
     },
     {
       "slug": "learn-communication-with-phoebe",
@@ -1398,6 +1554,30 @@
       "blurb": "Business register for people who already speak Chinese - formal emails and WeChat, presenting numbers with 同比 (tóngbǐ, year on year) and 环比 (huánbǐ, period on period), negotiation and face, dining. A formality checker scores one message five ways: each draft fits one channel, and polishing everything fits none."
     },
     {
+      "slug": "learn-executive-briefings-with-phoebe",
+      "title": "Executive Briefings & Memos",
+      "icon": "📨",
+      "bucket": "comm",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "One page, the decision first, the evidence behind it: how to write for someone with four minutes."
+    },
+    {
+      "slug": "learn-presenting-to-a-board-with-phoebe",
+      "title": "Presenting Data to a Board",
+      "icon": "🏛️",
+      "bucket": "comm",
+      "diff": 2,
+      "audience": "leader",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Numbers in the boardroom: what to show, what to withhold, and the questions you will be asked."
+    },
+    {
       "slug": "learn-github-with-phoebe",
       "title": "Learn GitHub",
       "icon": "🐙",
@@ -1440,6 +1620,42 @@
       "format": "concept",
       "sessions": 10,
       "blurb": "Python from zero for data and AI work - hands-on in a real Anaconda + Jupyter setup."
+    },
+    {
+      "slug": "learn-command-line-with-phoebe",
+      "title": "Command Line for Data People",
+      "icon": "⌨️",
+      "bucket": "prog",
+      "diff": 1,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The terminal every tool assumes you have: files, pipes, environment, and reading an error before asking."
+    },
+    {
+      "slug": "learn-docker-containers-with-phoebe",
+      "title": "Docker & Containers for Data/AI",
+      "icon": "📦",
+      "bucket": "prog",
+      "diff": 2,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Why it works on your laptop and nowhere else, and the one container that fixes it."
+    },
+    {
+      "slug": "learn-testing-data-ml-code-with-phoebe",
+      "title": "Testing Data & ML Code",
+      "icon": "🧫",
+      "bucket": "prog",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "What test would fail if the code were wrong: unit tests for transforms, data checks and model behaviour."
     },
     {
       "slug": "learn-reading-with-phoebe",
@@ -1508,6 +1724,30 @@
       "blurb": "Personal ops with AI - where your week goes, triage rules against an AI judge, follow-ups that do not fall through, agents scoped to read, draft or send, and a weekly review. The live bench scores your triage rules on 390 real Enron emails labelled by what their owners actually did."
     },
     {
+      "slug": "learn-inbox-calendar-systems-with-phoebe",
+      "title": "Inbox & Calendar Systems",
+      "icon": "📅",
+      "bucket": "prod",
+      "diff": 1,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "A week you can see: triage rules, calendar blocks and the small automations that hold them."
+    },
+    {
+      "slug": "learn-skills-library-with-phoebe",
+      "title": "Your Own Skills Library",
+      "icon": "🧰",
+      "bucket": "prod",
+      "diff": 2,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Turn repeated work into reusable instructions an AI assistant can run: naming, structure, testing, upkeep."
+    },
+    {
       "slug": "learn-markdown-with-phoebe",
       "title": "Learn Markdown",
       "icon": "📝",
@@ -1539,6 +1779,30 @@
       "format": "project",
       "sessions": 12,
       "blurb": "Document real software well - you write up the Pulse data pipeline end to end as you learn."
+    },
+    {
+      "slug": "learn-api-docs-changelogs-with-phoebe",
+      "title": "API Docs & Changelogs",
+      "icon": "📜",
+      "bucket": "docs",
+      "diff": 2,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Reference pages, examples that run, and a changelog someone can act on."
+    },
+    {
+      "slug": "learn-runbooks-postmortems-with-phoebe",
+      "title": "Runbooks & Postmortems",
+      "icon": "📓",
+      "bucket": "docs",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The page you read at 2 a.m., and the write-up that stops it happening again."
     },
     {
       "slug": "learn-mind-mapping-with-phoebe",
@@ -1594,6 +1858,30 @@
       "format": "interactive",
       "sessions": 6,
       "blurb": "A prompt persuades, a ratio binds, a seed is 99 percent, and eleven characters of lettering are enough to fail - because the text encoder reads tokens, not glyphs. Six sessions on art direction with image models, with a bench that counts the anchors, contradictions and lettering requests in your own brief. No generated image anywhere on the site."
+    },
+    {
+      "slug": "learn-information-design-with-phoebe",
+      "title": "Information Design & Infographics",
+      "icon": "🖼️",
+      "bucket": "viz",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The illustrated one-pager: hierarchy, a subject that carries the page, and the difference between decoration and explanation."
+    },
+    {
+      "slug": "learn-dashboard-design-with-phoebe",
+      "title": "Dashboard Design",
+      "icon": "🧭",
+      "bucket": "viz",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Layout, the first glance, alerts and the questions a dashboard should answer; Business Intelligence keeps the data layer."
     },
     {
       "slug": "learn-blockchain-with-phoebe",
@@ -1763,6 +2051,30 @@
       "blurb": "Short movement breaks at a desk, following Priyanka, a constructed analyst who sits nine hours a day - what long sitting does and does not do, why there is no perfect posture, a three-minute routine drawn step by step, eyes and wrists. A break bench turns your workday into sitting bouts and shows which breaks meetings swallow. Not medical advice."
     },
     {
+      "slug": "learn-walking-posture-with-phoebe",
+      "title": "Walking & Posture for Desk Workers",
+      "icon": "🚶",
+      "bucket": "move",
+      "diff": 1,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Sitting, standing and walking through a desk day, taught as movement habits; not medical advice."
+    },
+    {
+      "slug": "learn-sleep-basics-with-phoebe",
+      "title": "Sleep Basics",
+      "icon": "🌙",
+      "bucket": "move",
+      "diff": 1,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Light, timing and wind-down as habits a working week can keep; not medical advice."
+    },
+    {
       "slug": "learn-ecommerce-metrics-with-phoebe",
       "title": "Ecommerce Metrics",
       "icon": "🛍️",
@@ -1840,6 +2152,30 @@
       "blurb": "One internal AI helpdesk shipped end to end at Tidewell Freight, a constructed 1,200-person freight forwarder. Real BM25 retrieval runs in the page over its policy clauses: with no permission filter 18 of 54 golden questions leak, and only the version check and an abstain-and-hand-off line turn NO-GO into GO. Grade it by thumbs-up and the leaking build passes at 90.7%; index an old expenses policy and it quotes a retired per diem while every check stays green."
     },
     {
+      "slug": "learn-ship-social-commerce-with-phoebe",
+      "title": "Ship It: Social Commerce, End to End",
+      "icon": "🛍️",
+      "bucket": "ship",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "One enabler estate through all five layers: data engineering, analytics, ML, gen AI and a packaged data product."
+    },
+    {
+      "slug": "learn-ship-platform-migration-with-phoebe",
+      "title": "Ship It: Data Platform Migration",
+      "icon": "🚧",
+      "bucket": "ship",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Move a warehouse without breaking the numbers: inventory, parity tests, cutover and the week after."
+    },
+    {
       "slug": "learn-data-orchestration-with-phoebe",
       "title": "Data Orchestration",
       "icon": "🌙",
@@ -1860,6 +2196,30 @@
       "format": "project",
       "sessions": 9,
       "blurb": "32 published principle sets, about 215 principles, assembled into one small review instrument - then run over a product carrying twenty real defects that the page genuinely detects rather than scripts. A trained usability reviewer finds 5 of 20; the measured ladder reaches 20, and two of the nine lenses add nothing at all."
+    },
+    {
+      "slug": "learn-internal-tools-with-phoebe",
+      "title": "Internal Tools & Workflows",
+      "icon": "🛠️",
+      "bucket": "sys",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Admin screens, approval flows and the forms behind them: design the tool your data product needs."
+    },
+    {
+      "slug": "learn-requirements-specs-with-phoebe",
+      "title": "Requirements & Specs for Data Products",
+      "icon": "📋",
+      "bucket": "sys",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "User stories, acceptance criteria and a spec a builder can act on, for the data product you are not coding yourself."
     },
     {
       "slug": "learn-entity-resolution-with-phoebe",
@@ -1904,6 +2264,30 @@
       "format": "project",
       "sessions": 14,
       "blurb": "The promise, the budget and the people on call for a data pipeline. SLIs for partitions, targets set from history not hope, error budgets that decide what ships, and alerting that pages once per incident: 35 pages or 5 for the same five incidents, computed over 30 real nights. The target decides the budget; the policy decides the pages. Leader and builder tracks on Harborlight's orders pipeline."
+    },
+    {
+      "slug": "learn-agent-secrets-access-with-phoebe",
+      "title": "Secrets & Access for AI Agents",
+      "icon": "🔐",
+      "bucket": "dsec",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "What you hand a model you would not hand a stranger: credentials, scopes, tool permissions and audit trails."
+    },
+    {
+      "slug": "learn-data-incident-response-with-phoebe",
+      "title": "Incident Response for Data Teams",
+      "icon": "🚨",
+      "bucket": "dsec",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "A bad load, a leaked table, a wrong number on the board deck: detect, contain, communicate, write it up."
     },
     {
       "slug": "learn-people-analytics-with-phoebe",
@@ -1972,6 +2356,30 @@
       "blurb": "B2B sales pipelines from the data side - a business track on what a pipeline proves, reading a pipeline review, who owns the forecast and when the evidence says scale; an analyst track on the pipeline data model, conversion and cycle time done honestly, three forecast methods and their measured bias. The live bench replays a quarter for the fictional Kettle & Co's office-tea arm on real Olist B2B funnel rows: stage-weighted over-calls by 63 percent, history-based covers the actual 17 times in 20."
     },
     {
+      "slug": "learn-excel-sheets-with-phoebe",
+      "title": "Excel & Sheets for Analysts",
+      "icon": "📊",
+      "bucket": "data",
+      "diff": 1,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Spreadsheets appear in most data work and are taught in none of it: tidy tables, lookups, pivots, what breaks, and when to leave for SQL."
+    },
+    {
+      "slug": "learn-pricing-analytics-with-phoebe",
+      "title": "Pricing Analytics",
+      "icon": "🏷️",
+      "bucket": "data",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Price elasticity, price tests and the margin behind a discount, on a constructed retailer; Experimentation keeps the A/B method."
+    },
+    {
       "slug": "learn-aws-with-phoebe",
       "title": "AWS for Data & AI Teams",
       "icon": "☁️",
@@ -2016,6 +2424,30 @@
       "blurb": "A location is a claim with a reference system, a boundary and a distance formula behind it, and each can be wrong silently. Practised on real Singapore open data: 332 URA subzones, 613 MRT exits, one day of NEA dengue clusters and the Census 2020 population. Measure distance in raw degrees and Singapore is off by about a metre; move the same points to 60 degrees north and the worst error is 2.4 km. Swap latitude and longitude and every subzone loses its nearest exit by 9,531 km. Point-in-polygon, a grid index and three distance formulas computed in the page."
     },
     {
+      "slug": "learn-gcp-with-phoebe",
+      "title": "GCP for Data & AI Teams",
+      "icon": "☁️",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The AWS course's mirror for the other cloud many APAC teams run on: storage, warehouse, pipelines, cost."
+    },
+    {
+      "slug": "learn-knowledge-graphs-with-phoebe",
+      "title": "Knowledge Graphs",
+      "icon": "🕸️",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Entities and relations as a graph, queries over it, and graph-based retrieval; RAG keeps vector retrieval."
+    },
+    {
       "slug": "learn-autonomous-driving-with-phoebe",
       "title": "Autonomous Driving for Data & AI Teams",
       "icon": "🚗",
@@ -2047,6 +2479,30 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "City data as a data problem, practised on real NYC taxi records: 3,876,702 pickups in 262 zones for October 2024. Put 40 counting sensors on the busiest zones and they see 88.9 percent of trips, cover 15.3 percent of the city, leave three boroughs dark and miss the outer boroughs by +6,388.6 percent; an equity floor sees fewer trips and misses by +22.0. Wrenmouth, a constructed transport office, decides; residents who never consented, censored demand and small-cell suppression are all computed in the page."
+    },
+    {
+      "slug": "learn-physical-ai-robotics-with-phoebe",
+      "title": "Physical AI & Robotics Data",
+      "icon": "🤖",
+      "bucket": "emrg",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Sensors, simulation and the long tail again, on robots instead of cars; what a warehouse data person carries over."
+    },
+    {
+      "slug": "learn-digital-twins-with-phoebe",
+      "title": "Digital Twins",
+      "icon": "🪞",
+      "bucket": "emrg",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "A model of a building, a line or a city kept in sync with reality: what it needs, where it drifts, what it is for."
     }
   ]
 }
