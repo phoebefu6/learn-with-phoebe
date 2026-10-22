@@ -1877,11 +1877,10 @@
       "icon": "🧭",
       "bucket": "viz",
       "diff": 2,
-      "audience": "both",
+      "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Layout, the first glance, alerts and the questions a dashboard should answer; Business Intelligence keeps the data layer."
+      "sessions": 6,
+      "blurb": "What goes on the screen and where, for the analyst who designs it: hierarchy and the first glance, density, colour as state, interaction and a five-user test. The bench scores your red-amber-green thresholds on a real KPI card built from 581 days of Olist orders: fixed thresholds fire 14 false-alarm days a month, thresholds from the series' own spread plus two days of persistence fire 4.7 and miss nothing. Tighten to catch everything and the card is red 29% of days for no fewer misses; hide the variance and it sits green 82% of the time while 2 of 3 real changes pass unflagged. Saltmarsh, a constructed retailer, decides; no BI product is named."
     },
     {
       "slug": "learn-blockchain-with-phoebe",
