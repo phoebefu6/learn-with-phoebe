@@ -2005,6 +2005,17 @@
       "blurb": "The discovery meeting before any pipeline, run by a data engineer - every system a number passes through, who can log in, which copy is real, got out of an operations director who has never seen a schema. The fast yes-or-no interview writes down \"the POS is the source of truth\" and scores 17."
     },
     {
+      "slug": "learn-geospatial-with-phoebe",
+      "title": "Geospatial Data",
+      "icon": "🗺️",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "A location is a claim with a reference system, a boundary and a distance formula behind it, and each can be wrong silently. Practised on real Singapore open data: 332 URA subzones, 613 MRT exits, one day of NEA dengue clusters and the Census 2020 population. Measure distance in raw degrees and Singapore is off by about a metre; move the same points to 60 degrees north and the worst error is 2.4 km. Swap latitude and longitude and every subzone loses its nearest exit by 9,531 km. Point-in-polygon, a grid index and three distance formulas computed in the page."
+    },
+    {
       "slug": "learn-autonomous-driving-with-phoebe",
       "title": "Autonomous Driving for Data & AI Teams",
       "icon": "🚗",
