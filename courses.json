@@ -1657,6 +1657,17 @@
       "blurb": "What test would fail if the code were wrong: unit tests for transforms, data checks and model behaviour."
     },
     {
+      "slug": "learn-gitlab-with-phoebe",
+      "title": "Learn GitLab",
+      "icon": "🦊",
+      "bucket": "prog",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 14,
+      "blurb": "GitLab as what it adds over git plus a host: planning, merge requests, CI/CD, registry and permissions in one application, taught on the Free tier with every paid feature labelled by tier. Penwood, a constructed analytics team, moves its pipelines over; the bench parses its .gitlab-ci.yml in your browser and shows a 30:08 pipeline fall to 19:17 with needs and rules, one job per stage push it to 66:18, and a rules typo drop the test job while the pipeline stays green. The GitHub courses keep git itself."
+    },
+    {
       "slug": "learn-reading-with-phoebe",
       "title": "Reading & Learning Faster",
       "icon": "📚",
