@@ -1457,12 +1457,11 @@
       "title": "Business Cases & ROI",
       "icon": "🧮",
       "bucket": "biz",
-      "diff": 2,
+      "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "A case a finance team will sign: ranges not points, the assumption doing the work, payback and the option to wait."
+      "sessions": 10,
+      "blurb": "A case a finance team will sign, on Keelson Mutual's constructed claims-triage AI. Four Leader sessions on the counterfactual, how a CFO reads NPV, IRR and payback, the assumption doing the work and the benefits register; six Analyst sessions build the cash flows, discounting, tornado, switching values, a seeded range and the option to wait in a bench that computes live in the browser."
     },
     {
       "slug": "learn-communication-with-phoebe",
