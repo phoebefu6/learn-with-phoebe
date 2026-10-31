@@ -1448,9 +1448,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Data as revenue: products, pricing, partnerships and the governance that makes any of it sellable."
+      "sessions": 10,
+      "blurb": "Selling data outside the firm, on Keelson Mutual's constructed repair cost index: what is yours to sell after consent and a cell-size threshold, three values for one dataset, pricing by the buyer's value, partner deals, and a five-year P&L desk computed in your browser."
     },
     {
       "slug": "learn-business-cases-roi-with-phoebe",
