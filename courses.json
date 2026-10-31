@@ -1626,9 +1626,8 @@
       "diff": 1,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The terminal every tool assumes you have: files, pipes, environment, and reading an error before asking."
+      "sessions": 6,
+      "blurb": "The terminal every other course assumes, for data people: paths, reading an error, pipes and filters, PATH and quoting, scripts and cron, and the git, Python and Docker commands sibling courses expect. Same Ferncastle export as the Excel course, so the shell and the spreadsheet answer one question two ways. A sandboxed shell in the page runs real pipelines: an unset variable turns rm -rf into 8 deleted files where 2 were meant, and uniq without sort splits one customer into ten."
     },
     {
       "slug": "learn-docker-containers-with-phoebe",
@@ -2370,9 +2369,8 @@
       "diff": 1,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Spreadsheets appear in most data work and are taught in none of it: tidy tables, lookups, pivots, what breaks, and when to leave for SQL."
+      "sessions": 6,
+      "blurb": "Spreadsheets taught as data work with silent failure modes: tidy tables, lookups, types that lie, pivots that double count, and when to leave for SQL. Ferncastle, a constructed shop, runs on derived Olist rows; the bench's formula engine shows a VLOOKUP left on approximate match getting 1,266 rows wrong and Sao Paulo revenue at R$ 50,868 against a true R$ 80,470, and one ID stored as text silently losing 10 orders. Every formula checked for both Excel and Google Sheets."
     },
     {
       "slug": "learn-pricing-analytics-with-phoebe",
