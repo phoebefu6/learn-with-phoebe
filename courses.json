@@ -1201,11 +1201,10 @@
       "icon": "🛡️",
       "bucket": "gov",
       "diff": 3,
-      "audience": "builder",
+      "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Anonymisation, k-anonymity and differential privacy as engineering, computed on real rows; GDPR and PDPA keep the law."
+      "sessions": 12,
+      "blurb": "Anonymisation, k-anonymity, l-diversity and differential privacy as engineering, computed on 32,561 real census rows - a Release Desk with a live linkage attack and a break button. Running case: Brightwater, a constructed research trust. GDPR and PDPA keep the law."
     },
     {
       "slug": "learn-metadata-catalog-lineage-with-phoebe",
