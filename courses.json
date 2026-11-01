@@ -2164,9 +2164,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "One enabler estate through all five layers: data engineering, analytics, ML, gen AI and a packaged data product."
+      "sessions": 16,
+      "blurb": "One social-commerce data estate built through all five layers in the order they depend on each other: data engineering, analytics, ML, gen AI and a data product. Serai Commerce, the constructed enabler from the Enablers course, runs on the same 8,614 derived Olist orders. The bench computes every layer in the page: 333 blocking data failures repaired to zero, a registry that agrees 100% where a naive sum agrees 85%, a repeat-purchase model at 3.71x lift on a held-out month, and gen AI drafts scored against a rubric. Skip the data layer and registry agreement falls to 65%; leak one future field and training AUC hits 0.99 while next month's lift drops under the gate."
     },
     {
       "slug": "learn-ship-platform-migration-with-phoebe",
