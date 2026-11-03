@@ -2394,6 +2394,17 @@
       "blurb": "AWS as a data and AI team meets it - S3 as the lake, IAM as AWS evaluates it, Glue, Athena, Lambda or a container, Redshift or Athena, Bedrock - a no-account leader track plus an analyst track that runs locally. The live bench evaluates IAM requests against 36 documented cases and prices Athena from bytes really scanned on a NYC taxi sample."
     },
     {
+      "slug": "learn-terraform-with-phoebe",
+      "title": "Terraform for Data Platforms",
+      "icon": "🏗️",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Write a data platform down as code - HCL, state, modules, reading a plan like a reviewer and plan-on-PR delivery - by building constructed Larkspur Freight's lake on your laptop at zero cost."
+    },
+    {
       "slug": "learn-databricks-with-phoebe",
       "title": "Databricks: Lakehouse for Data & AI",
       "icon": "🧱",
