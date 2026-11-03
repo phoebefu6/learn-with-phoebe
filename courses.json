@@ -2443,11 +2443,10 @@
       "icon": "☁️",
       "bucket": "deng",
       "diff": 2,
-      "audience": "builder",
+      "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The AWS course's mirror for the other cloud many APAC teams run on: storage, warehouse, pipelines, cost."
+      "sessions": 14,
+      "blurb": "GCP as a data and AI team meets it - the org-folder-project hierarchy, BigQuery as warehouse and lake, IAM inherited down the tree with deny first, Dataflow or Cloud Run, the bytes behind the bill - a no-account leader track plus a builder track on the BigQuery sandbox and your laptop. The live bench resolves 27 IAM cases and prices BigQuery queries from bytes really counted on Chicago taxi trips, for constructed Tidewater Grocers."
     },
     {
       "slug": "learn-knowledge-graphs-with-phoebe",
