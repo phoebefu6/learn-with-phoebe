@@ -2376,11 +2376,10 @@
       "icon": "🏷️",
       "bucket": "data",
       "diff": 3,
-      "audience": "builder",
+      "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Price elasticity, price tests and the margin behind a discount, on a constructed retailer; Experimentation keeps the A/B method."
+      "sessions": 10,
+      "blurb": "The profit line behind a discount, the pocket price waterfall and willingness to pay, for Kettle & Co; ends in a lab that tests Black Friday 2017 promo lift on real Olist rows."
     },
     {
       "slug": "learn-aws-with-phoebe",
