@@ -807,6 +807,17 @@
       "blurb": "Where the AI shelf stops: when a smaller tuned model beats the big general one, and how to prove it with evals, on a constructed insurance claims desk."
     },
     {
+      "slug": "learn-llm-inference-with-phoebe",
+      "title": "LLM Inference & Model Serving",
+      "icon": "⚡",
+      "bucket": "ai",
+      "diff": 4,
+      "audience": "builder",
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Where the AI bill and the wait actually come from: routing, batching, quantised serving and caching, priced on one bench, on a constructed SaaS assistant."
+    },
+    {
       "slug": "learn-voice-multimodal-agents-with-phoebe",
       "title": "Voice & Multimodal Agents",
       "icon": "🎙️",
