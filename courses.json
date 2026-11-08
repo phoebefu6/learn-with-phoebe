@@ -803,9 +803,8 @@
       "diff": 4,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Where the AI shelf stops: when a smaller tuned model beats the big general one, and how to prove it with evals."
+      "sessions": 6,
+      "blurb": "Where the AI shelf stops: when a smaller tuned model beats the big general one, and how to prove it with evals, on a constructed insurance claims desk."
     },
     {
       "slug": "learn-voice-multimodal-agents-with-phoebe",
@@ -815,9 +814,8 @@
       "diff": 3,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Speech in, speech out, and images in the loop: latency, turn-taking, evals for a conversation you cannot read."
+      "sessions": 6,
+      "blurb": "Speech in, speech out, and images in the loop: latency, turn-taking, evals for a conversation you cannot read, on a constructed clinic booking line."
     },
     {
       "slug": "learn-ai-writing-with-phoebe",
