@@ -1567,9 +1567,8 @@
       "diff": 2,
       "audience": "leader",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Numbers in the boardroom: what to show, what to withhold, and the questions you will be asked."
+      "sessions": 6,
+      "blurb": "Numbers in the boardroom: what to show, what to withhold, and the questions you will be asked, with a RAG rule bench on real NHS England A&E data."
     },
     {
       "slug": "learn-github-with-phoebe",
