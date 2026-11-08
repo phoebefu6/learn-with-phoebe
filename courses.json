@@ -1111,9 +1111,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Deflection that is not just deflection: triage, drafting, hand-off and the quality bar for a support assistant."
+      "sessions": 6,
+      "blurb": "Deflection is not resolution: triage real customer messages, draft with agents instead of for them, hand off before the loop, and price a support plan on one live bench."
     },
     {
       "slug": "learn-ai-supply-chain-with-phoebe",
