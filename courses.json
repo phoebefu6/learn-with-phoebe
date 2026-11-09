@@ -1122,9 +1122,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Forecast, allocate, reroute: where AI earns its place in a supply chain and where a spreadsheet still wins."
+      "sessions": 6,
+      "blurb": "Every forecast is wrong; the question is what it costs. Turn real demand error into stock, allocation and bullwhip rules for Northwick, a constructed retailer, and price an AI planning tool on one live bench."
     },
     {
       "slug": "learn-cyber-security-with-phoebe",
