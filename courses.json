@@ -2281,9 +2281,8 @@
       "diff": 3,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "What you hand a model you would not hand a stranger: credentials, scopes, tool permissions and audit trails."
+      "sessions": 6,
+      "blurb": "What you hand a model you would not hand a stranger. Give one ops agent its own identity, scope every tool, keep keys out of the context window, gate what cannot be undone, and count the blast radius on a live bench."
     },
     {
       "slug": "learn-data-incident-response-with-phoebe",
