@@ -1,13 +1,14 @@
 {
   "updated": "2026-11-10",
-  "courses_live": 192,
-  "courses_planned": 23,
+  "courses_live": 193,
+  "courses_planned": 22,
   "courses_total": 215,
-  "sessions_live": 2082,
+  "sessions_live": 2088,
   "buckets_live": 18,
-  "repos_live": 207,
+  "repos_live": 208,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
+    "learn-agent-secrets-access-with-phoebe",
     "learn-ai-academia-with-phoebe",
     "learn-ai-agents-with-phoebe",
     "learn-ai-branding-with-phoebe",
@@ -202,6 +203,7 @@
   ],
   "first_seen": {
     "learn-agent-launch-with-phoebe": "2026-08-20",
+    "learn-agent-secrets-access-with-phoebe": "2026-11-10",
     "learn-ai-academia-with-phoebe": "2026-08-20",
     "learn-ai-agents-with-phoebe": "2026-08-20",
     "learn-ai-branding-with-phoebe": "2026-08-20",
