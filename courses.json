@@ -1810,9 +1810,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The page you read at 2 a.m., and the write-up that stops it happening again."
+      "sessions": 10,
+      "blurb": "The page you read at 2 a.m., and the write-up that stops it happening again. Keep a whole library of runbooks true, and write postmortems your team, your executives and your customers can each act on."
     },
     {
       "slug": "learn-mind-mapping-with-phoebe",
