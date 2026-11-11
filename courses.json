@@ -2292,9 +2292,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "A bad load, a leaked table, a wrong number on the board deck: detect, contain, communicate, write it up."
+      "sessions": 14,
+      "blurb": "A bad load, a leaked table, a wrong number on the board deck. Declare it, size it, contain it, tell the people who used it, and close it with evidence, on a live incident clock."
     },
     {
       "slug": "learn-people-analytics-with-phoebe",
