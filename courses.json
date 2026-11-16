@@ -1639,9 +1639,8 @@
       "diff": 2,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Why it works on your laptop and nowhere else, and the one container that fixes it."
+      "sessions": 6,
+      "blurb": "Why it works on your laptop and nowhere else, and the one container that fixes it. Write a Dockerfile for a data project, keep rebuilds fast, and run the whole stack with one command."
     },
     {
       "slug": "learn-testing-data-ml-code-with-phoebe",
