@@ -1221,9 +1221,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "A catalog as a product: owners, definitions, lineage and the open tools that hold them."
+      "sessions": 6,
+      "blurb": "A catalog as a product: owners, definitions, lineage and the open tools that hold them. Find out what breaks before you change it, and get people to look in the catalog first."
     },
     {
       "slug": "learn-product-thinking-with-phoebe",
@@ -1798,9 +1797,8 @@
       "diff": 2,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Reference pages, examples that run, and a changelog someone can act on."
+      "sessions": 6,
+      "blurb": "Reference pages, examples that run, and a changelog someone can act on. Write the spec first, keep every example working, and ship a breaking change without breaking trust."
     },
     {
       "slug": "learn-runbooks-postmortems-with-phoebe",
