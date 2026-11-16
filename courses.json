@@ -1651,9 +1651,8 @@
       "diff": 3,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "What test would fail if the code were wrong: unit tests for transforms, data checks and model behaviour."
+      "sessions": 6,
+      "blurb": "What test would fail if the code were wrong: unit tests for transforms, data checks and model behaviour. Find the cheapest set of tests that catches the bugs data and ML code actually ship."
     },
     {
       "slug": "learn-gitlab-with-phoebe",
