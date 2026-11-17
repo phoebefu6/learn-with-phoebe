@@ -2220,9 +2220,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "User stories, acceptance criteria and a spec a builder can act on, for the data product you are not coding yourself."
+      "sessions": 6,
+      "blurb": "User stories, acceptance criteria and a spec a builder can act on, for the data product you are not coding yourself. Turn a one-line ask into a one-page spec with zero open questions."
     },
     {
       "slug": "learn-entity-resolution-with-phoebe",
