@@ -516,9 +516,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Questionnaires, sampling frames, non-response and the bias a survey carries before the first answer."
+      "sessions": 10,
+      "blurb": "Questionnaires, sampling frames, non-response and the bias a survey carries before the first answer. Run a real survey against census rows and see how far each choice moves the number from the truth."
     },
     {
       "slug": "learn-data-pipelines-with-phoebe",
