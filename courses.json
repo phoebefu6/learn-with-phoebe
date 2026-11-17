@@ -2451,9 +2451,8 @@
       "diff": 3,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Entities and relations as a graph, queries over it, and graph-based retrieval; RAG keeps vector retrieval."
+      "sessions": 6,
+      "blurb": "Entities and relations as a graph, queries over it, and graph-based retrieval; RAG keeps vector retrieval. Find the questions only a graph can answer, and when a GraphRAG is worth its cost."
     },
     {
       "slug": "learn-autonomous-driving-with-phoebe",
