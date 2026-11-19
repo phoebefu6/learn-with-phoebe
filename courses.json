@@ -492,9 +492,8 @@
       "diff": 3,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Text as data: tokens, classification, topic structure and search, before and without a large language model."
+      "sessions": 6,
+      "blurb": "Text as data, before and without a large language model. Tokenise, weight, classify and search real complaint text in your browser, and find out when a two-line classifier beats the model everyone wants to buy."
     },
     {
       "slug": "learn-computer-vision-with-phoebe",
