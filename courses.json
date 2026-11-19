@@ -2207,9 +2207,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Admin screens, approval flows and the forms behind them: design the tool your data product needs."
+      "sessions": 6,
+      "blurb": "The admin screen, the approval flow and the form behind your data product. Design the tool, then run it on a simulator that counts the waiting, the rework and the missed deadlines every extra step costs."
     },
     {
       "slug": "learn-requirements-specs-with-phoebe",
