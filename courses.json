@@ -504,9 +504,8 @@
       "diff": 3,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Images as arrays, convolutions, detection and the labels that cost the most, on a public image set."
+      "sessions": 6,
+      "blurb": "Images as arrays you can compute on. Run real convolutions on real pixels in your browser, train a small classifier, and spend a fixed labelling budget where it buys the most accuracy."
     },
     {
       "slug": "learn-survey-design-with-phoebe",
