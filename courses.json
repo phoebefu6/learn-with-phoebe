@@ -2171,9 +2171,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Move a warehouse without breaking the numbers: inventory, parity tests, cutover and the week after."
+      "sessions": 16,
+      "blurb": "Move a warehouse without breaking the numbers: inventory, parity tests, cutover and the week after, with a live parity bench on real Olist orders."
     },
     {
       "slug": "learn-data-orchestration-with-phoebe",
