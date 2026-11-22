@@ -1869,9 +1869,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "The illustrated one-pager: hierarchy, a subject that carries the page, and the difference between decoration and explanation."
+      "sessions": 6,
+      "blurb": "The explaining one-pager: decoration vs explanation, the reading path, drawing the mechanism and direct labels, with a live explainer bench that scores your layout."
     },
     {
       "slug": "learn-dashboard-design-with-phoebe",
