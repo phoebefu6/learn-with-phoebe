@@ -2489,9 +2489,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Sensors, simulation and the long tail again, on robots instead of cars; what a warehouse data person carries over."
+      "sessions": 16,
+      "blurb": "What changes when a model moves a physical arm: demonstrations, calibration, small-trial evaluation and sim-to-real, with a live domain-randomization bench."
     },
     {
       "slug": "learn-digital-twins-with-phoebe",
