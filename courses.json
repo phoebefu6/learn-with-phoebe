@@ -2500,9 +2500,8 @@
       "diff": 3,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "A model of a building, a line or a city kept in sync with reality: what it needs, where it drifts, what it is for."
+      "sessions": 16,
+      "blurb": "A model of a building kept in sync with reality: fidelity, calibration, the Kalman filter, drift and honest what-if bands, run on Kittiwake Hall, a constructed building twin."
     }
   ]
 }
