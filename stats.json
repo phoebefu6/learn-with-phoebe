@@ -1,11 +1,11 @@
 {
   "updated": "2026-11-25",
-  "courses_live": 209,
-  "courses_planned": 6,
+  "courses_live": 210,
+  "courses_planned": 5,
   "courses_total": 215,
-  "sessions_live": 2230,
+  "sessions_live": 2236,
   "buckets_live": 18,
-  "repos_live": 224,
+  "repos_live": 225,
   "live_course_slugs": [
     "learn-agent-launch-with-phoebe",
     "learn-agent-secrets-access-with-phoebe",
@@ -215,6 +215,7 @@
     "learn-when-ai-with-phoebe",
     "learn-workbuddy-with-phoebe",
     "learn-yoga-course-design-with-phoebe",
+    "learn-yoga-flow-design-with-phoebe",
     "learn-yoga-theory-with-phoebe"
   ],
   "first_seen": {
@@ -426,6 +427,7 @@
     "learn-when-ai-with-phoebe": "2026-09-02",
     "learn-workbuddy-with-phoebe": "2026-08-20",
     "learn-yoga-course-design-with-phoebe": "2026-10-12",
+    "learn-yoga-flow-design-with-phoebe": "2026-11-25",
     "learn-yoga-theory-with-phoebe": "2026-08-20"
   },
   "unlisted_course_repos": []
