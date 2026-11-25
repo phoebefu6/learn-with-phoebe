@@ -2001,10 +2001,9 @@
       "bucket": "move",
       "diff": 3,
       "audience": "everyone",
-      "format": "video",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Sequence a class that flows - peak-pose planning, counter-poses, and pacing for the room you teach."
+      "format": "interactive",
+      "sessions": 6,
+      "blurb": "Design what happens between the poses, following Rosa, a constructed new teacher building a 60-minute flow - transitions as the unit, breath as the clock, stick-figure guides for the moves that stall a room, a Flow Bench that checks time, floor trips, sides and counter-poses in the browser, the intensity wave, and adapting live. Not medical advice."
     },
     {
       "slug": "learn-yoga-course-design-with-phoebe",
