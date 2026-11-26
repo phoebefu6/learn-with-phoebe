@@ -1747,9 +1747,8 @@
       "diff": 2,
       "audience": "builder",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "Turn repeated work into reusable instructions an AI assistant can run: naming, structure, testing, upkeep."
+      "sessions": 6,
+      "blurb": "Turn repeated work into skills an AI assistant can find: descriptions that route, one job per skill, trigger tests and upkeep, run on Pemberton & Thistle, a constructed consultancy, with a live routing bench."
     },
     {
       "slug": "learn-markdown-with-phoebe",
