@@ -2584,6 +2584,18 @@
       "sessions": 0,
       "status": "planned",
       "blurb": "Let people and AI agents use the platform safely: an MCP server over the Glue catalog, read-only Athena SQL as the only door, and the capstone that ties the whole AWS platform together."
+    },
+    {
+      "slug": "learn-amazon-quick-with-phoebe",
+      "title": "Amazon Quick Crash Course",
+      "icon": "⚡",
+      "bucket": "aiap",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "AWS's agentic workspace in one sitting: Quick Sight, Research, Flows, Automate and Index, what it costs per user and per account, where your data sits, and an honest build-or-buy test against an in-house knowledge base and chatbot."
     }
   ]
 }
