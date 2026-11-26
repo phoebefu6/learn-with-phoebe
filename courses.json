@@ -2500,6 +2500,90 @@
       "format": "interactive",
       "sessions": 16,
       "blurb": "A model of a building kept in sync with reality: fidelity, calibration, the Kalman filter, drift and honest what-if bands, run on Kittiwake Hall, a constructed building twin."
+    },
+    {
+      "slug": "learn-medallion-lake-aws-with-phoebe",
+      "title": "Medallion Lake on AWS",
+      "icon": "🥇",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Build the Raw, Bronze, Silver and Gold layers for real on S3: Glue jobs that extract and transform, schedules that trigger them, and checks that prove each layer earned its name."
+    },
+    {
+      "slug": "learn-lake-formation-athena-with-phoebe",
+      "title": "Lake Formation & Governed Athena",
+      "icon": "🛡️",
+      "bucket": "dsec",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The AWS-native way to say who sees what: Lake Formation tags and access tiers for PII, Athena workgroups with byte limits, and read-only SQL roles that apps cannot escape."
+    },
+    {
+      "slug": "learn-cross-account-data-sharing-with-phoebe",
+      "title": "Cross-Account Data Sharing",
+      "icon": "🔁",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Move data from a Redshift source account into a lake account without it ever leaving the client's AWS estate: data shares, cross-account roles, and the audit trail that proves it."
+    },
+    {
+      "slug": "learn-gitlab-scalr-aws-with-phoebe",
+      "title": "Platform as Code: GitLab, Scalr, AWS",
+      "icon": "🚀",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Wire the deploy path end to end: GitLab CI hands Terraform to Scalr remote runs, OIDC replaces stored keys, and policy checks stop a bad plan before it touches AWS."
+    },
+    {
+      "slug": "learn-aws-foundation-with-phoebe",
+      "title": "AWS Foundation for Data Platforms",
+      "icon": "🧱",
+      "bucket": "deng",
+      "diff": 2,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "The shared layer every data platform stands on: a VPC with private subnets and endpoints, IAM roles and OIDC, ECR for images, CloudWatch logs and alarms."
+    },
+    {
+      "slug": "learn-ship-data-app-aws-with-phoebe",
+      "title": "Ship a Data App on AWS",
+      "icon": "🌐",
+      "bucket": "deng",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Serve a data app from browser to database: CloudFront with an allow-list, an ALB, a React service on Fargate, app services behind it and RDS Postgres for platform data."
+    },
+    {
+      "slug": "learn-agent-ready-platform-with-phoebe",
+      "title": "Agent-Ready Data Platform",
+      "icon": "🤖",
+      "bucket": "ai",
+      "diff": 3,
+      "audience": "both",
+      "format": "interactive",
+      "sessions": 0,
+      "status": "planned",
+      "blurb": "Let people and AI agents use the platform safely: an MCP server over the Glue catalog, read-only Athena SQL as the only door, and the capstone that ties the whole AWS platform together."
     }
   ]
 }
