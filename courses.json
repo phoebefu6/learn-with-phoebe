@@ -2593,9 +2593,8 @@
       "diff": 2,
       "audience": "both",
       "format": "interactive",
-      "sessions": 0,
-      "status": "planned",
-      "blurb": "AWS's agentic workspace in one sitting: Quick Sight, Research, Flows, Automate and Index, what it costs per user and per account, where your data sits, and an honest build-or-buy test against an in-house knowledge base and chatbot."
+      "sessions": 3,
+      "blurb": "AWS's agentic workspace in three sessions: what Quick is and how its parts fit, the four-line bill and where your prompts are really processed, and a bench that computes Quick against an in-house knowledge platform for constructed Oakmere Insurance, crossing at 1,147 people, then checks eleven must-haves Region by Region."
     }
   ]
 }
